@@ -37,3 +37,7 @@ Conclusion: the motor data tables (rpm, current, efficiency, mass) exist only in
 - [3Dfindit Motovario library](https://www.3dfindit.com/en/cad-bim-library/manufacturer/motovario/gear-motors-and-gear-units/shaft-mounted-geared-motors-and-gear-units?path=motovario%2Fmotoriduttori_e_riduttori%2Fpendolare)
 - [Motovario Poland M IEC 2023 PDF](https://motovario.com.pl/wp-content/uploads/2023/12/TECHNICAL-CATALOGUE_M_IEC_STD_EN_rev0_2023.pdf)
 - [D series Standard IEC drives (not a motor catalogue)](https://www.motovarioprevodovky.cz/pdf/D_en.pdf)
+
+## 4. Decision 2026-10-28: concept 3D with unofficial models
+
+For the client concept demo only, unofficial 3D models may be used and marked `status: concept` in `models/manifest.json`; the client's original CAD replaces them later (`status: official`) through the same pipeline. All numbers (dimensions, torque, mass) come from catalogue data, never from a model. KP renders from concept models carry the footnote "Ілюстрація, концептуальна модель". Check each file's licence; the sandbox cannot download from those sites, so the owner attaches the files. Full plan: vault `projects/motovario-quote-calculator/plans/2026-10-28_roadmap-and-3d-concept.md`.
