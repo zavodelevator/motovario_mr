@@ -1,0 +1,45 @@
+series,size,variant,factor,param1,param2,value,src_page
+B,,thermal_factor,Fc,ambient_temp_C=10,duty_%_per_hour=100,1.15,25
+B,,thermal_factor,Fc,ambient_temp_C=10,duty_%_per_hour=80,1.21,25
+B,,thermal_factor,Fc,ambient_temp_C=10,duty_%_per_hour=70,1.32,25
+B,,thermal_factor,Fc,ambient_temp_C=10,duty_%_per_hour=40,1.55,25
+B,,thermal_factor,Fc,ambient_temp_C=10,duty_%_per_hour=20,2.07,25
+B,,thermal_factor,Fc,ambient_temp_C=18,duty_%_per_hour=100,1.07,25
+B,,thermal_factor,Fc,ambient_temp_C=18,duty_%_per_hour=80,1.12,25
+B,,thermal_factor,Fc,ambient_temp_C=18,duty_%_per_hour=70,1.23,25
+B,,thermal_factor,Fc,ambient_temp_C=18,duty_%_per_hour=40,1.44,25
+B,,thermal_factor,Fc,ambient_temp_C=18,duty_%_per_hour=20,1.93,25
+B,,thermal_factor,Fc,ambient_temp_C=25,duty_%_per_hour=100,1.00,25
+B,,thermal_factor,Fc,ambient_temp_C=25,duty_%_per_hour=80,1.05,25
+B,,thermal_factor,Fc,ambient_temp_C=25,duty_%_per_hour=70,1.15,25
+B,,thermal_factor,Fc,ambient_temp_C=25,duty_%_per_hour=40,1.35,25
+B,,thermal_factor,Fc,ambient_temp_C=25,duty_%_per_hour=20,1.80,25
+B,,thermal_factor,Fc,ambient_temp_C=30,duty_%_per_hour=100,0.93,25
+B,,thermal_factor,Fc,ambient_temp_C=30,duty_%_per_hour=80,0.98,25
+B,,thermal_factor,Fc,ambient_temp_C=30,duty_%_per_hour=70,1.07,25
+B,,thermal_factor,Fc,ambient_temp_C=30,duty_%_per_hour=40,1.26,25
+B,,thermal_factor,Fc,ambient_temp_C=30,duty_%_per_hour=20,1.67,25
+B,,thermal_factor,Fc,ambient_temp_C=40,duty_%_per_hour=100,0.83,25
+B,,thermal_factor,Fc,ambient_temp_C=40,duty_%_per_hour=80,0.87,25
+B,,thermal_factor,Fc,ambient_temp_C=40,duty_%_per_hour=70,0.95,25
+B,,thermal_factor,Fc,ambient_temp_C=40,duty_%_per_hour=40,1.12,25
+B,,thermal_factor,Fc,ambient_temp_C=40,duty_%_per_hour=20,1.49,25
+B,,thermal_factor,Fc,ambient_temp_C=43,duty_%_per_hour=100,0.75,25
+B,,thermal_factor,Fc,ambient_temp_C=43,duty_%_per_hour=80,0.79,25
+B,,thermal_factor,Fc,ambient_temp_C=43,duty_%_per_hour=70,0.86,25
+B,,thermal_factor,Fc,ambient_temp_C=43,duty_%_per_hour=40,1.01,25
+B,,thermal_factor,Fc,ambient_temp_C=43,duty_%_per_hour=20,1.35,25
+B,,thermal_factor,Fc,ambient_temp_C=50,duty_%_per_hour=100,0.67,25
+B,,thermal_factor,Fc,ambient_temp_C=50,duty_%_per_hour=80,0.70,25
+B,,thermal_factor,Fc,ambient_temp_C=50,duty_%_per_hour=70,0.77,25
+B,,thermal_factor,Fc,ambient_temp_C=50,duty_%_per_hour=40,0.90,25
+B,,thermal_factor,Fc,ambient_temp_C=50,duty_%_per_hour=20,1.21,25
+B,,thermal_factor,Fa,altitude_m=0,,1,25
+B,,thermal_factor,Fa,altitude_m=750,,0.95,25
+B,,thermal_factor,Fa,altitude_m=1500,,0.9,25
+B,,thermal_factor,Fa,altitude_m=2250,,0.85,25
+B,,thermal_factor,Fa,altitude_m=3000,,0.81,25
+B,,thermal_factor,Fv,"Stagnant air (<0,5 m/s)",,0.75,25
+B,,thermal_factor,Fv,Indoor installation with slight ventilation,,1,25
+B,,thermal_factor,Fv,"Indoor installation with good ventilation (>1,4 m/s)",,1.4,25
+B,,thermal_factor,Fv,"Outdoor installation (>3,7 m/s)",,1.9,25

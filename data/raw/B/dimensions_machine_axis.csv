@@ -1,0 +1,15 @@
+series,size,variant,D H7/h6,E,l,m,src_page
+B,BA40,machine_axis,20,90,60,15,68
+B,BA50,machine_axis,25,95,60,18,68
+B,BA50,machine_axis,28,,,,68
+B,BA70,machine_axis,30,108,80,13,68
+B,BA70,machine_axis,35,,,,68
+B,B063,machine_axis,35,108,80,13,68
+B,B063,machine_axis,40,,,,68
+B,B083,machine_axis,40,140,100,18,68
+B,B083,machine_axis,45,,,,68
+B,B103,machine_axis,50,165,120,20,68
+B,B123,machine_axis,60,185,140,23,68
+B,B143,machine_axis,70,240,170,35,68
+B,B153,machine_axis,90,280,200,40,68
+B,B163,machine_axis,100,370,270,50,68

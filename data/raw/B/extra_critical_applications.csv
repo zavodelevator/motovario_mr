@@ -1,0 +1,41 @@
+series,size,variant,condition,rating,src_page
+B,A40,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,A50,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,A70,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,A40,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,A50,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,A70,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,A40,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,A50,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,A70,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,A40,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,A50,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,A70,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B060,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,B080,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,B100,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,✔,27
+B,B125,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,B,27
+B,B140,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,B,27
+B,B150,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,B,27
+B,B160,A=not recommended;B=check/call;tick=verified,2000 < n1 < 3000,B,27
+B,B060,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B080,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B100,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B125,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B140,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B150,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B160,A=not recommended;B=check/call;tick=verified,V6,B,27
+B,B060,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,B080,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,B100,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,B125,A=not recommended;B=check/call;tick=verified,n1 > 3000,B,27
+B,B140,A=not recommended;B=check/call;tick=verified,n1 > 3000,A,27
+B,B150,A=not recommended;B=check/call;tick=verified,n1 > 3000,A,27
+B,B160,A=not recommended;B=check/call;tick=verified,n1 > 3000,A,27
+B,B060,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B080,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B100,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B125,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B140,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B150,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27
+B,B160,A=not recommended;B=check/call;tick=verified,…L : B6 - B7,B,27

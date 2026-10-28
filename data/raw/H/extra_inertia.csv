@@ -1,0 +1,23 @@
+series,size_group,variant,j1_kgm2,src_page
+H,A31,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,A32/A33,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,A41,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,A42/A43,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,A51,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,A52/A53,J1 moment of inertia at input [kg*m2] (estimated),0.0003,37
+H,A61,J1 moment of inertia at input [kg*m2] (estimated),0.0004,37
+H,A62/A63,J1 moment of inertia at input [kg*m2] (estimated),0.0003,37
+H,041,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,032/033,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,051,J1 moment of inertia at input [kg*m2] (estimated),0.0002,37
+H,042/043,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,061,J1 moment of inertia at input [kg*m2] (estimated),0.0005,37
+H,052/053,J1 moment of inertia at input [kg*m2] (estimated),0.0001,37
+H,081,J1 moment of inertia at input [kg*m2] (estimated),0.0011,37
+H,062/063,J1 moment of inertia at input [kg*m2] (estimated),0.0002,37
+H,101,J1 moment of inertia at input [kg*m2] (estimated),0.0035,37
+H,082/083,J1 moment of inertia at input [kg*m2] (estimated),0.0007,37
+H,121,J1 moment of inertia at input [kg*m2] (estimated),0.0076,37
+H,102/103,J1 moment of inertia at input [kg*m2] (estimated),0.0010,37
+H,122/123,J1 moment of inertia at input [kg*m2] (estimated),0.0028,37
+H,142/143,J1 moment of inertia at input [kg*m2] (estimated),0.0044,37

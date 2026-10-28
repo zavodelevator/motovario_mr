@@ -1,0 +1,67 @@
+file,series,size,kind,caption,src_page,width_px,height_px
+B_general_photo_p1_1.png,B,general,photo,B series helical-bevel gearmotor (cover photo),1,806,499
+B_general_photo_p10_1.png,B,general,photo,IEC electric motor (product range page),10,312,312
+B_general_diagram_p14_1.png,B,general,diagram,Service factor chart (load class A/B/C vs starts/h and hours/day),14,1457,566
+B_general_drawing_p15_1.png,B,general,drawing,Motor assembly on PAM flange: flexible joint,15,838,321
+B_general_drawing_p15_2.png,B,general,drawing,Motor assembly on PAM flange: PAM sleeve,15,419,321
+B_general_diagram_p17_1.png,B,general,diagram,Designation (ordering code) chart,17,1456,1710
+B_BA_render_p18_1.png,B,BA,render,Version C foot mounting / C hollow shaft,18,649,265
+B_BA_render_p18_2.png,B,BA,render,Version D foot mounting / D solid shaft,18,649,265
+B_BA_render_p18_3.png,B,BA,render,Version S foot mounting / S solid shaft,18,649,275
+B_BA_render_p18_4.png,B,BA,render,Version P foot mounting / P double output shaft,18,649,275
+B_BA_render_p18_5.png,B,BA,render,Version L foot mounting / L shrink disc shaft,18,649,274
+B_B063-B123_render_p19_1.png,B,B063-B123,render,Version FC foot / hollow shaft,19,639,269
+B_B063-B123_render_p19_2.png,B,B063-B123,render,Version FD foot / solid shaft D,19,639,269
+B_B063-B123_render_p19_3.png,B,B063-B123,render,Version FS foot / solid shaft S,19,640,264
+B_B063-B123_render_p19_4.png,B,B063-B123,render,Version FP foot / double output shaft,19,642,264
+B_B063-B123_render_p19_5.png,B,B063-B123,render,Version FL foot / shrink disc L,19,639,262
+B_B063-B123_render_p19_6.png,B,B063-B123,render,Version FM foot / shrink disc M,19,639,262
+B_B063-B123_render_p20_1.png,B,B063-B123,render,Version SC flange / hollow shaft,20,640,269
+B_B063-B123_render_p20_2.png,B,B063-B123,render,Version SD flange / solid shaft D,20,640,269
+B_B063-B123_render_p20_3.png,B,B063-B123,render,Version SS flange / solid shaft S,20,640,273
+B_B063-B123_render_p20_4.png,B,B063-B123,render,Version SP flange / double output shaft,20,640,273
+B_B063-B123_render_p20_5.png,B,B063-B123,render,Version SL flange / shrink disc L,20,640,265
+B_B063-B123_render_p20_6.png,B,B063-B123,render,Version SM flange / shrink disc M,20,639,265
+B_B063-B163_render_p21_1.png,B,B063-B163,render,Version UC foot-flange / hollow shaft,21,640,279
+B_B063-B163_render_p21_2.png,B,B063-B163,render,Version UD foot-flange / solid shaft D,21,639,279
+B_B063-B163_render_p21_3.png,B,B063-B163,render,Version US foot-flange / solid shaft S,21,647,274
+B_B063-B163_render_p21_4.png,B,B063-B163,render,Version UP foot-flange / double output shaft,21,650,274
+B_B063-B163_render_p21_5.png,B,B063-B163,render,Version UL foot-flange / shrink disc L,21,653,272
+B_B063-B163_render_p21_6.png,B,B063-B163,render,Version UM foot-flange / shrink disc M,21,643,272
+B_BA_render_p22_1.png,B,BA,render,Modularity BA aluminium series: CBA / BA / IBA,22,1248,1766
+B_B_render_p23_1.png,B,B,render,Modularity B grey cast iron series: CB / B / PB / IB and casing F / S / U,23,1248,1766
+B_general_drawing_p24_2.png,B,general,drawing,Terminal box positions 1-4,24,1456,382
+B_general_render_p24_1.png,B,general,render,Mounting positions B3 B6 B7 B8 V5 V6,24,1041,1041
+B_general_drawing_p26_1.png,B,general,drawing,Direction of rotation - high speed shaft,26,1456,1545
+B_B_drawing_p33_1.png,B,B,drawing,"Radial load on input shaft (a, b, x)",33,374,371
+B_B_drawing_p34_1.png,B,B,drawing,"Radial load on output shaft (a, b, x)",34,827,416
+B_BA42-BA72_drawing_p39_1.png,B,BA42-BA72,drawing,BA.2 dimensions (reducer/geared motor),39,1456,993
+B_BA53-BA73_drawing_p40_1.png,B,BA53-BA73,drawing,BA.3 dimensions,40,1456,926
+B_CBA42-CBA72_drawing_p41_1.png,B,CBA42-CBA72,drawing,CBA.2 dimensions,41,1457,1070
+B_CBA53-CBA73_drawing_p42_1.png,B,CBA53-CBA73,drawing,CBA.3 dimensions,42,1457,1070
+B_IBA42-IBA72_drawing_p43_1.png,B,IBA42-IBA72,drawing,IBA.2 dimensions,43,1456,1003
+B_IBA53-IBA73_drawing_p44_1.png,B,IBA53-IBA73,drawing,IBA.3 dimensions,44,1456,915
+B_B063-B163_drawing_p45_1.png,B,B063-B163,drawing,B dimensions (PAM motor flange),45,1456,1745
+B_B063-B163_drawing_p47_1.png,B,B063-B163,drawing,CB dimensions (compact motor),47,1456,1745
+B_B063-B163_drawing_p49_1.png,B,B063-B163,drawing,IB dimensions (input shaft),49,1456,1745
+B_general_drawing_p52_1.png,B,general,drawing,Shaft end keyway (UNI 6604 - DIN 6885),52,832,400
+B_general_drawing_p53_1.png,B,general,drawing,"Electric motor dimensions 63-160S, B5 and B14 flanges",53,1457,568
+B_general_drawing_p54_1.png,B,general,drawing,"Electric motor dimensions 160M-280M, B5 flange",54,1456,569
+B_BA70_drawing_p57_1.png,B,BA70,drawing,Low speed shaft BA70 solid shaft,57,1145,643
+B_B_drawing_p57_2.png,B,B,drawing,Low speed shaft B solid shaft,57,1248,507
+B_BA_drawing_p58_1.png,B,BA,drawing,Output flange BA (FA FB FC FD),58,936,958
+B_B_drawing_p59_1.png,B,B,drawing,Output flange B..S / B..U (FA FB FC),59,1144,1019
+B_BA_drawing_p60_1.png,B,BA,drawing,"Torque arm BA - mounting positions P1-P8, J/K sides",60,1456,422
+B_BA_drawing_p60_2.png,B,BA,drawing,Torque arm BA - dimensions KI KG KH G R,60,1040,454
+B_B_drawing_p61_1.png,B,B,drawing,Torque arm B - mounting positions P1-P8,61,1456,566
+B_B_drawing_p62_1.png,B,B,drawing,Torque arm B063-123 dimensions,62,1040,494
+B_B_drawing_p62_2.png,B,B,drawing,Torque arm B143-163 dimensions,62,1040,454
+B_B_drawing_p63_1.png,B,B,drawing,Output shaft cover (N2),63,832,590
+B_B_drawing_p64_1.png,B,B,drawing,Backstop device - standard sense of direction,64,694,664
+B_B_drawing_p64_2.png,B,B,drawing,Backstop device - opposite rotation,64,691,664
+B_general_drawing_p65_1.png,B,general,drawing,Output shaft with shrink disc,65,1248,609
+B_B_drawing_p66_1.png,B,B,drawing,Reinforced oil seals - double oil seal,66,832,568
+B_B_drawing_p66_2.png,B,B,drawing,Reinforced oil seals - VRM ring,66,832,568
+B_general_drawing_p67_1.png,B,general,drawing,Assembling/disassembling kit components,67,891,416
+B_general_drawing_p67_2.png,B,general,drawing,Assembling/disassembling kit dimensions,67,712,312
+B_general_drawing_p68_1.png,B,general,drawing,Machine axis suggested dimensions,68,624,472

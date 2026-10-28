@@ -1,0 +1,43 @@
+file,series,size,kind,caption,src_page,width_px,height_px
+H_general_diagram_p14_1.png,H,general,diagram,"Service factor chart f.s. vs starts/hour and hours/day, load classes A/B/C",14,1600,624
+H_general_render_p15_1.png,H,general,render,"Motor assembly on PAM flange (coupling, sleeve)",15,1600,741
+H_general_photo_p15_2.png,H,general,photo,"Motor assembly on PAM flange (coupling, sleeve) (figure 2)",15,311,285
+H_general_other_p16_1.png,H,general,other,Product nameplate example,16,623,440
+H_general_diagram_p17_1.png,H,general,diagram,Designation (ordering code) flow chart,17,1351,1578
+H_HA30-A60_render_p18_1.png,H,HA30-A60,render,"Versions A30/A40/A50/A60: foot, flange, universal",18,1351,1586
+H_H030-140_render_p19_1.png,H,H030-140,render,"Versions 030-140: foot, flange, universal, mono",19,1455,1709
+H_HA_render_p20_1.png,H,HA,render,"Modularity of aluminium series (HA, CHA, IHA)",20,1351,1586
+H_H_render_p21_1.png,H,H,render,"Modularity of cast iron series (H, CH, PH, IH)",21,1455,1709
+H_HA1T-HR1T-HR1U-HA1F-HR1F-HR1M_drawing_p22_1.png,H,HA1T-HR1T-HR1U-HA1F-HR1F-HR1M,drawing,Mounting positions single stage,22,1200,1200
+H_HA1T-HR1T-HR1U-HA1F-HR1F-HR1M_drawing_p22_2.png,H,HA1T-HR1T-HR1U-HA1F-HR1F-HR1M,drawing,Mounting positions single stage (figure 2),22,1200,1200
+H_HA1T-HR1T-HR1U-HA1F-HR1F-HR1M_drawing_p22_3.png,H,HA1T-HR1T-HR1U-HA1F-HR1F-HR1M,drawing,Mounting positions single stage (figure 3),22,687,768
+H_HA1T-HR1T-HR1U-HA1F-HR1F-HR1M_drawing_p22_4.png,H,HA1T-HR1T-HR1U-HA1F-HR1F-HR1M,drawing,Mounting positions single stage (figure 4),22,1200,1200
+H_HA2-3-H2-3_drawing_p23_1.png,H,HA2/3-H2/3,drawing,Mounting positions 2/3 stage and terminal box position,23,1200,1200
+H_HA2-3-H2-3_drawing_p23_2.png,H,HA2/3-H2/3,drawing,Mounting positions 2/3 stage and terminal box position (figure 2),23,1200,1200
+H_HA2-3-H2-3_drawing_p23_3.png,H,HA2/3-H2/3,drawing,Mounting positions 2/3 stage and terminal box position (figure 3),23,1600,384
+H_general_drawing_p32_1.png,H,general,drawing,"Radial load on input shaft: a, b, x",32,582,579
+H_general_drawing_p33_1.png,H,general,drawing,"Radial load on output shaft: a, b, x",33,1124,564
+H_HA31_drawing_p38_1.png,H,HA31,drawing,HA31 dimensional drawing,38,1600,805
+H_HA41-HA51-HA61_drawing_p39_1.png,H,HA41-HA51-HA61,drawing,HA.1 dimensional drawing,39,1351,1133
+H_CHA41-CHA51-CHA61_drawing_p40_1.png,H,CHA41-CHA51-CHA61,drawing,CHA.1 dimensional drawing,40,1143,1008
+H_IHA41-IHA51-IHA61_drawing_p41_1.png,H,IHA41-IHA51-IHA61,drawing,IHA.1 dimensional drawing,41,1351,1048
+H_HA32-HA62_drawing_p42_1.png,H,HA32-HA62,drawing,HA.2 dimensional drawing,42,1247,925
+H_CHA32-CHA62_drawing_p44_1.png,H,CHA32-CHA62,drawing,CHA.2 dimensional drawing,44,1143,914
+H_IHA32-IHA62_drawing_p46_1.png,H,IHA32-IHA62,drawing,IHA.2 dimensional drawing,46,1247,1074
+H_HA33-HA63_drawing_p48_1.png,H,HA33-HA63,drawing,HA.3 dimensional drawing,48,1247,960
+H_CHA33-CHA63_drawing_p50_1.png,H,CHA33-CHA63,drawing,CHA.3 dimensional drawing,50,1039,813
+H_IHA33-IHA63_drawing_p52_1.png,H,IHA33-IHA63,drawing,IHA.3 dimensional drawing,52,1455,1162
+H_HR041-HR121_drawing_p54_1.png,H,HR041-HR121,drawing,HR..1 dimensional drawing,54,1216,1200
+H_HR041-HR121_drawing_p54_2.png,H,HR041-HR121,drawing,HR..1 dimensional drawing (figure 2),54,623,450
+H_CHR041-CHR121_drawing_p56_1.png,H,CHR041-CHR121,drawing,CHR..1 dimensional drawing,56,913,1200
+H_IHR041-IHR121_drawing_p58_1.png,H,IHR041-IHR121,drawing,IHR..1 dimensional drawing,58,1247,1162
+H_H032-H143_drawing_p60_1.png,H,H032-H143,drawing,H..2/3 dimensional drawing,60,1168,1200
+H_CH032-CH143_drawing_p62_1.png,H,CH032-CH143,drawing,CH..2/3 dimensional drawing,62,1330,1352
+H_IH032-IH143_drawing_p64_1.png,H,IH032-IH143,drawing,IH..2/3 dimensional drawing,64,1188,1200
+H_general_drawing_p68_1.png,H,general,drawing,Shaft end key drawing,68,938,452
+H_general_drawing_p68_2.png,H,general,drawing,Shaft end key drawing (figure 2),68,938,452
+H_general_drawing_p69_1.png,H,general,drawing,IEC motor dimensional drawing,69,1600,626
+H_H_drawing_p73_1.png,H,H,drawing,Output flange FA/FB/FC/FD,73,1455,434
+H_general_drawing_p74_1.png,H,general,drawing,Backstop device sense of direction,74,1255,706
+H_general_drawing_p76_1.png,H,general,drawing,Reinforced oil seals: double seal / VRM ring,76,415,453
+H_general_drawing_p76_2.png,H,general,drawing,Reinforced oil seals: double seal / VRM ring (figure 2),76,642,418

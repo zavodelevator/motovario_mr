@@ -1,0 +1,7 @@
+series,size,variant,D2S,DC_f7,B2S,f2,G1,V2S,src_page
+PBH,180,splined_output_shaft_DIN5480,100x3x32,100,90,M24,370,60,53
+PBH,200,splined_output_shaft_DIN5480,110x3x35,110,100,M24,410,70,53
+PBH,225,splined_output_shaft_DIN5480,120x4x28,120,110,M24,450,80,53
+PBH,250,splined_output_shaft_DIN5480,130x4x31,130,120,M24,490,90,53
+PBH,280,splined_output_shaft_DIN5480,150x5x28,150,135,M24,540,100,53
+PBH,355,splined_output_shaft_DIN5480,180x8x21,180,180,M30,640,140,53

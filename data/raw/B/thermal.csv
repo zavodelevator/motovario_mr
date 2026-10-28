@@ -1,0 +1,8 @@
+series,size,n1_rpm,pth_kw,src_page,conditions
+B,B063,1500,10.5,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B083,1500,11,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B103,1500,12.5,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B123,1500,19,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B143,1500,22.5,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B153,1500,38,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"
+B,B163,1500,55,25,"B3, continuous, n1<=1500, Tamb 25C, sea level, air>=1 m/s, no external loads"

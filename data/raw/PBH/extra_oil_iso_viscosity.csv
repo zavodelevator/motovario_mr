@@ -1,0 +1,5 @@
+series,n2_rpm_range,iso_vg_mineral_0_to_40C,iso_vg_synthetic_minus10_to_50C,src_page
+PBH,> 210,150,150,30
+PBH,210-20,150,220,30
+PBH,20-5,220,320,30
+PBH,<5,320,460,30

@@ -1,0 +1,13 @@
+series,size,variant,a,b,fr1_max_n,src_page
+B,BA42,input IB,84,64,500,33
+B,BA52,input IB,84,64,500,33
+B,BA53,input IB,84,64,500,33
+B,BA73,input IB,84,64,500,33
+B,BA72,input IB,89,69,830,33
+B,B063,input IB,105,80,2200,33
+B,B083,input IB,137,108,2500,33
+B,B103,input IB,137,108,3200,33
+B,B123,input IB,175,135,4200,33
+B,B143,input IB,175,135,7000,33
+B,B153,input IB,225,170,10000,33
+B,B163,input IB,221,166,12000,33

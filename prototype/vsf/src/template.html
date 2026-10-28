@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Калькулятор Motovario VSF (NMRV)</title>
+<style>/*{{CSS}}*/</style>
+</head>
+<body>
+<div class="app-ui" id="appui">
+  <header class="topbar">
+    <div class="topbar-in">
+      <div class="brand"><span class="brand-t">Мотор-редуктори Motovario</span><span class="brand-s">VSF · черв'ячні NMRV / NMRV-P / NRV · прототип</span></div>
+      <nav class="tabs">
+        <a href="#sec-select">1. Підбір</a><a href="#sec-quote">2. Позиції КП</a><a href="#sec-parties">3. Сторони й умови</a><a href="#sec-kp">4. КП</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="sec-select" class="card">
+      <h2>1. Підбір за параметрами застосування</h2>
+      <form id="selform" autocomplete="off" novalidate>
+        <div class="grid">
+          <fieldset><legend>Навантаження</legend>
+            <label>Момент навантаження, Нм <input id="f_torque" type="number" step="any" min="0"></label>
+            <label>або потужність на виході, кВт <input id="f_power" type="number" step="any" min="0"></label>
+            <label>Клас навантаження
+              <select id="f_class"><option value="A">A – рівномірне</option><option value="B" selected>B – помірні поштовхи</option><option value="C">C – сильні поштовхи</option></select></label>
+            <label>Годин на добу <input id="f_hours" type="number" step="any" value="8"></label>
+            <label>Пусків на годину <input id="f_starts" type="number" step="any" value="10"></label>
+            <label>Сервіс-фактор вручну (необов'язково) <input id="f_fsmin" type="number" step="0.05"></label>
+            <label class="chk"><input id="f_fsover" type="checkbox"> замінити розрахунковий (а не лише підвищити)</label>
+          </fieldset>
+          <fieldset><legend>Швидкість і тип</legend>
+            <label>Потрібна частота на виході n2, об/хв <input id="f_n2" type="number" step="any" min="0"></label>
+            <label>або передавальне число i <input id="f_ratio" type="number" step="any" min="0"></label>
+            <label>Кількість полюсів двигуна
+              <select id="f_poles"><option>2</option><option selected>4</option><option>6</option><option value="any">будь-яка</option></select></label>
+            <label>Сімейство
+              <select id="f_family"><option value="gm" selected>Мотор-редуктор NMRV + NMRV-P</option><option value="NMRV">Лише NMRV</option><option value="NMRV-P">Лише NMRV-P (power)</option><option value="NRV">Лише редуктор (NRV / NRV-P, без двигуна)</option><option value="any">Усі (мотор-редуктори й редуктори)</option></select></label>
+            <label>Допуск за n2, % (порожньо = 5, авто до 10) <input id="f_tol" type="number" step="any"></label>
+            <label class="chk"><input id="f_brake" type="checkbox"> двигун із гальмом</label>
+          </fieldset>
+          <fieldset><legend>Монтаж і виконання</legend>
+            <label>Монтажне положення
+              <select id="f_mount"><option>B3</option><option>B8</option><option>B6</option><option>B7</option><option>V5</option><option>V6</option></select></label>
+            <label>Вихідний вал
+              <select id="f_output"><option value="hollow">порожнистий (стандарт)</option><option value="solid">суцільний (опція, с. 72)</option></select></label>
+            <label>Виконання
+              <select id="f_version"><option value="foot">на лапах</option><option value="flange">фланцеве</option><option value="torque_arm">з моментним важелем</option></select></label>
+            <label>Фланець двигуна
+              <select id="f_flange"><option value="any">B5 або B14</option><option>B5</option><option>B14</option></select></label>
+            <label>Кількість, шт <input id="f_qty" type="number" min="1" max="999" step="1" value="1"></label>
+            <label class="chk"><input id="f_hoist" type="checkbox"> підйомний механізм</label>
+          </fieldset>
+          <fieldset><legend>Додатково (необов'язково)</legend>
+            <label>Радіальне навантаження на вал, Н <input id="f_radial" type="number" step="any"></label>
+            <label>або елемент передачі
+              <select id="f_elem"><option value="none">немає</option><option value="pinion">шестірня (fz 1,1)</option><option value="chain">зірочка (1,4)</option><option value="vpulley">клинопасовий шків (1,7)</option><option value="flat">плоскопасовий шків (2,5)</option></select></label>
+            <label>діаметр елемента, мм <input id="f_elemd" type="number" step="any"></label>
+            <label>відстань від буртика вала x, мм <input id="f_radx" type="number" step="any"></label>
+            <label>Піковий момент, Нм <input id="f_peak" type="number" step="any"></label>
+            <label>Температура довкілля, °C <input id="f_ambient" type="number" step="any"></label>
+          </fieldset>
+        </div>
+        <div class="actions">
+          <button type="submit" id="btn_select" class="btn primary">Підібрати</button>
+          <button type="button" id="btn_reset" class="btn">Очистити</button>
+          <span class="hint">Мережа 50 Гц. Дані — лише з каталогу Motovario VSF; ціни відсутні.</span>
+        </div>
+      </form>
+      <div id="errors" class="errors" role="alert"></div>
+      <div id="fsbox"></div>
+      <div id="results"></div>
+    </section>
+
+    <section id="sec-quote" class="card">
+      <h2>2. Позиції комерційної пропозиції</h2>
+      <div id="quoteitems"><p class="muted">Позицій ще немає. Підберіть привід і натисніть «Додати до КП».</p></div>
+      <div class="actions">
+        <button type="button" id="btn_manual" class="btn">Додати вручну (перевірка за каталогом)</button>
+        <button type="button" id="btn_save" class="btn">Зберегти КП у браузері</button>
+        <button type="button" id="btn_load" class="btn">Завантажити збережене</button>
+        <button type="button" id="btn_clear" class="btn">Очистити КП</button>
+        <span id="savemsg" class="hint"></span>
+      </div>
+    </section>
+
+    <section id="sec-parties" class="card">
+      <h2>3. Сторони, контакти й умови</h2>
+      <div class="actions"><button type="button" id="btn_demo" class="btn">Заповнити зразком (вигадані дані)</button></div>
+      <div class="grid g3" id="parties">
+        <fieldset><legend>Продавець (виконавець КП)</legend>
+          <label>Назва <input data-p="seller_name"></label>
+          <label>Коротка назва <input data-p="seller_short"></label>
+          <label>ЄДРПОУ <input data-p="seller_edrpou"></label>
+          <label>ІПН / статус ПДВ <input data-p="seller_ipn"></label>
+          <label>Адреса <input data-p="seller_address"></label>
+          <label>Телефон <input data-p="seller_phone"></label>
+          <label>Email <input data-p="seller_email"></label>
+          <label>Сайт <input data-p="seller_site"></label>
+          <label>IBAN <input data-p="seller_iban"></label>
+          <label>Банк <input data-p="seller_bank"></label>
+          <label>МФО <input data-p="seller_mfo"></label>
+          <label>Заява про дилерство (необов'язково) <input data-p="dealer_statement"></label>
+          <label class="chk"><input type="checkbox" id="p_brand"> друкувати знак Motovario (лише після підтвердження статусу дилера)</label>
+        </fieldset>
+        <fieldset><legend>Замовник і контакт</legend>
+          <label>№ клієнта <input data-p="customer_code"></label>
+          <label>Назва замовника <input data-p="customer_name"></label>
+          <label>ЄДРПОУ <input data-p="customer_edrpou"></label>
+          <label>Адреса <textarea data-p="customer_address" rows="2"></textarea></label>
+          <label>Контактна особа (ПІБ) <input data-p="contact_name"></label>
+          <label>Звертання <select data-p="contact_honorific"><option value=""></option><option>Пан</option><option>Пані</option></select></label>
+          <label>Телефон <input data-p="contact_phone"></label>
+          <label>Email <input data-p="contact_email"></label>
+          <label>Дата запиту <input type="date" data-p="request_date"></label>
+        </fieldset>
+        <fieldset><legend>Наш менеджер</legend>
+          <label>Контактна особа <input data-p="mgr_name"></label>
+          <label>Посада <input data-p="mgr_position"></label>
+          <label>Телефон <input data-p="mgr_phone"></label>
+          <label>Email <input data-p="mgr_email"></label>
+          <label>Офіс (назва) <input data-p="office_name"></label>
+          <label>Офіс: телефон / email <input data-p="office_contacts"></label>
+        </fieldset>
+        <fieldset class="span2"><legend>Документ і умови</legend>
+          <div class="grid g2">
+            <label>Номер КП <input data-p="number" placeholder="MV-2026-0001"></label>
+            <label class="chk"><input type="checkbox" id="p_draft" checked> чернетка (друкується ЧЕРНЕТКА замість номера)</label>
+            <label>Дата <input type="date" data-p="date"></label>
+            <label>Діє, днів <input type="number" data-p="validity_days" value="30"></label>
+            <label>Умови оплати <textarea data-p="payment_terms" rows="2"></textarea></label>
+            <label>Базис поставки (Incoterms) <input data-p="incoterms" value="DAP"></label>
+            <label>Місце поставки <input data-p="delivery_place"></label>
+            <label>Спосіб доставки <input data-p="delivery_method"></label>
+            <label>Строк поставки <input data-p="lead_time"></label>
+            <label>Умова строку поставки <textarea data-p="lead_cond" rows="2"></textarea></label>
+            <label>Гарантія <input data-p="warranty"></label>
+            <label>Примітка про ціни <input data-p="unpriced_note"></label>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <section id="sec-kp" class="card">
+      <h2>4. Комерційна пропозиція</h2>
+      <div class="actions">
+        <button type="button" id="btn_kp" class="btn primary">Сформувати / оновити КП</button>
+        <button type="button" id="btn_print" class="btn">Друк / зберегти PDF</button>
+        <span class="hint">Друк: A4, поля 0, «Фонові графіка» увімкнено.</span>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div id="override-dlg" class="dlg" hidden>
+  <div class="dlg-in">
+    <h3>Ручний вибір позиції</h3>
+    <p class="muted">Параметри застосування беруться з форми підбору; перевірка виконується так само, як для підібраних варіантів. Невдала перевірка не блокує додавання, але потребує причини, і в КП позиція позначається.</p>
+    <div class="grid g2">
+      <label>Типорозмір <select id="o_size"></select></label>
+      <label>Передавальне число i <select id="o_i"></select></label>
+      <label>Двигун / рядок каталогу <select id="o_row"></select></label>
+      <label>Двигун (рама) <select id="o_frame"></select></label>
+    </div>
+    <div id="o_result"></div>
+    <label>Причина ручного вибору (обов'язкова, якщо перевірка не пройдена) <input id="o_reason"></label>
+    <div class="actions"><button type="button" id="o_check" class="btn">Перевірити</button><button type="button" id="o_add" class="btn primary">Додати до КП</button><button type="button" id="o_cancel" class="btn">Скасувати</button></div>
+  </div>
+</div>
+
+<div id="kp" class="kp" aria-label="Комерційна пропозиція"></div>
+
+<script>/*{{DATA}}*/</script>
+<script>/*{{IMG}}*/</script>
+<script>/*{{ENGINE}}*/</script>
+<script>/*{{APP}}*/</script>
+</body>
+</html>

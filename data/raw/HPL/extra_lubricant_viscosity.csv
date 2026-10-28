@@ -1,0 +1,8 @@
+series,output_speed,oil_type,iso_vg,max_casing_temp_S1_c,max_casing_temp_intermittent_or_fs_gt_1_5_c,src_page
+HPL,n2 > 150 rpm,PAO,150,60,70,36
+HPL,n2 > 150 rpm,MIN,220,55,70,36
+HPL,n2 >= 5 rpm,PAO,220,70,80,36
+HPL,n2 >= 5 rpm,PAO,320,80,95,36
+HPL,n2 >= 5 rpm,MIN,320,65,80,36
+HPL,n2 < 5 rpm,PAO,320,65,90,36
+HPL,n2 < 5 rpm,MIN,460,65,85,36

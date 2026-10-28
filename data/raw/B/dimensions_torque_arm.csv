@@ -1,0 +1,17 @@
+series,size,variant,KI,KG,KH,G,R,KM,src_page
+B,BA42,torque_arm,100,41,10,14,18,,60
+B,BA52,torque_arm,150,47,10,14,18,,60
+B,BA53,torque_arm,150,47,10,14,18,,60
+B,BA72,torque_arm,200,55.5,20,25,30,,60
+B,BA73,torque_arm,200,55.5,20,25,30,,60
+B,B063,torque_arm_B..S,200,62,20,25,30,,62
+B,B083,torque_arm_B..S,200,78.5,20,25,30,,62
+B,B103,torque_arm_B..S,250,95,25,30,35,,62
+B,B123,torque_arm_B..S,300,103.5,25,40,40,,62
+B,B063,torque_arm_B..U,200,62,20,25,30,,62
+B,B083,torque_arm_B..U,200,78.5,20,25,30,,62
+B,B103,torque_arm_B..U,250,95,25,30,35,,62
+B,B123,torque_arm_B..U,300,103.5,25,40,40,,62
+B,B143,torque_arm,350,40,30,60,45,45,62
+B,B153,torque_arm,450,45,30,60,45,45,62
+B,B163,torque_arm,550,7.5,40,110,65,60,62

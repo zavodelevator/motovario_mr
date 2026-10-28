@@ -1,0 +1,14 @@
+series,size,shaft,LV_screw,OF_dia,OF_holes,LVP_screw,O_dia,O_holes,src_page
+HPL,010-020,all,M10x30,10.5,8,M16x75,17,4,22
+HPL,030-050,all,M12x40,12.5,10,M16x90,18,4,22
+HPL,080,all,M14x45,15,12,M20X70,22,4,22
+HPL,130,all,M16x50,16.5,10,M24X70,26,4,22
+HPL,180,CS-SS,M16x180 (min length),17,12,,26,4,22
+HPL,180,HS,M16x140 (min length),17,12,,26,4,22
+HPL,180,HM,M16x145 (min length),17,12,,26,4,22
+HPL,220,CS-SS,M16x170 (min length),17,15,,26,4,22
+HPL,220,HS,M16x150 (min length),17,15,,26,4,22
+HPL,220,HM,M16x165 (min length),17,15,,26,4,22
+HPL,380,CS-SS,M16x165 (min length),17,24,,33,4,22
+HPL,380,HS,M16x165 (min length),17,24,,33,4,22
+HPL,380,HM,M16x165 (min length),17,24,,33,4,22

@@ -1,0 +1,45 @@
+series,factor,condition,value,src_page
+H,Fc ambient temperature,T_amb=10C;duty=100%,1.15,24
+H,Fc ambient temperature,T_amb=10C;duty=80%,1.21,24
+H,Fc ambient temperature,T_amb=10C;duty=70%,1.32,24
+H,Fc ambient temperature,T_amb=10C;duty=40%,1.55,24
+H,Fc ambient temperature,T_amb=10C;duty=20%,2.07,24
+H,Fc ambient temperature,T_amb=18C;duty=100%,1.07,24
+H,Fc ambient temperature,T_amb=18C;duty=80%,1.12,24
+H,Fc ambient temperature,T_amb=18C;duty=70%,1.23,24
+H,Fc ambient temperature,T_amb=18C;duty=40%,1.44,24
+H,Fc ambient temperature,T_amb=18C;duty=20%,1.93,24
+H,Fc ambient temperature,T_amb=25C;duty=100%,1.00,24
+H,Fc ambient temperature,T_amb=25C;duty=80%,1.05,24
+H,Fc ambient temperature,T_amb=25C;duty=70%,1.15,24
+H,Fc ambient temperature,T_amb=25C;duty=40%,1.35,24
+H,Fc ambient temperature,T_amb=25C;duty=20%,1.80,24
+H,Fc ambient temperature,T_amb=30C;duty=100%,0.93,24
+H,Fc ambient temperature,T_amb=30C;duty=80%,0.98,24
+H,Fc ambient temperature,T_amb=30C;duty=70%,1.07,24
+H,Fc ambient temperature,T_amb=30C;duty=40%,1.26,24
+H,Fc ambient temperature,T_amb=30C;duty=20%,1.67,24
+H,Fc ambient temperature,T_amb=40C;duty=100%,0.83,24
+H,Fc ambient temperature,T_amb=40C;duty=80%,0.87,24
+H,Fc ambient temperature,T_amb=40C;duty=70%,0.95,24
+H,Fc ambient temperature,T_amb=40C;duty=40%,1.12,24
+H,Fc ambient temperature,T_amb=40C;duty=20%,1.49,24
+H,Fc ambient temperature,T_amb=43C;duty=100%,0.75,24
+H,Fc ambient temperature,T_amb=43C;duty=80%,0.79,24
+H,Fc ambient temperature,T_amb=43C;duty=70%,0.86,24
+H,Fc ambient temperature,T_amb=43C;duty=40%,1.01,24
+H,Fc ambient temperature,T_amb=43C;duty=20%,1.35,24
+H,Fc ambient temperature,T_amb=50C;duty=100%,0.67,24
+H,Fc ambient temperature,T_amb=50C;duty=80%,0.70,24
+H,Fc ambient temperature,T_amb=50C;duty=70%,0.77,24
+H,Fc ambient temperature,T_amb=50C;duty=40%,0.90,24
+H,Fc ambient temperature,T_amb=50C;duty=20%,1.21,24
+H,Fa altitude,altitude=0m,1,24
+H,Fa altitude,altitude=750m,0.95,24
+H,Fa altitude,altitude=1500m,0.9,24
+H,Fa altitude,altitude=2250m,0.85,24
+H,Fa altitude,altitude=3000m,0.81,24
+H,Fv ventilation,stagnant air (<0.5 m/s),0.75,24
+H,Fv ventilation,"indoor, slight ventilation",1,24
+H,Fv ventilation,"indoor, good ventilation (>1.4 m/s)",1.4,24
+H,Fv ventilation,outdoor (>3.7 m/s),1.9,24

@@ -1,0 +1,69 @@
+series,size,variant,housing,output_version,kind,bearing,src_page
+B,BA40,BA bearings (1=ball),U,C,standard,1,32
+B,BA40,BA bearings (1=ball),U,C,on_request,,32
+B,BA50,BA bearings (1=ball),U,C,standard,1,32
+B,BA50,BA bearings (1=ball),U,C,on_request,,32
+B,BA70,BA bearings (1=ball),U,C,standard,1,32
+B,BA70,BA bearings (1=ball),U,C,on_request,,32
+B,BA40,BA bearings (1=ball),U,D/S/P,standard,,32
+B,BA40,BA bearings (1=ball),U,D/S/P,on_request,,32
+B,BA50,BA bearings (1=ball),U,D/S/P,standard,,32
+B,BA50,BA bearings (1=ball),U,D/S/P,on_request,,32
+B,BA70,BA bearings (1=ball),U,D/S/P,standard,1,32
+B,BA70,BA bearings (1=ball),U,D/S/P,on_request,,32
+B,BA40,BA bearings (1=ball),U,L/M,standard,1,32
+B,BA40,BA bearings (1=ball),U,L/M,on_request,,32
+B,BA50,BA bearings (1=ball),U,L/M,standard,1,32
+B,BA50,BA bearings (1=ball),U,L/M,on_request,,32
+B,BA70,BA bearings (1=ball),U,L/M,standard,1,32
+B,BA70,BA bearings (1=ball),U,L/M,on_request,,32
+B,B060,"B bearings (1=ball, 2=roller)",U,C,standard,2,32
+B,B060,"B bearings (1=ball, 2=roller)",U,C,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",U,C,standard,2 (Ø40),32
+B,B080,"B bearings (1=ball, 2=roller)",U,C,on_request,1 (Ø40),32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,C,standard,2,32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,C,on_request,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,C,standard,2,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,C,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",U,C,standard,,32
+B,B080,"B bearings (1=ball, 2=roller)",U,C,on_request,1 (Ø45),32
+B,B060,"B bearings (1=ball, 2=roller)",U,D/S/P,standard,2,32
+B,B060,"B bearings (1=ball, 2=roller)",U,D/S/P,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",U,D/S/P,standard,2,32
+B,B080,"B bearings (1=ball, 2=roller)",U,D/S/P,on_request,,32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,D/S/P,standard,2,32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,D/S/P,on_request,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,D/S/P,standard,2,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,D/S/P,on_request,,32
+B,B060,"B bearings (1=ball, 2=roller)",U,L/M,standard,1,32
+B,B060,"B bearings (1=ball, 2=roller)",U,L/M,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",U,L/M,standard,1,32
+B,B080,"B bearings (1=ball, 2=roller)",U,L/M,on_request,,32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,L/M,standard,1,32
+B,B100/125,"B bearings (1=ball, 2=roller)",U,L/M,on_request,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,L/M,standard,2,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",U,L/M,on_request,,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,C,standard,1,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,C,on_request,2,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,C,standard,1,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,C,on_request,2,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,C,standard,1,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,C,on_request,2,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,C,standard,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,C,on_request,,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,D/S/P,standard,2,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,D/S/P,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,D/S/P,standard,2,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,D/S/P,on_request,,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,D/S/P,standard,2,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,D/S/P,on_request,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,D/S/P,standard,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,D/S/P,on_request,,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,L/M,standard,1,32
+B,B060,"B bearings (1=ball, 2=roller)",F/S,L/M,on_request,,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,L/M,standard,1,32
+B,B080,"B bearings (1=ball, 2=roller)",F/S,L/M,on_request,,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,L/M,standard,1,32
+B,B100/125,"B bearings (1=ball, 2=roller)",F/S,L/M,on_request,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,L/M,standard,,32
+B,B140/150/160,"B bearings (1=ball, 2=roller)",F/S,L/M,on_request,,32

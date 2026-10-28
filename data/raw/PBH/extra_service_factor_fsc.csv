@@ -1,0 +1,4 @@
+series,motor_type,fsc,src_page
+PBH,electric motor,1.00,24
+PBH,reciprocating multiple-cylinder motor,1.25,24
+PBH,reciprocating single-cylinder motor,1.50,24

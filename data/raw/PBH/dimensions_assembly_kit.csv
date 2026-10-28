@@ -1,0 +1,7 @@
+series,size,variant,D,A,X,Y,M,src_page
+PBH,180,PH-BH_assembly_kit_hollow_keyway,90,34,20,5,M24,64
+PBH,200,PH-BH_assembly_kit_hollow_keyway,100,40,20,5,M24,64
+PBH,225,PH-BH_assembly_kit_hollow_keyway,115,44,24,8,M24,64
+PBH,250,PH-BH_assembly_kit_hollow_keyway,125,44,24,8,M24,64
+PBH,280,PH-BH_assembly_kit_hollow_keyway,140,50,24,10,M30,64
+PBH,355,PH-BH_assembly_kit_hollow_keyway,170,55,27,10,M30,64

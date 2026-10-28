@@ -1,0 +1,22 @@
+file,series,size,kind,caption,src_page,width_px,height_px
+SN_general_photo_p1_1.png,SN,general,photo,Cover: SN shaft mounted geared motor,1,959,805
+SN_general_photo_p9_3.png,SN,general,photo,"Shaft mounted gear reducers (S series), product overview",9,548,468
+SN_general_diagram_p14_1.png,SN,general,diagram,Service factor chart: load class A/B/C vs hours/day and starts/hour,14,800,312
+SN_general_photo_p15_1.png,SN,general,photo,Motor connections sleeve / PAM input assembly,15,497,523
+SN_general_diagram_p17_1.png,SN,general,diagram,"Type designation diagram (S, SN/ISN, size, version, flange, ratio, input/output dims, mounting, accessories)",17,612,1848
+SN_general_drawing_p18_1.png,SN,general,drawing,"Versions SN..C, SN..D, SN..L (foot-flange hollow / solid / shrink disc shaft fixing)",18,422,727
+SN_general_render_p19_1.png,SN,general,render,Modularity: SN (motor coupling) and ISN (solid input shaft) versions,19,1471,2122
+SN_general_drawing_p20_2.png,SN,general,drawing,Terminal block positions 1-4,20,796,286
+SN_general_render_p20_1.png,SN,general,render,Assembly positions B3 B8 B6 B7 V5 V6,20,1871,1323
+SN_general_drawing_p25_1.png,SN,general,drawing,"Radial load on input shaft: Frx formula geometry (a, b, x)",25,299,282
+SN_general_drawing_p26_1.png,SN,general,drawing,"Radial load on output shaft: Frx formula geometry (a, b, x)",26,562,282
+SN_general_drawing_p30_1.png,SN,general,drawing,"Dimensional drawing SN142...183 (geared motor, hollow shaft, IEC B5 motor flange)",30,2490,1890
+SN_general_drawing_p32_1.png,SN,general,drawing,Dimensional drawing ISN142...183 (reducer with solid input shaft),32,2490,1887
+SN_general_drawing_p34_1.png,SN,general,drawing,Shaft end key UNI 6604 - DIN 6885,34,469,226
+SN_general_drawing_p35_1.png,SN,general,drawing,Electric motor dimensional drawings B5 / B14,35,776,285
+SN_general_drawing_p39_1.png,SN,general,drawing,Output flange FB/FC drawing,39,1333,1140
+SN_general_drawing_p40_1.png,SN,general,drawing,Shaft mounting fastening - reaction bolt,40,1028,814
+SN_general_other_p41_2.png,SN,general,other,Backstop device: clockwise / anti-clockwise rotation versions for S..2 and S..3 (C-D-L),41,1075,877
+SN_general_drawing_p42_1.png,SN,general,drawing,Hollow output shaft with shrink disc drawing,42,2487,925
+SN_general_drawing_p43_1.png,SN,general,drawing,Assembling/disassembling kit exploded drawing,43,2462,1558
+SN_general_drawing_p44_1.png,SN,general,drawing,Machine shaft drawing,44,742,564

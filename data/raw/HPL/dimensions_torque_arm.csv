@@ -1,0 +1,10 @@
+series,size,variant,KI,KL,KH,G,G1,S,src_page
+HPL,HPL 010,"torque arm (suggested values, S355JR, F version)",325,300,30,40,8,42,93
+HPL,HPL 020,"torque arm (suggested values, S355JR, F version)",325,300,30,40,8,42,93
+HPL,HPL 030,"torque arm (suggested values, S355JR, F version)",400,360,35,44,12,46,93
+HPL,HPL 050,"torque arm (suggested values, S355JR, F version)",400,360,35,44,12,46,93
+HPL,HPL 080,"torque arm (suggested values, S355JR, F version)",490,450,45,55,15,57,93
+HPL,HPL 130,"torque arm (suggested values, S355JR, F version)",490,500,50,60,20,62,93
+HPL,HPL 180,"torque arm (suggested values, S355JR, F version)",600,600,50,60,25,62,93
+HPL,HPL 220,"torque arm (suggested values, S355JR, F version)",700,750,60,70,25,72,93
+HPL,HPL 380,"torque arm (suggested values, S355JR, F version)",800,850,90,110,30,112,93

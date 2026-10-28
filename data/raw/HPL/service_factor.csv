@@ -1,0 +1,31 @@
+series,load_class,hours_per_day,starts_per_hour,fs,src_page,table
+HPL,uniform,2,,0.80,19,fsa
+HPL,uniform,4,,0.90,19,fsa
+HPL,uniform,8,,1.00,19,fsa
+HPL,uniform,16,,1.25,19,fsa
+HPL,uniform,24,,1.35,19,fsa
+HPL,moderate,2,,1.00,19,fsa
+HPL,moderate,4,,1.20,19,fsa
+HPL,moderate,8,,1.30,19,fsa
+HPL,moderate,16,,1.60,19,fsa
+HPL,moderate,24,,1.80,19,fsa
+HPL,heavy,2,,1.30,19,fsa
+HPL,heavy,4,,1.60,19,fsa
+HPL,heavy,8,,1.80,19,fsa
+HPL,heavy,16,,2.25,19,fsa
+HPL,heavy,24,,2.50,19,fsa
+HPL,uniform,,<6,1,19,fsb
+HPL,uniform,,6-20,1.25,19,fsb
+HPL,uniform,,20-60,1.35,19,fsb
+HPL,uniform,,60-120,1.5,19,fsb
+HPL,moderate,,<6,1,19,fsb
+HPL,moderate,,6-20,1.15,19,fsb
+HPL,moderate,,20-60,1.25,19,fsb
+HPL,moderate,,60-120,1.35,19,fsb
+HPL,heavy,,<6,1,19,fsb
+HPL,heavy,,6-20,1.05,19,fsb
+HPL,heavy,,20-60,1.15,19,fsb
+HPL,heavy,,60-120,1.25,19,fsb
+HPL,electric motor,,,1.00,19,fsc
+HPL,reciprocating multiple-cylinder motor,,,1.25,19,fsc
+HPL,reciprocating single-cylinder motor,,,1.50,19,fsc

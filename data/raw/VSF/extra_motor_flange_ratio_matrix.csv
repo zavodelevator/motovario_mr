@@ -1,0 +1,1069 @@
+series,size,iec_frame,flange,i,status,cell,src_page
+VSF,NMRV025,56,B14,5,raw:9,9,33
+VSF,NMRV025,56,B14,7.5,feasible,•,33
+VSF,NMRV025,56,B14,10,feasible,•,33
+VSF,NMRV025,56,B14,15,feasible,•,33
+VSF,NMRV025,56,B14,20,feasible,•,33
+VSF,NMRV025,56,B14,25,not feasible,**,33
+VSF,NMRV025,56,B14,30,feasible,•,33
+VSF,NMRV025,56,B14,40,feasible,•,33
+VSF,NMRV025,56,B14,50,feasible,•,33
+VSF,NMRV025,56,B14,60,feasible,•,33
+VSF,NMRV025,56,B14,80,not feasible,**,33
+VSF,NMRV025,56,B14,100,not feasible,**,33
+VSF,NMRV030,63,B5,5,feasible,•,33
+VSF,NMRV030,63,B5,7.5,feasible,•,33
+VSF,NMRV030,63,B5,10,feasible,•,33
+VSF,NMRV030,63,B5,15,feasible,•,33
+VSF,NMRV030,63,B5,20,feasible,•,33
+VSF,NMRV030,63,B5,25,feasible,•,33
+VSF,NMRV030,63,B5,30,feasible,•,33
+VSF,NMRV030,63,B5,40,feasible,•,33
+VSF,NMRV030,63,B5,50,feasible,•,33
+VSF,NMRV030,63,B5,60,not feasible,**,33
+VSF,NMRV030,63,B5,80,not feasible,**,33
+VSF,NMRV030,63,B5,100,not feasible,**,33
+VSF,NMRV030,63,B14,5,feasible,•,33
+VSF,NMRV030,63,B14,7.5,feasible,•,33
+VSF,NMRV030,63,B14,10,feasible,•,33
+VSF,NMRV030,63,B14,15,feasible,•,33
+VSF,NMRV030,63,B14,20,feasible,•,33
+VSF,NMRV030,63,B14,25,feasible,•,33
+VSF,NMRV030,63,B14,30,feasible,•,33
+VSF,NMRV030,63,B14,40,feasible,•,33
+VSF,NMRV030,63,B14,50,feasible,•,33
+VSF,NMRV030,63,B14,60,not feasible,**,33
+VSF,NMRV030,63,B14,80,not feasible,**,33
+VSF,NMRV030,63,B14,100,not feasible,**,33
+VSF,NMRV030,56,B5,5,feasible,•,33
+VSF,NMRV030,56,B5,7.5,feasible,•,33
+VSF,NMRV030,56,B5,10,feasible,•,33
+VSF,NMRV030,56,B5,15,feasible,•,33
+VSF,NMRV030,56,B5,20,feasible,•,33
+VSF,NMRV030,56,B5,25,feasible,•,33
+VSF,NMRV030,56,B5,30,feasible,•,33
+VSF,NMRV030,56,B5,40,feasible,•,33
+VSF,NMRV030,56,B5,50,feasible,•,33
+VSF,NMRV030,56,B5,60,feasible,•,33
+VSF,NMRV030,56,B5,80,feasible,•,33
+VSF,NMRV030,56,B5,100,not feasible,**,33
+VSF,NMRV030,56,B14,5,feasible,•,33
+VSF,NMRV030,56,B14,7.5,feasible,•,33
+VSF,NMRV030,56,B14,10,feasible,•,33
+VSF,NMRV030,56,B14,15,feasible,•,33
+VSF,NMRV030,56,B14,20,feasible,•,33
+VSF,NMRV030,56,B14,25,feasible,•,33
+VSF,NMRV030,56,B14,30,feasible,•,33
+VSF,NMRV030,56,B14,40,feasible,•,33
+VSF,NMRV030,56,B14,50,feasible,•,33
+VSF,NMRV030,56,B14,60,feasible,•,33
+VSF,NMRV030,56,B14,80,feasible,•,33
+VSF,NMRV030,56,B14,100,not feasible,**,33
+VSF,NMRV040,71,B5,5,feasible,•,33
+VSF,NMRV040,71,B5,7.5,feasible,•,33
+VSF,NMRV040,71,B5,10,feasible,•,33
+VSF,NMRV040,71,B5,15,feasible,•,33
+VSF,NMRV040,71,B5,20,feasible,•,33
+VSF,NMRV040,71,B5,25,feasible,•,33
+VSF,NMRV040,71,B5,30,feasible,•,33
+VSF,NMRV040,71,B5,40,feasible,•,33
+VSF,NMRV040,71,B5,50,not feasible,**,33
+VSF,NMRV040,71,B5,60,not feasible,**,33
+VSF,NMRV040,71,B5,80,not feasible,**,33
+VSF,NMRV040,71,B5,100,not feasible,**,33
+VSF,NMRV040,71,B14,5,feasible,•,33
+VSF,NMRV040,71,B14,7.5,feasible,•,33
+VSF,NMRV040,71,B14,10,feasible,•,33
+VSF,NMRV040,71,B14,15,feasible,•,33
+VSF,NMRV040,71,B14,20,feasible,•,33
+VSF,NMRV040,71,B14,25,feasible,•,33
+VSF,NMRV040,71,B14,30,feasible,•,33
+VSF,NMRV040,71,B14,40,feasible,•,33
+VSF,NMRV040,71,B14,50,not feasible,**,33
+VSF,NMRV040,71,B14,60,not feasible,**,33
+VSF,NMRV040,71,B14,80,not feasible,**,33
+VSF,NMRV040,71,B14,100,not feasible,**,33
+VSF,NMRV040,63,B5,5,feasible,•,33
+VSF,NMRV040,63,B5,7.5,feasible,•,33
+VSF,NMRV040,63,B5,10,feasible,•,33
+VSF,NMRV040,63,B5,15,feasible,•,33
+VSF,NMRV040,63,B5,20,feasible,•,33
+VSF,NMRV040,63,B5,25,feasible,•,33
+VSF,NMRV040,63,B5,30,feasible,•,33
+VSF,NMRV040,63,B5,40,feasible,•,33
+VSF,NMRV040,63,B5,50,feasible,•,33
+VSF,NMRV040,63,B5,60,feasible,•,33
+VSF,NMRV040,63,B5,80,feasible,•,33
+VSF,NMRV040,63,B5,100,feasible,•,33
+VSF,NMRV040,63,B14,5,feasible,•,33
+VSF,NMRV040,63,B14,7.5,feasible,•,33
+VSF,NMRV040,63,B14,10,feasible,•,33
+VSF,NMRV040,63,B14,15,feasible,•,33
+VSF,NMRV040,63,B14,20,feasible,•,33
+VSF,NMRV040,63,B14,25,feasible,•,33
+VSF,NMRV040,63,B14,30,feasible,•,33
+VSF,NMRV040,63,B14,40,feasible,•,33
+VSF,NMRV040,63,B14,50,feasible,•,33
+VSF,NMRV040,63,B14,60,feasible,•,33
+VSF,NMRV040,63,B14,80,feasible,•,33
+VSF,NMRV040,63,B14,100,feasible,•,33
+VSF,NMRV040,56,B5,5,not feasible,**,33
+VSF,NMRV040,56,B5,7.5,not feasible,**,33
+VSF,NMRV040,56,B5,10,not feasible,**,33
+VSF,NMRV040,56,B5,15,not feasible,**,33
+VSF,NMRV040,56,B5,20,not feasible,**,33
+VSF,NMRV040,56,B5,25,not feasible,**,33
+VSF,NMRV040,56,B5,30,not feasible,**,33
+VSF,NMRV040,56,B5,40,not feasible,**,33
+VSF,NMRV040,56,B5,50,feasible,•,33
+VSF,NMRV040,56,B5,60,feasible,•,33
+VSF,NMRV040,56,B5,80,feasible,•,33
+VSF,NMRV040,56,B5,100,feasible,•,33
+VSF,NMRV050,80,B5,5,feasible,•,33
+VSF,NMRV050,80,B5,7.5,feasible,•,33
+VSF,NMRV050,80,B5,10,feasible,•,33
+VSF,NMRV050,80,B5,15,feasible,•,33
+VSF,NMRV050,80,B5,20,feasible,•,33
+VSF,NMRV050,80,B5,25,feasible,•,33
+VSF,NMRV050,80,B5,30,feasible,•,33
+VSF,NMRV050,80,B5,40,not feasible,**,33
+VSF,NMRV050,80,B5,50,not feasible,**,33
+VSF,NMRV050,80,B5,60,not feasible,**,33
+VSF,NMRV050,80,B5,80,not feasible,**,33
+VSF,NMRV050,80,B5,100,not feasible,**,33
+VSF,NMRV050,80,B14,5,feasible,•,33
+VSF,NMRV050,80,B14,7.5,feasible,•,33
+VSF,NMRV050,80,B14,10,feasible,•,33
+VSF,NMRV050,80,B14,15,feasible,•,33
+VSF,NMRV050,80,B14,20,feasible,•,33
+VSF,NMRV050,80,B14,25,feasible,•,33
+VSF,NMRV050,80,B14,30,feasible,•,33
+VSF,NMRV050,80,B14,40,not feasible,**,33
+VSF,NMRV050,80,B14,50,not feasible,**,33
+VSF,NMRV050,80,B14,60,not feasible,**,33
+VSF,NMRV050,80,B14,80,not feasible,**,33
+VSF,NMRV050,80,B14,100,not feasible,**,33
+VSF,NMRV050,71,B5,5,feasible,•,33
+VSF,NMRV050,71,B5,7.5,feasible,•,33
+VSF,NMRV050,71,B5,10,feasible,•,33
+VSF,NMRV050,71,B5,15,feasible,•,33
+VSF,NMRV050,71,B5,20,feasible,•,33
+VSF,NMRV050,71,B5,25,feasible,•,33
+VSF,NMRV050,71,B5,30,feasible,•,33
+VSF,NMRV050,71,B5,40,feasible,•,33
+VSF,NMRV050,71,B5,50,feasible,•,33
+VSF,NMRV050,71,B5,60,feasible,•,33
+VSF,NMRV050,71,B5,80,feasible,•,33
+VSF,NMRV050,71,B5,100,not feasible,**,33
+VSF,NMRV050,71,B14,5,feasible,•,33
+VSF,NMRV050,71,B14,7.5,feasible,•,33
+VSF,NMRV050,71,B14,10,feasible,•,33
+VSF,NMRV050,71,B14,15,feasible,•,33
+VSF,NMRV050,71,B14,20,feasible,•,33
+VSF,NMRV050,71,B14,25,feasible,•,33
+VSF,NMRV050,71,B14,30,feasible,•,33
+VSF,NMRV050,71,B14,40,feasible,•,33
+VSF,NMRV050,71,B14,50,feasible,•,33
+VSF,NMRV050,71,B14,60,feasible,•,33
+VSF,NMRV050,71,B14,80,feasible,•,33
+VSF,NMRV050,71,B14,100,not feasible,**,33
+VSF,NMRV050,63,B5,5,not feasible,**,33
+VSF,NMRV050,63,B5,7.5,not feasible,**,33
+VSF,NMRV050,63,B5,10,not feasible,**,33
+VSF,NMRV050,63,B5,15,not feasible,**,33
+VSF,NMRV050,63,B5,20,not feasible,**,33
+VSF,NMRV050,63,B5,25,not feasible,**,33
+VSF,NMRV050,63,B5,30,not feasible,**,33
+VSF,NMRV050,63,B5,40,feasible,•,33
+VSF,NMRV050,63,B5,50,feasible,•,33
+VSF,NMRV050,63,B5,60,feasible,•,33
+VSF,NMRV050,63,B5,80,feasible,•,33
+VSF,NMRV050,63,B5,100,feasible,•,33
+VSF,NMRV-P063,90,B5,5,not feasible,**,33
+VSF,NMRV-P063,90,B5,7.5,feasible,•,33
+VSF,NMRV-P063,90,B5,10,feasible,•,33
+VSF,NMRV-P063,90,B5,15,feasible,•,33
+VSF,NMRV-P063,90,B5,20,feasible,•,33
+VSF,NMRV-P063,90,B5,25,feasible,•,33
+VSF,NMRV-P063,90,B5,30,feasible,•,33
+VSF,NMRV-P063,90,B5,40,feasible,•,33
+VSF,NMRV-P063,90,B5,50,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B5,60,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B14,5,not feasible,**,33
+VSF,NMRV-P063,90,B14,7.5,feasible,•,33
+VSF,NMRV-P063,90,B14,10,feasible,•,33
+VSF,NMRV-P063,90,B14,15,feasible,•,33
+VSF,NMRV-P063,90,B14,20,feasible,•,33
+VSF,NMRV-P063,90,B14,25,feasible,•,33
+VSF,NMRV-P063,90,B14,30,feasible,•,33
+VSF,NMRV-P063,90,B14,40,feasible,•,33
+VSF,NMRV-P063,90,B14,50,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B14,60,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B14,80,not to be used (out of warranty),+,33
+VSF,NMRV-P063,90,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P063,80,B5,5,not feasible,**,33
+VSF,NMRV-P063,80,B5,7.5,feasible,•,33
+VSF,NMRV-P063,80,B5,10,feasible,•,33
+VSF,NMRV-P063,80,B5,15,feasible,•,33
+VSF,NMRV-P063,80,B5,20,feasible,•,33
+VSF,NMRV-P063,80,B5,25,feasible,•,33
+VSF,NMRV-P063,80,B5,30,feasible,•,33
+VSF,NMRV-P063,80,B5,40,feasible,•,33
+VSF,NMRV-P063,80,B5,50,feasible,•,33
+VSF,NMRV-P063,80,B5,60,feasible,•,33
+VSF,NMRV-P063,80,B5,80,feasible,•,33
+VSF,NMRV-P063,80,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P063,80,B14,5,not feasible,**,33
+VSF,NMRV-P063,80,B14,7.5,feasible,•,33
+VSF,NMRV-P063,80,B14,10,feasible,•,33
+VSF,NMRV-P063,80,B14,15,feasible,•,33
+VSF,NMRV-P063,80,B14,20,feasible,•,33
+VSF,NMRV-P063,80,B14,25,feasible,•,33
+VSF,NMRV-P063,80,B14,30,feasible,•,33
+VSF,NMRV-P063,80,B14,40,feasible,•,33
+VSF,NMRV-P063,80,B14,50,feasible,•,33
+VSF,NMRV-P063,80,B14,60,feasible,•,33
+VSF,NMRV-P063,80,B14,80,feasible,•,33
+VSF,NMRV-P063,80,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P063,71,B5,5,not feasible,**,33
+VSF,NMRV-P063,71,B5,7.5,feasible,•,33
+VSF,NMRV-P063,71,B5,10,feasible,•,33
+VSF,NMRV-P063,71,B5,15,feasible,•,33
+VSF,NMRV-P063,71,B5,20,feasible,•,33
+VSF,NMRV-P063,71,B5,25,feasible,•,33
+VSF,NMRV-P063,71,B5,30,feasible,•,33
+VSF,NMRV-P063,71,B5,40,feasible,•,33
+VSF,NMRV-P063,71,B5,50,feasible,•,33
+VSF,NMRV-P063,71,B5,60,feasible,•,33
+VSF,NMRV-P063,71,B5,80,feasible,•,33
+VSF,NMRV-P063,71,B5,100,feasible,•,33
+VSF,NMRV-P063,71,B14,5,not feasible,**,33
+VSF,NMRV-P063,71,B14,7.5,feasible,•,33
+VSF,NMRV-P063,71,B14,10,feasible,•,33
+VSF,NMRV-P063,71,B14,15,feasible,•,33
+VSF,NMRV-P063,71,B14,20,feasible,•,33
+VSF,NMRV-P063,71,B14,25,feasible,•,33
+VSF,NMRV-P063,71,B14,30,feasible,•,33
+VSF,NMRV-P063,71,B14,40,feasible,•,33
+VSF,NMRV-P063,71,B14,50,feasible,•,33
+VSF,NMRV-P063,71,B14,60,feasible,•,33
+VSF,NMRV-P063,71,B14,80,feasible,•,33
+VSF,NMRV-P063,71,B14,100,feasible,•,33
+VSF,NMRV-P075,100/112,B5,5,not feasible,**,33
+VSF,NMRV-P075,100/112,B5,7.5,feasible,•,33
+VSF,NMRV-P075,100/112,B5,10,feasible,•,33
+VSF,NMRV-P075,100/112,B5,15,feasible,•,33
+VSF,NMRV-P075,100/112,B5,20,feasible,•,33
+VSF,NMRV-P075,100/112,B5,25,feasible,•,33
+VSF,NMRV-P075,100/112,B5,30,feasible,•,33
+VSF,NMRV-P075,100/112,B5,40,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B5,50,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B5,60,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B14,5,not feasible,**,33
+VSF,NMRV-P075,100/112,B14,7.5,feasible,•,33
+VSF,NMRV-P075,100/112,B14,10,feasible,•,33
+VSF,NMRV-P075,100/112,B14,15,feasible,•,33
+VSF,NMRV-P075,100/112,B14,20,feasible,•,33
+VSF,NMRV-P075,100/112,B14,25,feasible,•,33
+VSF,NMRV-P075,100/112,B14,30,feasible,•,33
+VSF,NMRV-P075,100/112,B14,40,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B14,50,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B14,60,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B14,80,not to be used (out of warranty),+,33
+VSF,NMRV-P075,100/112,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P075,90,B5,5,not feasible,**,33
+VSF,NMRV-P075,90,B5,7.5,feasible,•,33
+VSF,NMRV-P075,90,B5,10,feasible,•,33
+VSF,NMRV-P075,90,B5,15,feasible,•,33
+VSF,NMRV-P075,90,B5,20,feasible,•,33
+VSF,NMRV-P075,90,B5,25,feasible,•,33
+VSF,NMRV-P075,90,B5,30,feasible,•,33
+VSF,NMRV-P075,90,B5,40,feasible,•,33
+VSF,NMRV-P075,90,B5,50,feasible,•,33
+VSF,NMRV-P075,90,B5,60,feasible,•,33
+VSF,NMRV-P075,90,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P075,90,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P075,90,B14,5,not feasible,**,33
+VSF,NMRV-P075,90,B14,7.5,feasible,•,33
+VSF,NMRV-P075,90,B14,10,feasible,•,33
+VSF,NMRV-P075,90,B14,15,feasible,•,33
+VSF,NMRV-P075,90,B14,20,feasible,•,33
+VSF,NMRV-P075,90,B14,25,feasible,•,33
+VSF,NMRV-P075,90,B14,30,feasible,•,33
+VSF,NMRV-P075,90,B14,40,feasible,•,33
+VSF,NMRV-P075,90,B14,50,feasible,•,33
+VSF,NMRV-P075,90,B14,60,feasible,•,33
+VSF,NMRV-P075,90,B14,80,not to be used (out of warranty),+,33
+VSF,NMRV-P075,90,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P075,80,B5,5,not feasible,**,33
+VSF,NMRV-P075,80,B5,7.5,feasible,•,33
+VSF,NMRV-P075,80,B5,10,feasible,•,33
+VSF,NMRV-P075,80,B5,15,feasible,•,33
+VSF,NMRV-P075,80,B5,20,feasible,•,33
+VSF,NMRV-P075,80,B5,25,feasible,•,33
+VSF,NMRV-P075,80,B5,30,feasible,•,33
+VSF,NMRV-P075,80,B5,40,feasible,•,33
+VSF,NMRV-P075,80,B5,50,feasible,•,33
+VSF,NMRV-P075,80,B5,60,feasible,•,33
+VSF,NMRV-P075,80,B5,80,feasible,•,33
+VSF,NMRV-P075,80,B5,100,feasible,•,33
+VSF,NMRV-P075,80,B14,5,not feasible,**,33
+VSF,NMRV-P075,80,B14,7.5,feasible,•,33
+VSF,NMRV-P075,80,B14,10,feasible,•,33
+VSF,NMRV-P075,80,B14,15,feasible,•,33
+VSF,NMRV-P075,80,B14,20,feasible,•,33
+VSF,NMRV-P075,80,B14,25,feasible,•,33
+VSF,NMRV-P075,80,B14,30,feasible,•,33
+VSF,NMRV-P075,80,B14,40,feasible,•,33
+VSF,NMRV-P075,80,B14,50,feasible,•,33
+VSF,NMRV-P075,80,B14,60,feasible,•,33
+VSF,NMRV-P075,80,B14,80,feasible,•,33
+VSF,NMRV-P075,80,B14,100,feasible,•,33
+VSF,NMRV-P075,71,B5,5,not feasible,**,33
+VSF,NMRV-P075,71,B5,7.5,feasible,•,33
+VSF,NMRV-P075,71,B5,10,feasible,•,33
+VSF,NMRV-P075,71,B5,15,feasible,•,33
+VSF,NMRV-P075,71,B5,20,feasible,•,33
+VSF,NMRV-P075,71,B5,25,feasible,•,33
+VSF,NMRV-P075,71,B5,30,feasible,•,33
+VSF,NMRV-P075,71,B5,40,feasible,•,33
+VSF,NMRV-P075,71,B5,50,feasible,•,33
+VSF,NMRV-P075,71,B5,60,feasible,•,33
+VSF,NMRV-P075,71,B5,80,feasible,•,33
+VSF,NMRV-P075,71,B5,100,feasible,•,33
+VSF,NMRV-P075,71,B14,5,not feasible,**,33
+VSF,NMRV-P075,71,B14,7.5,feasible,•,33
+VSF,NMRV-P075,71,B14,10,feasible,•,33
+VSF,NMRV-P075,71,B14,15,feasible,•,33
+VSF,NMRV-P075,71,B14,20,feasible,•,33
+VSF,NMRV-P075,71,B14,25,feasible,•,33
+VSF,NMRV-P075,71,B14,30,feasible,•,33
+VSF,NMRV-P075,71,B14,40,feasible,•,33
+VSF,NMRV-P075,71,B14,50,feasible,•,33
+VSF,NMRV-P075,71,B14,60,feasible,•,33
+VSF,NMRV-P075,71,B14,80,feasible,•,33
+VSF,NMRV-P075,71,B14,100,feasible,•,33
+VSF,NMRV-P090,100/112,B5,5,not feasible,**,33
+VSF,NMRV-P090,100/112,B5,7.5,feasible,•,33
+VSF,NMRV-P090,100/112,B5,10,feasible,•,33
+VSF,NMRV-P090,100/112,B5,15,feasible,•,33
+VSF,NMRV-P090,100/112,B5,20,feasible,•,33
+VSF,NMRV-P090,100/112,B5,25,feasible,•,33
+VSF,NMRV-P090,100/112,B5,30,feasible,•,33
+VSF,NMRV-P090,100/112,B5,40,feasible,•,33
+VSF,NMRV-P090,100/112,B5,50,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B5,60,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B14,5,not feasible,**,33
+VSF,NMRV-P090,100/112,B14,7.5,feasible,•,33
+VSF,NMRV-P090,100/112,B14,10,feasible,•,33
+VSF,NMRV-P090,100/112,B14,15,feasible,•,33
+VSF,NMRV-P090,100/112,B14,20,feasible,•,33
+VSF,NMRV-P090,100/112,B14,25,feasible,•,33
+VSF,NMRV-P090,100/112,B14,30,feasible,•,33
+VSF,NMRV-P090,100/112,B14,40,feasible,•,33
+VSF,NMRV-P090,100/112,B14,50,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B14,60,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B14,80,not to be used (out of warranty),+,33
+VSF,NMRV-P090,100/112,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P090,90,B5,5,not feasible,**,33
+VSF,NMRV-P090,90,B5,7.5,feasible,•,33
+VSF,NMRV-P090,90,B5,10,feasible,•,33
+VSF,NMRV-P090,90,B5,15,feasible,•,33
+VSF,NMRV-P090,90,B5,20,feasible,•,33
+VSF,NMRV-P090,90,B5,25,feasible,•,33
+VSF,NMRV-P090,90,B5,30,feasible,•,33
+VSF,NMRV-P090,90,B5,40,feasible,•,33
+VSF,NMRV-P090,90,B5,50,feasible,•,33
+VSF,NMRV-P090,90,B5,60,feasible,•,33
+VSF,NMRV-P090,90,B5,80,feasible,•,33
+VSF,NMRV-P090,90,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P090,90,B14,5,not feasible,**,33
+VSF,NMRV-P090,90,B14,7.5,feasible,•,33
+VSF,NMRV-P090,90,B14,10,feasible,•,33
+VSF,NMRV-P090,90,B14,15,feasible,•,33
+VSF,NMRV-P090,90,B14,20,feasible,•,33
+VSF,NMRV-P090,90,B14,25,feasible,•,33
+VSF,NMRV-P090,90,B14,30,feasible,•,33
+VSF,NMRV-P090,90,B14,40,feasible,•,33
+VSF,NMRV-P090,90,B14,50,feasible,•,33
+VSF,NMRV-P090,90,B14,60,feasible,•,33
+VSF,NMRV-P090,90,B14,80,feasible,•,33
+VSF,NMRV-P090,90,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P090,80,B5,5,not feasible,**,33
+VSF,NMRV-P090,80,B5,7.5,feasible,•,33
+VSF,NMRV-P090,80,B5,10,feasible,•,33
+VSF,NMRV-P090,80,B5,15,feasible,•,33
+VSF,NMRV-P090,80,B5,20,feasible,•,33
+VSF,NMRV-P090,80,B5,25,feasible,•,33
+VSF,NMRV-P090,80,B5,30,feasible,•,33
+VSF,NMRV-P090,80,B5,40,feasible,•,33
+VSF,NMRV-P090,80,B5,50,feasible,•,33
+VSF,NMRV-P090,80,B5,60,feasible,•,33
+VSF,NMRV-P090,80,B5,80,feasible,•,33
+VSF,NMRV-P090,80,B5,100,feasible,•,33
+VSF,NMRV-P090,80,B14,5,not feasible,**,33
+VSF,NMRV-P090,80,B14,7.5,feasible,•,33
+VSF,NMRV-P090,80,B14,10,feasible,•,33
+VSF,NMRV-P090,80,B14,15,feasible,•,33
+VSF,NMRV-P090,80,B14,20,feasible,•,33
+VSF,NMRV-P090,80,B14,25,feasible,•,33
+VSF,NMRV-P090,80,B14,30,feasible,•,33
+VSF,NMRV-P090,80,B14,40,feasible,•,33
+VSF,NMRV-P090,80,B14,50,feasible,•,33
+VSF,NMRV-P090,80,B14,60,feasible,•,33
+VSF,NMRV-P090,80,B14,80,feasible,•,33
+VSF,NMRV-P090,80,B14,100,feasible,•,33
+VSF,NMRV-P110,132,B5,5,not feasible,**,33
+VSF,NMRV-P110,132,B5,7.5,feasible,•,33
+VSF,NMRV-P110,132,B5,10,feasible,•,33
+VSF,NMRV-P110,132,B5,15,feasible,•,33
+VSF,NMRV-P110,132,B5,20,feasible,•,33
+VSF,NMRV-P110,132,B5,25,feasible,•,33
+VSF,NMRV-P110,132,B5,30,feasible,•,33
+VSF,NMRV-P110,132,B5,40,feasible,•,33
+VSF,NMRV-P110,132,B5,50,not to be used (out of warranty),+,33
+VSF,NMRV-P110,132,B5,60,not to be used (out of warranty),+,33
+VSF,NMRV-P110,132,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P110,132,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P110,100/112,B5,5,not feasible,**,33
+VSF,NMRV-P110,100/112,B5,7.5,feasible,•,33
+VSF,NMRV-P110,100/112,B5,10,feasible,•,33
+VSF,NMRV-P110,100/112,B5,15,feasible,•,33
+VSF,NMRV-P110,100/112,B5,20,feasible,•,33
+VSF,NMRV-P110,100/112,B5,25,feasible,•,33
+VSF,NMRV-P110,100/112,B5,30,feasible,•,33
+VSF,NMRV-P110,100/112,B5,40,feasible,•,33
+VSF,NMRV-P110,100/112,B5,50,feasible,•,33
+VSF,NMRV-P110,100/112,B5,60,feasible,•,33
+VSF,NMRV-P110,100/112,B5,80,not to be used (out of warranty),+,33
+VSF,NMRV-P110,100/112,B5,100,not to be used (out of warranty),+,33
+VSF,NMRV-P110,100/112,B14,5,not feasible,**,33
+VSF,NMRV-P110,100/112,B14,7.5,feasible,•,33
+VSF,NMRV-P110,100/112,B14,10,feasible,•,33
+VSF,NMRV-P110,100/112,B14,15,feasible,•,33
+VSF,NMRV-P110,100/112,B14,20,feasible,•,33
+VSF,NMRV-P110,100/112,B14,25,feasible,•,33
+VSF,NMRV-P110,100/112,B14,30,feasible,•,33
+VSF,NMRV-P110,100/112,B14,40,feasible,•,33
+VSF,NMRV-P110,100/112,B14,50,feasible,•,33
+VSF,NMRV-P110,100/112,B14,60,feasible,•,33
+VSF,NMRV-P110,100/112,B14,80,not to be used (out of warranty),+,33
+VSF,NMRV-P110,100/112,B14,100,not to be used (out of warranty),+,33
+VSF,NMRV-P110,90,B5,5,not feasible,**,33
+VSF,NMRV-P110,90,B5,7.5,feasible,•,33
+VSF,NMRV-P110,90,B5,10,feasible,•,33
+VSF,NMRV-P110,90,B5,15,feasible,•,33
+VSF,NMRV-P110,90,B5,20,feasible,•,33
+VSF,NMRV-P110,90,B5,25,feasible,•,33
+VSF,NMRV-P110,90,B5,30,feasible,•,33
+VSF,NMRV-P110,90,B5,40,feasible,•,33
+VSF,NMRV-P110,90,B5,50,feasible,•,33
+VSF,NMRV-P110,90,B5,60,feasible,•,33
+VSF,NMRV-P110,90,B5,80,feasible,•,33
+VSF,NMRV-P110,90,B5,100,feasible,•,33
+VSF,NMRV-P110,90,B14,5,not feasible,**,33
+VSF,NMRV-P110,90,B14,7.5,feasible,•,33
+VSF,NMRV-P110,90,B14,10,feasible,•,33
+VSF,NMRV-P110,90,B14,15,feasible,•,33
+VSF,NMRV-P110,90,B14,20,feasible,•,33
+VSF,NMRV-P110,90,B14,25,feasible,•,33
+VSF,NMRV-P110,90,B14,30,feasible,•,33
+VSF,NMRV-P110,90,B14,40,feasible,•,33
+VSF,NMRV-P110,90,B14,50,feasible,•,33
+VSF,NMRV-P110,90,B14,60,feasible,•,33
+VSF,NMRV-P110,90,B14,80,feasible,•,33
+VSF,NMRV-P110,90,B14,100,feasible,•,33
+VSF,NMRV-P110,80,B5,5,not feasible,**,33
+VSF,NMRV-P110,80,B5,7.5,feasible,•,33
+VSF,NMRV-P110,80,B5,10,feasible,•,33
+VSF,NMRV-P110,80,B5,15,feasible,•,33
+VSF,NMRV-P110,80,B5,20,feasible,•,33
+VSF,NMRV-P110,80,B5,25,feasible,•,33
+VSF,NMRV-P110,80,B5,30,feasible,•,33
+VSF,NMRV-P110,80,B5,40,feasible,•,33
+VSF,NMRV-P110,80,B5,50,feasible,•,33
+VSF,NMRV-P110,80,B5,60,feasible,•,33
+VSF,NMRV-P110,80,B5,80,feasible,•,33
+VSF,NMRV-P110,80,B5,100,feasible,•,33
+VSF,NMRV-P110,80,B14,5,not feasible,**,33
+VSF,NMRV-P110,80,B14,7.5,feasible,•,33
+VSF,NMRV-P110,80,B14,10,feasible,•,33
+VSF,NMRV-P110,80,B14,15,feasible,•,33
+VSF,NMRV-P110,80,B14,20,feasible,•,33
+VSF,NMRV-P110,80,B14,25,feasible,•,33
+VSF,NMRV-P110,80,B14,30,feasible,•,33
+VSF,NMRV-P110,80,B14,40,feasible,•,33
+VSF,NMRV-P110,80,B14,50,feasible,•,33
+VSF,NMRV-P110,80,B14,60,feasible,•,33
+VSF,NMRV-P110,80,B14,80,feasible,•,33
+VSF,NMRV-P110,80,B14,100,feasible,•,33
+VSF,NMRV130,132,B5,5,not feasible,**,33
+VSF,NMRV130,132,B5,7.5,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,10,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,15,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,20,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,25,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,30,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,40,feasible (low profile key supplied),•*,33
+VSF,NMRV130,132,B5,50,not feasible,**,33
+VSF,NMRV130,132,B5,60,not feasible,**,33
+VSF,NMRV130,132,B5,80,not feasible,**,33
+VSF,NMRV130,132,B5,100,not feasible,**,33
+VSF,NMRV130,100/112,B5,5,not feasible,**,33
+VSF,NMRV130,100/112,B5,7.5,not feasible,**,33
+VSF,NMRV130,100/112,B5,10,not feasible,**,33
+VSF,NMRV130,100/112,B5,15,not feasible,**,33
+VSF,NMRV130,100/112,B5,20,not feasible,**,33
+VSF,NMRV130,100/112,B5,25,feasible,•,33
+VSF,NMRV130,100/112,B5,30,feasible,•,33
+VSF,NMRV130,100/112,B5,40,feasible,•,33
+VSF,NMRV130,100/112,B5,50,feasible,•,33
+VSF,NMRV130,100/112,B5,60,feasible,•,33
+VSF,NMRV130,100/112,B5,80,feasible,•,33
+VSF,NMRV130,100/112,B5,100,feasible,•,33
+VSF,NMRV130,90,B5,5,not feasible,**,33
+VSF,NMRV130,90,B5,7.5,not feasible,**,33
+VSF,NMRV130,90,B5,10,not feasible,**,33
+VSF,NMRV130,90,B5,15,not feasible,**,33
+VSF,NMRV130,90,B5,20,not feasible,**,33
+VSF,NMRV130,90,B5,25,not feasible,**,33
+VSF,NMRV130,90,B5,30,not feasible,**,33
+VSF,NMRV130,90,B5,40,not feasible,**,33
+VSF,NMRV130,90,B5,50,not feasible,**,33
+VSF,NMRV130,90,B5,60,not feasible,**,33
+VSF,NMRV130,90,B5,80,feasible,•,33
+VSF,NMRV130,90,B5,100,feasible,•,33
+VSF,NMRV150,160,B5,5,not feasible,**,33
+VSF,NMRV150,160,B5,7.5,feasible,•,33
+VSF,NMRV150,160,B5,10,feasible,•,33
+VSF,NMRV150,160,B5,15,feasible,•,33
+VSF,NMRV150,160,B5,20,feasible,•,33
+VSF,NMRV150,160,B5,25,feasible,•,33
+VSF,NMRV150,160,B5,30,not feasible,**,33
+VSF,NMRV150,160,B5,40,not feasible,**,33
+VSF,NMRV150,160,B5,50,not feasible,**,33
+VSF,NMRV150,160,B5,60,not feasible,**,33
+VSF,NMRV150,160,B5,80,not feasible,**,33
+VSF,NMRV150,160,B5,100,not feasible,**,33
+VSF,NMRV150,132,B5,5,not feasible,**,33
+VSF,NMRV150,132,B5,7.5,not feasible,**,33
+VSF,NMRV150,132,B5,10,not feasible,**,33
+VSF,NMRV150,132,B5,15,not feasible,**,33
+VSF,NMRV150,132,B5,20,feasible,•,33
+VSF,NMRV150,132,B5,25,feasible,•,33
+VSF,NMRV150,132,B5,30,feasible,•,33
+VSF,NMRV150,132,B5,40,feasible,•,33
+VSF,NMRV150,132,B5,50,feasible,•,33
+VSF,NMRV150,132,B5,60,feasible,•,33
+VSF,NMRV150,132,B5,80,not feasible,**,33
+VSF,NMRV150,132,B5,100,not feasible,**,33
+VSF,NMRV150,100/112,B5,5,not feasible,**,33
+VSF,NMRV150,100/112,B5,7.5,not feasible,**,33
+VSF,NMRV150,100/112,B5,10,not feasible,**,33
+VSF,NMRV150,100/112,B5,15,not feasible,**,33
+VSF,NMRV150,100/112,B5,20,not feasible,**,33
+VSF,NMRV150,100/112,B5,25,not feasible,**,33
+VSF,NMRV150,100/112,B5,30,not feasible,**,33
+VSF,NMRV150,100/112,B5,40,not feasible,**,33
+VSF,NMRV150,100/112,B5,50,feasible,•,33
+VSF,NMRV150,100/112,B5,60,feasible,•,33
+VSF,NMRV150,100/112,B5,80,feasible,•,33
+VSF,NMRV150,100/112,B5,100,feasible,•,33
+VSF,SW030,63,B5,5,feasible,•,37
+VSF,SW030,63,B5,7.5,feasible,•,37
+VSF,SW030,63,B5,10,feasible,•,37
+VSF,SW030,63,B5,15,feasible,•,37
+VSF,SW030,63,B5,20,feasible,•,37
+VSF,SW030,63,B5,25,feasible,•,37
+VSF,SW030,63,B5,30,feasible,•,37
+VSF,SW030,63,B5,40,feasible,•,37
+VSF,SW030,63,B5,50,feasible,•,37
+VSF,SW030,63,B5,60,not feasible,**,37
+VSF,SW030,63,B5,80,not feasible,**,37
+VSF,SW030,63,B5,100,not feasible,**,37
+VSF,SW030,63,B14,5,feasible,•,37
+VSF,SW030,63,B14,7.5,feasible,•,37
+VSF,SW030,63,B14,10,feasible,•,37
+VSF,SW030,63,B14,15,feasible,•,37
+VSF,SW030,63,B14,20,feasible,•,37
+VSF,SW030,63,B14,25,feasible,•,37
+VSF,SW030,63,B14,30,feasible,•,37
+VSF,SW030,63,B14,40,feasible,•,37
+VSF,SW030,63,B14,50,feasible,•,37
+VSF,SW030,63,B14,60,not feasible,**,37
+VSF,SW030,63,B14,80,not feasible,**,37
+VSF,SW030,63,B14,100,not feasible,**,37
+VSF,SW030,56,B5,5,feasible,•,37
+VSF,SW030,56,B5,7.5,feasible,•,37
+VSF,SW030,56,B5,10,feasible,•,37
+VSF,SW030,56,B5,15,feasible,•,37
+VSF,SW030,56,B5,20,feasible,•,37
+VSF,SW030,56,B5,25,feasible,•,37
+VSF,SW030,56,B5,30,feasible,•,37
+VSF,SW030,56,B5,40,feasible,•,37
+VSF,SW030,56,B5,50,feasible,•,37
+VSF,SW030,56,B5,60,feasible,•,37
+VSF,SW030,56,B5,80,feasible,•,37
+VSF,SW030,56,B5,100,not feasible,**,37
+VSF,SW030,56,B14,5,feasible,•,37
+VSF,SW030,56,B14,7.5,feasible,•,37
+VSF,SW030,56,B14,10,feasible,•,37
+VSF,SW030,56,B14,15,feasible,•,37
+VSF,SW030,56,B14,20,feasible,•,37
+VSF,SW030,56,B14,25,feasible,•,37
+VSF,SW030,56,B14,30,feasible,•,37
+VSF,SW030,56,B14,40,feasible,•,37
+VSF,SW030,56,B14,50,feasible,•,37
+VSF,SW030,56,B14,60,feasible,•,37
+VSF,SW030,56,B14,80,feasible,•,37
+VSF,SW030,56,B14,100,not feasible,**,37
+VSF,SW040,71,B5,5,feasible,•,37
+VSF,SW040,71,B5,7.5,feasible,•,37
+VSF,SW040,71,B5,10,feasible,•,37
+VSF,SW040,71,B5,15,feasible,•,37
+VSF,SW040,71,B5,20,feasible,•,37
+VSF,SW040,71,B5,25,feasible,•,37
+VSF,SW040,71,B5,30,feasible,•,37
+VSF,SW040,71,B5,40,feasible,•,37
+VSF,SW040,71,B5,50,not feasible,**,37
+VSF,SW040,71,B5,60,not feasible,**,37
+VSF,SW040,71,B5,80,not feasible,**,37
+VSF,SW040,71,B5,100,not feasible,**,37
+VSF,SW040,71,B14,5,feasible,•,37
+VSF,SW040,71,B14,7.5,feasible,•,37
+VSF,SW040,71,B14,10,feasible,•,37
+VSF,SW040,71,B14,15,feasible,•,37
+VSF,SW040,71,B14,20,feasible,•,37
+VSF,SW040,71,B14,25,feasible,•,37
+VSF,SW040,71,B14,30,feasible,•,37
+VSF,SW040,71,B14,40,feasible,•,37
+VSF,SW040,71,B14,50,not feasible,**,37
+VSF,SW040,71,B14,60,not feasible,**,37
+VSF,SW040,71,B14,80,not feasible,**,37
+VSF,SW040,71,B14,100,not feasible,**,37
+VSF,SW040,63,B5,5,feasible,•,37
+VSF,SW040,63,B5,7.5,feasible,•,37
+VSF,SW040,63,B5,10,feasible,•,37
+VSF,SW040,63,B5,15,feasible,•,37
+VSF,SW040,63,B5,20,feasible,•,37
+VSF,SW040,63,B5,25,feasible,•,37
+VSF,SW040,63,B5,30,feasible,•,37
+VSF,SW040,63,B5,40,feasible,•,37
+VSF,SW040,63,B5,50,feasible,•,37
+VSF,SW040,63,B5,60,feasible,•,37
+VSF,SW040,63,B5,80,feasible,•,37
+VSF,SW040,63,B5,100,feasible,•,37
+VSF,SW040,63,B14,5,feasible,•,37
+VSF,SW040,63,B14,7.5,feasible,•,37
+VSF,SW040,63,B14,10,feasible,•,37
+VSF,SW040,63,B14,15,feasible,•,37
+VSF,SW040,63,B14,20,feasible,•,37
+VSF,SW040,63,B14,25,feasible,•,37
+VSF,SW040,63,B14,30,feasible,•,37
+VSF,SW040,63,B14,40,feasible,•,37
+VSF,SW040,63,B14,50,feasible,•,37
+VSF,SW040,63,B14,60,feasible,•,37
+VSF,SW040,63,B14,80,feasible,•,37
+VSF,SW040,63,B14,100,feasible,•,37
+VSF,SW040,56,B5,5,not feasible,**,37
+VSF,SW040,56,B5,7.5,not feasible,**,37
+VSF,SW040,56,B5,10,not feasible,**,37
+VSF,SW040,56,B5,15,not feasible,**,37
+VSF,SW040,56,B5,20,not feasible,**,37
+VSF,SW040,56,B5,25,not feasible,**,37
+VSF,SW040,56,B5,30,not feasible,**,37
+VSF,SW040,56,B5,40,not feasible,**,37
+VSF,SW040,56,B5,50,feasible,•,37
+VSF,SW040,56,B5,60,feasible,•,37
+VSF,SW040,56,B5,80,feasible,•,37
+VSF,SW040,56,B5,100,feasible,•,37
+VSF,SW050,80,B5,5,feasible,•,37
+VSF,SW050,80,B5,7.5,feasible,•,37
+VSF,SW050,80,B5,10,feasible,•,37
+VSF,SW050,80,B5,15,feasible,•,37
+VSF,SW050,80,B5,20,feasible,•,37
+VSF,SW050,80,B5,25,feasible,•,37
+VSF,SW050,80,B5,30,feasible,•,37
+VSF,SW050,80,B5,40,not feasible,**,37
+VSF,SW050,80,B5,50,not feasible,**,37
+VSF,SW050,80,B5,60,not feasible,**,37
+VSF,SW050,80,B5,80,not feasible,**,37
+VSF,SW050,80,B5,100,not feasible,**,37
+VSF,SW050,80,B14,5,feasible,•,37
+VSF,SW050,80,B14,7.5,feasible,•,37
+VSF,SW050,80,B14,10,feasible,•,37
+VSF,SW050,80,B14,15,feasible,•,37
+VSF,SW050,80,B14,20,feasible,•,37
+VSF,SW050,80,B14,25,feasible,•,37
+VSF,SW050,80,B14,30,feasible,•,37
+VSF,SW050,80,B14,40,not feasible,**,37
+VSF,SW050,80,B14,50,not feasible,**,37
+VSF,SW050,80,B14,60,not feasible,**,37
+VSF,SW050,80,B14,80,not feasible,**,37
+VSF,SW050,80,B14,100,not feasible,**,37
+VSF,SW050,71,B5,5,feasible,•,37
+VSF,SW050,71,B5,7.5,feasible,•,37
+VSF,SW050,71,B5,10,feasible,•,37
+VSF,SW050,71,B5,15,feasible,•,37
+VSF,SW050,71,B5,20,feasible,•,37
+VSF,SW050,71,B5,25,feasible,•,37
+VSF,SW050,71,B5,30,feasible,•,37
+VSF,SW050,71,B5,40,feasible,•,37
+VSF,SW050,71,B5,50,feasible,•,37
+VSF,SW050,71,B5,60,feasible,•,37
+VSF,SW050,71,B5,80,feasible,•,37
+VSF,SW050,71,B5,100,not feasible,**,37
+VSF,SW050,71,B14,5,feasible,•,37
+VSF,SW050,71,B14,7.5,feasible,•,37
+VSF,SW050,71,B14,10,feasible,•,37
+VSF,SW050,71,B14,15,feasible,•,37
+VSF,SW050,71,B14,20,feasible,•,37
+VSF,SW050,71,B14,25,feasible,•,37
+VSF,SW050,71,B14,30,feasible,•,37
+VSF,SW050,71,B14,40,feasible,•,37
+VSF,SW050,71,B14,50,feasible,•,37
+VSF,SW050,71,B14,60,feasible,•,37
+VSF,SW050,71,B14,80,feasible,•,37
+VSF,SW050,71,B14,100,not feasible,**,37
+VSF,SW050,63,B5,5,not feasible,**,37
+VSF,SW050,63,B5,7.5,not feasible,**,37
+VSF,SW050,63,B5,10,not feasible,**,37
+VSF,SW050,63,B5,15,not feasible,**,37
+VSF,SW050,63,B5,20,not feasible,**,37
+VSF,SW050,63,B5,25,not feasible,**,37
+VSF,SW050,63,B5,30,not feasible,**,37
+VSF,SW050,63,B5,40,feasible,•,37
+VSF,SW050,63,B5,50,feasible,•,37
+VSF,SW050,63,B5,60,feasible,•,37
+VSF,SW050,63,B5,80,feasible,•,37
+VSF,SW050,63,B5,100,feasible,•,37
+VSF,SW063,90,B5,5,not feasible,**,37
+VSF,SW063,90,B5,7.5,feasible,•,37
+VSF,SW063,90,B5,10,feasible,•,37
+VSF,SW063,90,B5,15,feasible,•,37
+VSF,SW063,90,B5,20,feasible,•,37
+VSF,SW063,90,B5,25,feasible,•,37
+VSF,SW063,90,B5,30,feasible,•,37
+VSF,SW063,90,B5,40,feasible,•,37
+VSF,SW063,90,B5,50,not to be used (out of warranty),+,37
+VSF,SW063,90,B5,60,not to be used (out of warranty),+,37
+VSF,SW063,90,B5,80,not to be used (out of warranty),+,37
+VSF,SW063,90,B5,100,not to be used (out of warranty),+,37
+VSF,SW063,90,B14,5,not feasible,**,37
+VSF,SW063,90,B14,7.5,feasible,•,37
+VSF,SW063,90,B14,10,feasible,•,37
+VSF,SW063,90,B14,15,feasible,•,37
+VSF,SW063,90,B14,20,feasible,•,37
+VSF,SW063,90,B14,25,feasible,•,37
+VSF,SW063,90,B14,30,feasible,•,37
+VSF,SW063,90,B14,40,feasible,•,37
+VSF,SW063,90,B14,50,not to be used (out of warranty),+,37
+VSF,SW063,90,B14,60,not to be used (out of warranty),+,37
+VSF,SW063,90,B14,80,not to be used (out of warranty),+,37
+VSF,SW063,90,B14,100,not to be used (out of warranty),+,37
+VSF,SW063,80,B5,5,not feasible,**,37
+VSF,SW063,80,B5,7.5,feasible,•,37
+VSF,SW063,80,B5,10,feasible,•,37
+VSF,SW063,80,B5,15,feasible,•,37
+VSF,SW063,80,B5,20,feasible,•,37
+VSF,SW063,80,B5,25,feasible,•,37
+VSF,SW063,80,B5,30,feasible,•,37
+VSF,SW063,80,B5,40,not feasible,**,37
+VSF,SW063,80,B5,50,not feasible,**,37
+VSF,SW063,80,B5,60,not feasible,**,37
+VSF,SW063,80,B5,80,not feasible,**,37
+VSF,SW063,80,B5,100,not feasible,**,37
+VSF,SW063,80,B14,5,not feasible,**,37
+VSF,SW063,80,B14,7.5,feasible,•,37
+VSF,SW063,80,B14,10,feasible,•,37
+VSF,SW063,80,B14,15,feasible,•,37
+VSF,SW063,80,B14,20,feasible,•,37
+VSF,SW063,80,B14,25,feasible,•,37
+VSF,SW063,80,B14,30,feasible,•,37
+VSF,SW063,80,B14,40,not feasible,**,37
+VSF,SW063,80,B14,50,not feasible,**,37
+VSF,SW063,80,B14,60,not feasible,**,37
+VSF,SW063,80,B14,80,not feasible,**,37
+VSF,SW063,80,B14,100,not feasible,**,37
+VSF,SW063,71,B5,5,not feasible,**,37
+VSF,SW063,71,B5,7.5,not feasible,**,37
+VSF,SW063,71,B5,10,not feasible,**,37
+VSF,SW063,71,B5,15,not feasible,**,37
+VSF,SW063,71,B5,20,not feasible,**,37
+VSF,SW063,71,B5,25,not feasible,**,37
+VSF,SW063,71,B5,30,not feasible,**,37
+VSF,SW063,71,B5,40,feasible,•,37
+VSF,SW063,71,B5,50,feasible,•,37
+VSF,SW063,71,B5,60,feasible,•,37
+VSF,SW063,71,B5,80,not feasible,**,37
+VSF,SW063,71,B5,100,not feasible,**,37
+VSF,SW063,71,B14,5,not feasible,**,37
+VSF,SW063,71,B14,7.5,not feasible,**,37
+VSF,SW063,71,B14,10,not feasible,**,37
+VSF,SW063,71,B14,15,not feasible,**,37
+VSF,SW063,71,B14,20,not feasible,**,37
+VSF,SW063,71,B14,25,not feasible,**,37
+VSF,SW063,71,B14,30,not feasible,**,37
+VSF,SW063,71,B14,40,feasible,•,37
+VSF,SW063,71,B14,50,feasible,•,37
+VSF,SW063,71,B14,60,feasible,•,37
+VSF,SW063,71,B14,80,not feasible,**,37
+VSF,SW063,71,B14,100,not feasible,**,37
+VSF,SW075,100/112,B5,5,not feasible,**,37
+VSF,SW075,100/112,B5,7.5,feasible,•,37
+VSF,SW075,100/112,B5,10,feasible,•,37
+VSF,SW075,100/112,B5,15,feasible,•,37
+VSF,SW075,100/112,B5,20,not feasible,**,37
+VSF,SW075,100/112,B5,25,not feasible,**,37
+VSF,SW075,100/112,B5,30,not feasible,**,37
+VSF,SW075,100/112,B5,40,not feasible,**,37
+VSF,SW075,100/112,B5,50,not feasible,**,37
+VSF,SW075,100/112,B5,60,not feasible,**,37
+VSF,SW075,100/112,B5,80,not feasible,**,37
+VSF,SW075,100/112,B5,100,not feasible,**,37
+VSF,SW075,100/112,B14,5,not feasible,**,37
+VSF,SW075,100/112,B14,7.5,feasible,•,37
+VSF,SW075,100/112,B14,10,feasible,•,37
+VSF,SW075,100/112,B14,15,feasible,•,37
+VSF,SW075,100/112,B14,20,not feasible,**,37
+VSF,SW075,100/112,B14,25,not feasible,**,37
+VSF,SW075,100/112,B14,30,not feasible,**,37
+VSF,SW075,100/112,B14,40,not feasible,**,37
+VSF,SW075,100/112,B14,50,not feasible,**,37
+VSF,SW075,100/112,B14,60,not feasible,**,37
+VSF,SW075,100/112,B14,80,not feasible,**,37
+VSF,SW075,100/112,B14,100,not feasible,**,37
+VSF,SW075,90,B5,5,not feasible,**,37
+VSF,SW075,90,B5,7.5,feasible,•,37
+VSF,SW075,90,B5,10,feasible,•,37
+VSF,SW075,90,B5,15,feasible,•,37
+VSF,SW075,90,B5,20,feasible,•,37
+VSF,SW075,90,B5,25,feasible,•,37
+VSF,SW075,90,B5,30,feasible,•,37
+VSF,SW075,90,B5,40,feasible,•,37
+VSF,SW075,90,B5,50,not feasible,**,37
+VSF,SW075,90,B5,60,not feasible,**,37
+VSF,SW075,90,B5,80,not feasible,**,37
+VSF,SW075,90,B5,100,not feasible,**,37
+VSF,SW075,90,B14,5,not feasible,**,37
+VSF,SW075,90,B14,7.5,feasible,•,37
+VSF,SW075,90,B14,10,feasible,•,37
+VSF,SW075,90,B14,15,feasible,•,37
+VSF,SW075,90,B14,20,feasible,•,37
+VSF,SW075,90,B14,25,feasible,•,37
+VSF,SW075,90,B14,30,feasible,•,37
+VSF,SW075,90,B14,40,feasible,•,37
+VSF,SW075,90,B14,50,not feasible,**,37
+VSF,SW075,90,B14,60,not feasible,**,37
+VSF,SW075,90,B14,80,not feasible,**,37
+VSF,SW075,90,B14,100,not feasible,**,37
+VSF,SW075,80,B5,5,not feasible,**,37
+VSF,SW075,80,B5,7.5,not feasible,**,37
+VSF,SW075,80,B5,10,not feasible,**,37
+VSF,SW075,80,B5,15,not feasible,**,37
+VSF,SW075,80,B5,20,feasible,•,37
+VSF,SW075,80,B5,25,feasible,•,37
+VSF,SW075,80,B5,30,feasible,•,37
+VSF,SW075,80,B5,40,feasible,•,37
+VSF,SW075,80,B5,50,feasible,•,37
+VSF,SW075,80,B5,60,feasible,•,37
+VSF,SW075,80,B5,80,feasible,•,37
+VSF,SW075,80,B5,100,feasible,•,37
+VSF,SW075,80,B14,5,not feasible,**,37
+VSF,SW075,80,B14,7.5,not feasible,**,37
+VSF,SW075,80,B14,10,not feasible,**,37
+VSF,SW075,80,B14,15,not feasible,**,37
+VSF,SW075,80,B14,20,feasible,•,37
+VSF,SW075,80,B14,25,feasible,•,37
+VSF,SW075,80,B14,30,feasible,•,37
+VSF,SW075,80,B14,40,feasible,•,37
+VSF,SW075,80,B14,50,feasible,•,37
+VSF,SW075,80,B14,60,feasible,•,37
+VSF,SW075,80,B14,80,feasible,•,37
+VSF,SW075,80,B14,100,feasible,•,37
+VSF,SW075,71,B5,5,not feasible,**,37
+VSF,SW075,71,B5,7.5,not feasible,**,37
+VSF,SW075,71,B5,10,not feasible,**,37
+VSF,SW075,71,B5,15,not feasible,**,37
+VSF,SW075,71,B5,20,not feasible,**,37
+VSF,SW075,71,B5,25,not feasible,**,37
+VSF,SW075,71,B5,30,not feasible,**,37
+VSF,SW075,71,B5,40,not feasible,**,37
+VSF,SW075,71,B5,50,feasible,•,37
+VSF,SW075,71,B5,60,feasible,•,37
+VSF,SW075,71,B5,80,feasible,•,37
+VSF,SW075,71,B5,100,feasible,•,37
+VSF,SW075,71,B14,5,not feasible,**,37
+VSF,SW075,71,B14,7.5,not feasible,**,37
+VSF,SW075,71,B14,10,not feasible,**,37
+VSF,SW075,71,B14,15,not feasible,**,37
+VSF,SW075,71,B14,20,not feasible,**,37
+VSF,SW075,71,B14,25,not feasible,**,37
+VSF,SW075,71,B14,30,not feasible,**,37
+VSF,SW075,71,B14,40,not feasible,**,37
+VSF,SW075,71,B14,50,feasible,•,37
+VSF,SW075,71,B14,60,feasible,•,37
+VSF,SW075,71,B14,80,feasible,•,37
+VSF,SW075,71,B14,100,feasible,•,37
+VSF,SW090,100/112,B5,5,not feasible,**,37
+VSF,SW090,100/112,B5,7.5,feasible,•,37
+VSF,SW090,100/112,B5,10,feasible,•,37
+VSF,SW090,100/112,B5,15,feasible,•,37
+VSF,SW090,100/112,B5,20,feasible,•,37
+VSF,SW090,100/112,B5,25,feasible,•,37
+VSF,SW090,100/112,B5,30,feasible,•,37
+VSF,SW090,100/112,B5,40,not feasible,**,37
+VSF,SW090,100/112,B5,50,not feasible,**,37
+VSF,SW090,100/112,B5,60,not feasible,**,37
+VSF,SW090,100/112,B5,80,not feasible,**,37
+VSF,SW090,100/112,B5,100,not feasible,**,37
+VSF,SW090,100/112,B14,5,not feasible,**,37
+VSF,SW090,100/112,B14,7.5,feasible,•,37
+VSF,SW090,100/112,B14,10,feasible,•,37
+VSF,SW090,100/112,B14,15,feasible,•,37
+VSF,SW090,100/112,B14,20,feasible,•,37
+VSF,SW090,100/112,B14,25,feasible,•,37
+VSF,SW090,100/112,B14,30,feasible,•,37
+VSF,SW090,100/112,B14,40,not feasible,**,37
+VSF,SW090,100/112,B14,50,not feasible,**,37
+VSF,SW090,100/112,B14,60,not feasible,**,37
+VSF,SW090,100/112,B14,80,not feasible,**,37
+VSF,SW090,100/112,B14,100,not feasible,**,37
+VSF,SW090,90,B5,5,not feasible,**,37
+VSF,SW090,90,B5,7.5,feasible,•,37
+VSF,SW090,90,B5,10,feasible,•,37
+VSF,SW090,90,B5,15,feasible,•,37
+VSF,SW090,90,B5,20,feasible,•,37
+VSF,SW090,90,B5,25,feasible,•,37
+VSF,SW090,90,B5,30,feasible,•,37
+VSF,SW090,90,B5,40,feasible,•,37
+VSF,SW090,90,B5,50,feasible,•,37
+VSF,SW090,90,B5,60,feasible,•,37
+VSF,SW090,90,B5,80,not feasible,**,37
+VSF,SW090,90,B5,100,not feasible,**,37
+VSF,SW090,90,B14,5,not feasible,**,37
+VSF,SW090,90,B14,7.5,feasible,•,37
+VSF,SW090,90,B14,10,feasible,•,37
+VSF,SW090,90,B14,15,feasible,•,37
+VSF,SW090,90,B14,20,feasible,•,37
+VSF,SW090,90,B14,25,feasible,•,37
+VSF,SW090,90,B14,30,feasible,•,37
+VSF,SW090,90,B14,40,feasible,•,37
+VSF,SW090,90,B14,50,feasible,•,37
+VSF,SW090,90,B14,60,feasible,•,37
+VSF,SW090,90,B14,80,not feasible,**,37
+VSF,SW090,90,B14,100,not feasible,**,37
+VSF,SW090,80,B5,5,not feasible,**,37
+VSF,SW090,80,B5,7.5,not feasible,**,37
+VSF,SW090,80,B5,10,not feasible,**,37
+VSF,SW090,80,B5,15,not feasible,**,37
+VSF,SW090,80,B5,20,not feasible,**,37
+VSF,SW090,80,B5,25,not feasible,**,37
+VSF,SW090,80,B5,30,not feasible,**,37
+VSF,SW090,80,B5,40,feasible,•,37
+VSF,SW090,80,B5,50,feasible,•,37
+VSF,SW090,80,B5,60,feasible,•,37
+VSF,SW090,80,B5,80,feasible,•,37
+VSF,SW090,80,B5,100,feasible,•,37
+VSF,SW090,80,B14,5,not feasible,**,37
+VSF,SW090,80,B14,7.5,not feasible,**,37
+VSF,SW090,80,B14,10,not feasible,**,37
+VSF,SW090,80,B14,15,not feasible,**,37
+VSF,SW090,80,B14,20,not feasible,**,37
+VSF,SW090,80,B14,25,not feasible,**,37
+VSF,SW090,80,B14,30,not feasible,**,37
+VSF,SW090,80,B14,40,feasible,•,37
+VSF,SW090,80,B14,50,feasible,•,37
+VSF,SW090,80,B14,60,feasible,•,37
+VSF,SW090,80,B14,80,feasible,•,37
+VSF,SW090,80,B14,100,feasible,•,37
+VSF,SW105,132,B5,5,not feasible,**,37
+VSF,SW105,132,B5,7.5,feasible (low profile key supplied),•*,37
+VSF,SW105,132,B5,10,feasible (low profile key supplied),•*,37
+VSF,SW105,132,B5,15,feasible (low profile key supplied),•*,37
+VSF,SW105,132,B5,20,feasible (low profile key supplied),•*,37
+VSF,SW105,132,B5,25,not feasible,**,37
+VSF,SW105,132,B5,30,not feasible,**,37
+VSF,SW105,132,B5,40,not feasible,**,37
+VSF,SW105,132,B5,50,not feasible,**,37
+VSF,SW105,132,B5,60,not feasible,**,37
+VSF,SW105,132,B5,80,not feasible,**,37
+VSF,SW105,132,B5,100,not feasible,**,37
+VSF,SW105,100/112,B5,5,not feasible,**,37
+VSF,SW105,100/112,B5,7.5,feasible,•,37
+VSF,SW105,100/112,B5,10,feasible,•,37
+VSF,SW105,100/112,B5,15,feasible,•,37
+VSF,SW105,100/112,B5,20,feasible,•,37
+VSF,SW105,100/112,B5,25,feasible,•,37
+VSF,SW105,100/112,B5,30,feasible,•,37
+VSF,SW105,100/112,B5,40,feasible,•,37
+VSF,SW105,100/112,B5,50,feasible,•,37
+VSF,SW105,100/112,B5,60,feasible,•,37
+VSF,SW105,100/112,B5,80,not feasible,**,37
+VSF,SW105,100/112,B5,100,not feasible,**,37
+VSF,SW105,100/112,B14,5,not feasible,**,37
+VSF,SW105,100/112,B14,7.5,feasible,•,37
+VSF,SW105,100/112,B14,10,feasible,•,37
+VSF,SW105,100/112,B14,15,feasible,•,37
+VSF,SW105,100/112,B14,20,feasible,•,37
+VSF,SW105,100/112,B14,25,feasible,•,37
+VSF,SW105,100/112,B14,30,feasible,•,37
+VSF,SW105,100/112,B14,40,feasible,•,37
+VSF,SW105,100/112,B14,50,feasible,•,37
+VSF,SW105,100/112,B14,60,feasible,•,37
+VSF,SW105,100/112,B14,80,not feasible,**,37
+VSF,SW105,100/112,B14,100,not feasible,**,37
+VSF,SW105,90,B5,5,not feasible,**,37
+VSF,SW105,90,B5,7.5,not feasible,**,37
+VSF,SW105,90,B5,10,not feasible,**,37
+VSF,SW105,90,B5,15,not feasible,**,37
+VSF,SW105,90,B5,20,not feasible,**,37
+VSF,SW105,90,B5,25,feasible,•,37
+VSF,SW105,90,B5,30,feasible,•,37
+VSF,SW105,90,B5,40,feasible,•,37
+VSF,SW105,90,B5,50,feasible,•,37
+VSF,SW105,90,B5,60,feasible,•,37
+VSF,SW105,90,B5,80,feasible,•,37
+VSF,SW105,90,B5,100,feasible,•,37
+VSF,SW105,90,B14,5,not feasible,**,37
+VSF,SW105,90,B14,7.5,not feasible,**,37
+VSF,SW105,90,B14,10,not feasible,**,37
+VSF,SW105,90,B14,15,not feasible,**,37
+VSF,SW105,90,B14,20,not feasible,**,37
+VSF,SW105,90,B14,25,feasible,•,37
+VSF,SW105,90,B14,30,feasible,•,37
+VSF,SW105,90,B14,40,feasible,•,37
+VSF,SW105,90,B14,50,feasible,•,37
+VSF,SW105,90,B14,60,feasible,•,37
+VSF,SW105,90,B14,80,feasible,•,37
+VSF,SW105,90,B14,100,feasible,•,37
+VSF,SW105,80,B5,5,not feasible,**,37
+VSF,SW105,80,B5,7.5,not feasible,**,37
+VSF,SW105,80,B5,10,not feasible,**,37
+VSF,SW105,80,B5,15,not feasible,**,37
+VSF,SW105,80,B5,20,not feasible,**,37
+VSF,SW105,80,B5,25,not feasible,**,37
+VSF,SW105,80,B5,30,not feasible,**,37
+VSF,SW105,80,B5,40,not feasible,**,37
+VSF,SW105,80,B5,50,feasible,•,37
+VSF,SW105,80,B5,60,feasible,•,37
+VSF,SW105,80,B5,80,feasible,•,37
+VSF,SW105,80,B5,100,feasible,•,37
+VSF,SW105,80,B14,5,not feasible,**,37
+VSF,SW105,80,B14,7.5,not feasible,**,37
+VSF,SW105,80,B14,10,not feasible,**,37
+VSF,SW105,80,B14,15,not feasible,**,37
+VSF,SW105,80,B14,20,not feasible,**,37
+VSF,SW105,80,B14,25,not feasible,**,37
+VSF,SW105,80,B14,30,not feasible,**,37
+VSF,SW105,80,B14,40,not feasible,**,37
+VSF,SW105,80,B14,50,feasible,•,37
+VSF,SW105,80,B14,60,feasible,•,37
+VSF,SW105,80,B14,80,feasible,•,37
+VSF,SW105,80,B14,100,feasible,•,37

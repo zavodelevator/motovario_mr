@@ -1,0 +1,244 @@
+{
+ "series": "HPL",
+ "source_pages": [
+  39,
+  40,
+  41,
+  42,
+  188,
+  189,
+  190,
+  191
+ ],
+ "note": "Transcribed from the designation flow charts (PDF p.39 for HL, p.188 for VP) which are raster images; verified on rendered pages. Right-angle codes (PHB, HB, CHB, IHB and mounting B3A..V3D) appear in the chart but belong to another catalogue (not tabulated here).",
+ "HL": {
+  "pattern": "HL 2 010 F 300x38 CS 50x82 3,44 B3 [accessories-options]",
+  "segments": [
+   {
+    "name": "gearbox_type",
+    "example": "HL",
+    "values": {
+     "PHL": "coaxial planetary, PAM motor-mounting version fitted for motor with flexible coupling (up to IEC 132)",
+     "HL": "coaxial planetary, PAM motor reducer (flange + coupling for IEC motor; geared motor version)",
+     "CHL": "coaxial planetary, compact electric motor version (motor flange-mounted directly, B11 compact)",
+     "IHL": "coaxial planetary, input shaft version (gear reducer)",
+     "PHB": "right angle (not in this catalogue)",
+     "HB": "right angle (not in this catalogue)",
+     "CHB": "right angle (not in this catalogue)",
+     "IHB": "right angle (not in this catalogue)"
+    }
+   },
+   {
+    "name": "stages",
+    "example": "2",
+    "values": {
+     "1": "1 stage",
+     "2": "2 stages",
+     "3": "3 stages",
+     "4": "4 stages"
+    }
+   },
+   {
+    "name": "size",
+    "example": "010",
+    "values": {
+     "010": "HPL size 010",
+     "020": "HPL size 020",
+     "030": "HPL size 030",
+     "050": "HPL size 050",
+     "080": "HPL size 080",
+     "130": "HPL size 130",
+     "180": "HPL size 180",
+     "220": "HPL size 220",
+     "380": "HPL size 380"
+    }
+   },
+   {
+    "name": "casing_version",
+    "example": "F",
+    "values": {
+     "T": "foot",
+     "F": "flange"
+    }
+   },
+   {
+    "name": "input_dimension",
+    "example": "300x38",
+    "values": {
+     "55X110": "ECE (input shaft version)",
+     "300X38": "PAM (flange diameter Pm x motor shaft bore Dm, e.g. 300x38 = IEC 132)"
+    },
+    "iec_pam_codes": {
+     "71": "160x14",
+     "80": "200x19",
+     "90": "200x24",
+     "100": "250x28",
+     "112": "250x28",
+     "132": "300x38",
+     "160": "350x42",
+     "180": "350x48",
+     "200": "400x55",
+     "225": "450x60",
+     "250": "550x65"
+    }
+   },
+   {
+    "name": "output_shaft_version",
+    "example": "CS",
+    "values": {
+     "CS": "solid shaft (keyed)",
+     "SS": "splined solid shaft (DIN 5482)",
+     "HS": "splined hollow shaft (DIN 5482)",
+     "HM1": "hollow shaft with shrink disc (disc supplied unassembled)",
+     "HM0": "hollow shaft for shrink disc (disc not supplied)"
+    }
+   },
+   {
+    "name": "output_dimension",
+    "example": "50x82",
+    "values": {
+     "DxL": "shaft diameter x length, e.g. 50x82",
+     "D": "diameter only, e.g. 35"
+    }
+   },
+   {
+    "name": "reduction_ratio",
+    "example": "3,44",
+    "values": {
+     "range": "from 3,44 to 2500 (exact ratios in ratings.csv / extra_motor_flange_availability.csv)"
+    }
+   },
+   {
+    "name": "mounting_position_version_L",
+    "example": "B3",
+    "values": {
+     "B3": "foot, horizontal (T)",
+     "B6": "foot, wall (T)",
+     "B7": "foot, wall (T)",
+     "B8": "foot, ceiling (T)",
+     "V5": "foot, vertical output down-side wall (T) (flange version equivalent V1)",
+     "V6": "foot, vertical wall (T) (flange version equivalent V3)",
+     "B5": "flange horizontal (F) (equivalent of B3 for flange)",
+     "V1": "flange vertical output down (F)",
+     "V3": "flange vertical output up (F)"
+    },
+    "note": "p.41: HL..T uses B3, B6, B7, B8, V5, V6; HL..F uses B5, V1, V3. B3 gives lower oil splash, better lubrication and less heating. Chart shows B3 (B5), V5 (V1), V6 (V3)."
+   },
+   {
+    "name": "accessories_options",
+    "example": "...",
+    "values": {
+     "see": "shaft options, wheel flange, axial washer, torque arm, backstop, reinforced seals VR/VRM or FPM, blue RAL 5010 paint, VG320 PAO first fill (sections 6.1-6.7)"
+    }
+   }
+  ],
+  "terminal_box_position": {
+   "values": {
+    "1": "top (default)",
+    "2": "right",
+    "3": "bottom",
+    "4": "left"
+   },
+   "note": "Default position 1 unless specified (p.40)."
+  }
+ },
+ "VP": {
+  "pattern": "VP P613 F 300x38 CS 50x82 348 AK B3 [accessories-options]",
+  "segments": [
+   {
+    "name": "gearbox_type",
+    "example": "VP",
+    "values": {
+     "VP": "combined reducer (NMRV-P worm first stage + 2 planetary stages)",
+     "VPL": "combined reducer with torque limiter (P613-P983)"
+    }
+   },
+   {
+    "name": "size",
+    "example": "P613",
+    "values": {
+     "P613": "VP P613",
+     "P623": "VP P623",
+     "P633": "VP P633",
+     "P653": "VP P653",
+     "P983": "VP P983",
+     "P1133": "VP P1133",
+     "P1183": "VP P1183"
+    }
+   },
+   {
+    "name": "casing_version",
+    "example": "F",
+    "values": {
+     "T": "foot",
+     "F": "flange"
+    }
+   },
+   {
+    "name": "input_dimension",
+    "example": "300x38",
+    "values": {
+     "PAM": "PAM flange for IEC motor"
+    }
+   },
+   {
+    "name": "output_shaft_version",
+    "example": "CS",
+    "values": {
+     "CS": "solid shaft",
+     "SS": "splined solid shaft",
+     "HS": "splined hollow shaft",
+     "HM1": "shrink disc shaft (disc supplied)",
+     "HM0": "hollow shaft for shrink disc"
+    }
+   },
+   {
+    "name": "output_dimension",
+    "example": "50x82",
+    "values": {
+     "DxL": "diameter x length",
+     "D": "diameter"
+    }
+   },
+   {
+    "name": "reduction_ratio",
+    "example": "348",
+    "values": {
+     "range": "from 215 to 3190 (extra_vp_ratios.csv)"
+    }
+   },
+   {
+    "name": "execution",
+    "values": {
+     "AJ": "worm-stage input/shaft execution (drawings p.190)",
+     "AK": "worm-stage input/shaft execution (drawings p.190)",
+     "BJ": "worm-stage input/shaft execution (drawings p.190)",
+     "BK": "worm-stage input/shaft execution (drawings p.190)",
+     "PJ": "worm-stage input/shaft execution (drawings p.190)",
+     "PK": "worm-stage input/shaft execution (drawings p.190)",
+     "VJ": "worm-stage input/shaft execution (drawings p.190)",
+     "VK": "worm-stage input/shaft execution (drawings p.190)"
+    }
+   },
+   {
+    "name": "mounting_position",
+    "example": "B3",
+    "values": {
+     "B3 (B5)": "standard B3/AK",
+     "B6": "",
+     "B7": "",
+     "B8": "",
+     "V5 (V1)": "",
+     "V6 (V3)": ""
+    }
+   },
+   {
+    "name": "accessories_options",
+    "example": "...",
+    "values": {
+     "see": "section 11 / HPL section 6"
+    }
+   }
+  ]
+ }
+}

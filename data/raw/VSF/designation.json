@@ -1,0 +1,536 @@
+{
+ "series": "VSF",
+ "source_pages": [
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "note": "The designation is shown on pp.11-15 of the printed catalogue only as flow diagrams (images); segments are in drawing order, values are the boxes printed in the diagram.",
+ "patterns": [
+  {
+   "family": "NMRV / NRV (worm gearbox, p13)",
+   "pattern": "NMRV 050 HA31 FA 7,5 160x14 VS 125 25 BS B3 ...accessories",
+   "segments": [
+    {
+     "name": "gearbox_type",
+     "description": "gearbox type",
+     "values": {
+      "NMRV": "worm geared motor / gearbox with motor flange",
+      "NRV": "worm gear reducer with input shaft"
+     },
+     "src_page": null
+    },
+    {
+     "name": "size",
+     "description": "size",
+     "values": {
+      "025": "025",
+      "030": "030",
+      "040": "040",
+      "050": "050",
+      "063": "063",
+      "075": "075",
+      "090": "090",
+      "105": "105",
+      "110": "110",
+      "130": "130",
+      "150": "150"
+     },
+     "src_page": null
+    },
+    {
+     "name": "prestage",
+     "description": "optional pre-stage helical module",
+     "values": {
+      "HA31": "pre-stage helical module (NMRV 040-050)"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_flange",
+     "description": "output flange",
+     "values": {
+      "FA": "output flange type FA",
+      "FB": "output flange type FB",
+      "FC": "output flange type FC",
+      "FD": "output flange type FD",
+      "FE": "output flange type FE"
+     },
+     "src_page": null
+    },
+    {
+     "name": "ratio",
+     "description": "reduction ratio (5, 7,5, 10 ... 100, then pre-stage ratios e.g. 22,08 ... 315)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "input_dimensions",
+     "description": "input dimensions: motor-flange fitting (PAM + IEC size, e.g. 160x14 = flange Ø160 x bore 14) or input shaft diameter (ECE)",
+     "values": {
+      "PAM": "fitted for motor coupling",
+      "ECE": "input shaft diameter"
+     },
+     "src_page": null
+    },
+    {
+     "name": "VS",
+     "description": "double input shaft (option, blank box in the catalogue = value to be specified)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_flange_dia",
+     "description": "Ø output flange (mm, e.g. 125)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_shaft_dia",
+     "description": "Ø output shaft (mm, e.g. 25)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "execution",
+     "description": "execution",
+     "values": {
+      "AS": "AS",
+      "BS": "BS",
+      "VS": "VS",
+      "PS": "PS"
+     },
+     "src_page": null
+    },
+    {
+     "name": "mounting_position",
+     "description": "mounting position",
+     "values": {
+      "B3": "mounting position B3",
+      "B8": "mounting position B8",
+      "B6": "mounting position B6",
+      "B7": "mounting position B7",
+      "V5": "mounting position V5",
+      "V6": "mounting position V6"
+     },
+     "src_page": null
+    },
+    {
+     "name": "accessories",
+     "description": "accessories",
+     "values": {},
+     "src_page": null
+    }
+   ]
+  },
+  {
+   "family": "NMRV-P / NRV-P (p14)",
+   "pattern": "NMRV-P 063 HW030 FA 30 160x14 VS 125 25 B3 ...accessories",
+   "segments": [
+    {
+     "name": "gearbox_type",
+     "description": "gearbox type",
+     "values": {
+      "NMRV-P": "NMRV-P worm geared motor (power series)",
+      "NRV-P": "NRV-P worm reducer"
+     },
+     "src_page": null
+    },
+    {
+     "name": "size",
+     "description": "size",
+     "values": {
+      "063": "063",
+      "075": "075",
+      "090": "090",
+      "110": "110"
+     },
+     "src_page": null
+    },
+    {
+     "name": "prestage",
+     "description": "optional pre-stage helical module",
+     "values": {
+      "HW030": "HW030",
+      "HW040": "HW040",
+      "IHW040": "IHW040"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_flange",
+     "description": "output flange",
+     "values": {
+      "FA": "output flange type FA",
+      "FB": "output flange type FB",
+      "FC": "output flange type FC",
+      "FD": "output flange type FD",
+      "FE": "output flange type FE"
+     },
+     "src_page": null
+    },
+    {
+     "name": "ratio",
+     "description": "reduction ratio (5/7,5 ... 100, with pre-stage 22,08 ... 1083,3)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "input_dimensions",
+     "description": "input dimensions: motor-flange fitting (PAM + IEC size, e.g. 160x14 = flange Ø160 x bore 14) or input shaft diameter (ECE)",
+     "values": {
+      "PAM": "fitted for motor coupling",
+      "ECE": "input shaft diameter"
+     },
+     "src_page": null
+    },
+    {
+     "name": "VS",
+     "description": "double input shaft (option, blank box in the catalogue = value to be specified)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_flange_dia",
+     "description": "Ø output flange (mm, e.g. 125)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_shaft_dia",
+     "description": "Ø output shaft (mm, e.g. 25)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "mounting_position",
+     "description": "mounting position",
+     "values": {
+      "B3": "mounting position B3",
+      "B8": "mounting position B8",
+      "B6": "mounting position B6",
+      "B7": "mounting position B7",
+      "V5": "mounting position V5",
+      "V6": "mounting position V6"
+     },
+     "src_page": null
+    },
+    {
+     "name": "accessories",
+     "description": "accessories",
+     "values": {},
+     "src_page": null
+    }
+   ]
+  },
+  {
+   "family": "combined NMRV+NMRV etc. (p15)",
+   "pattern": "NMRV+NMRV-P 050+110 FA 900 160x14 40 BS1 B3",
+   "segments": [
+    {
+     "name": "gearbox_type",
+     "description": "combined unit",
+     "values": {
+      "NMRV+NMRV": "combined geared motor",
+      "NMRV+NMRV-P": "combined geared motor",
+      "NMRV-P+NMRV": "combined geared motor",
+      "NMRV-P+NMRV-P": "combined geared motor",
+      "NRV+NMRV": "combined gear reducer",
+      "NRV+NMRV-P": "combined gear reducer",
+      "NRV-P+NMRV": "combined gear reducer",
+      "NRV-P+NMRV-P": "combined gear reducer"
+     },
+     "src_page": null
+    },
+    {
+     "name": "size",
+     "description": "size pair",
+     "values": {
+      "025+030": "025+030",
+      "025+040": "025+040",
+      "030+030": "030+030",
+      "030+050": "030+050",
+      "030+063": "030+063",
+      "040+050": "040+050",
+      "040+063": "040+063",
+      "040+075": "040+075",
+      "040+090": "040+090",
+      "050+090": "050+090",
+      "050+110": "050+110",
+      "063+110": "063+110",
+      "063+130": "063+130",
+      "063+150": "063+150"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_flange",
+     "description": "output flange",
+     "values": {
+      "FA": "output flange type FA",
+      "FB": "output flange type FB",
+      "FC": "output flange type FC",
+      "FD": "output flange type FD",
+      "FE": "output flange type FE"
+     },
+     "src_page": null
+    },
+    {
+     "name": "ratio",
+     "description": "reduction ratio (e.g. 900)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "input_dimensions",
+     "description": "input dimensions: PAM (fitted for motor coupling) / ECE (input shaft diameter)",
+     "values": {
+      "PAM": "motor coupling",
+      "ECE": "input shaft"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_shaft_dia",
+     "description": "Ø output shaft (mm)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "execution",
+     "description": "execution",
+     "values": {
+      "AS1": "AS1",
+      "AS2": "AS2",
+      "BS1": "BS1",
+      "BS2": "BS2",
+      "VS1": "VS1",
+      "VS2": "VS2",
+      "PS1": "PS1",
+      "PS2": "PS2"
+     },
+     "src_page": null
+    },
+    {
+     "name": "mounting_position",
+     "description": "mounting position",
+     "values": {},
+     "src_page": null
+    }
+   ]
+  },
+  {
+   "family": "SW / ISW (p16)",
+   "pattern": "SW 050 HA31 FA 7,5 160x14 VS 125 25 BS B3 ...accessories",
+   "segments": [
+    {
+     "name": "gearbox_type",
+     "description": "gearbox type",
+     "values": {
+      "SW": "SW worm geared motor",
+      "ISW": "ISW worm gear reducer"
+     },
+     "src_page": null
+    },
+    {
+     "name": "size",
+     "description": "size",
+     "values": {
+      "030": "030",
+      "040": "040",
+      "050": "050",
+      "063": "063",
+      "075": "075",
+      "090": "090",
+      "105": "105"
+     },
+     "src_page": null
+    },
+    {
+     "name": "prestage",
+     "description": "optional pre-stage helical module",
+     "values": {
+      "HA31": "pre-stage helical module"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_flange",
+     "description": "output flange / execution of housing",
+     "values": {
+      "FA": "output flange type FA",
+      "FB": "output flange type FB",
+      "FC": "output flange type FC",
+      "FD": "output flange type FD",
+      "FE": "output flange type FE",
+      "PA": "torque arm/foot execution PA",
+      "PB": "PB",
+      "PV": "PV",
+      "PAS": "PAS",
+      "PBS": "PBS",
+      "PVS": "PVS"
+     },
+     "src_page": null
+    },
+    {
+     "name": "ratio",
+     "description": "reduction ratio (5, 7,5 ... 100, with pre-stage 22,08 ... 315)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "input_dimensions",
+     "description": "input dimensions: motor-flange fitting (PAM + IEC size, e.g. 160x14 = flange Ø160 x bore 14) or input shaft diameter (ECE)",
+     "values": {
+      "PAM": "fitted for motor coupling",
+      "ECE": "input shaft diameter"
+     },
+     "src_page": null
+    },
+    {
+     "name": "VS",
+     "description": "double input shaft (option, blank box in the catalogue = value to be specified)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_flange_dia",
+     "description": "Ø output flange (mm, e.g. 125)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "output_shaft_dia",
+     "description": "Ø output shaft (mm, e.g. 25)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "execution",
+     "description": "execution",
+     "values": {
+      "AS": "AS",
+      "BS": "BS",
+      "VS": "VS",
+      "PS": "PS"
+     },
+     "src_page": null
+    },
+    {
+     "name": "mounting_position",
+     "description": "mounting position",
+     "values": {
+      "B3": "mounting position B3",
+      "B8": "mounting position B8",
+      "B6": "mounting position B6",
+      "B7": "mounting position B7",
+      "V5": "mounting position V5",
+      "V6": "mounting position V6"
+     },
+     "src_page": null
+    },
+    {
+     "name": "accessories",
+     "description": "accessories",
+     "values": {},
+     "src_page": null
+    }
+   ]
+  },
+  {
+   "family": "SW+SW / ISW+SW (p17)",
+   "pattern": "SW+SW 050+110 FA 900 160x14 40 BS1 B3",
+   "segments": [
+    {
+     "name": "gearbox_type",
+     "description": "combined unit",
+     "values": {
+      "SW+SW": "combined geared motor",
+      "ISW+SW": "combined gear reducer"
+     },
+     "src_page": null
+    },
+    {
+     "name": "size",
+     "description": "size pair",
+     "values": {
+      "030+040": "030+040",
+      "030+050": "030+050",
+      "030+063": "030+063",
+      "040+050": "040+050",
+      "040+063": "040+063",
+      "040+075": "040+075",
+      "040+090": "040+090",
+      "050+090": "050+090",
+      "050+105": "050+105",
+      "063+105": "063+105"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_flange",
+     "description": "output flange / execution",
+     "values": {
+      "FA": "output flange type FA",
+      "FB": "output flange type FB",
+      "FC": "output flange type FC",
+      "FD": "output flange type FD",
+      "FE": "output flange type FE",
+      "PA": "torque arm/foot execution PA",
+      "PB": "PB",
+      "PV": "PV",
+      "PAS": "PAS",
+      "PBS": "PBS",
+      "PVS": "PVS"
+     },
+     "src_page": null
+    },
+    {
+     "name": "ratio",
+     "description": "reduction ratio (e.g. 900)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "input_dimensions",
+     "description": "input dimensions: PAM / ECE",
+     "values": {
+      "PAM": "motor coupling",
+      "ECE": "input shaft"
+     },
+     "src_page": null
+    },
+    {
+     "name": "output_shaft_dia",
+     "description": "Ø output shaft (mm)",
+     "values": {},
+     "src_page": null
+    },
+    {
+     "name": "execution",
+     "description": "execution",
+     "values": {
+      "AS1": "AS1",
+      "AS2": "AS2",
+      "BS1": "BS1",
+      "BS2": "BS2",
+      "VS1": "VS1",
+      "VS2": "VS2",
+      "PS1": "PS1",
+      "PS2": "PS2"
+     },
+     "src_page": null
+    },
+    {
+     "name": "mounting_position",
+     "description": "mounting position",
+     "values": {},
+     "src_page": null
+    }
+   ]
+  }
+ ],
+ "gearmotor_ordering_note": "Geared motors in the selection tables (5.1 / 6.1) are given as size + motor (IEC frame, poles, kW); VSF has no separate motor-code segment in the printed designation."
+}

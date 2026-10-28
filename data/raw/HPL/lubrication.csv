@@ -1,0 +1,142 @@
+series,size,mounting_position,oil_l,oil_type,src_page,stages
+HPL,HPL 010,B3/B5/B6/B7/B8,0.69,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 010,V1/V5,0.77,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 010,V3/V6,1.04,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 010,B3/B5/B6/B7/B8,0.95,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 010,V1/V5,1.31,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 010,V3/V6,1.58,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 010,B3/B5/B6/B7/B8,1.2,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 010,V1/V5,1.85,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 010,V3/V6,2.13,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 010,B3/B5/B6/B7/B8,1.46,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 010,V1/V5,2.39,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 010,V3/V6,2.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 020,B3/B5/B6/B7/B8,0.82,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 020,V1/V5,0.92,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 020,V3/V6,1.04,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 020,B3/B5/B6/B7/B8,1.09,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 020,V1/V5,1.44,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 020,V3/V6,1.72,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 020,B3/B5/B6/B7/B8,1.38,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 020,V1/V5,1.99,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 020,V3/V6,2.26,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 020,B3/B5/B6/B7/B8,1.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 020,V1/V5,2.53,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 020,V3/V6,2.8,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 030,B3/B5/B6/B7/B8,1.21,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 030,V1/V5,1.61,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 030,V3/V6,1.64,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 030,B3/B5/B6/B7/B8,1.32,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 030,V1/V5,2.09,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 030,V3/V6,1.88,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 030,B3/B5/B6/B7/B8,1.57,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 030,V1/V5,2.63,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 030,V3/V6,2.42,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 030,B3/B5/B6/B7/B8,1.82,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 030,V1/V5,3.21,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 030,V3/V6,2.96,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 050,B3/B5/B6/B7/B8,1.35,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 050,V1/V5,1.82,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 050,V3/V6,1.63,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 050,B3/B5/B6/B7/B8,1.49,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 050,V1/V5,2.21,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 050,V3/V6,1.88,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 050,B3/B5/B6/B7/B8,1.78,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 050,V1/V5,2.75,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 050,V3/V6,2.42,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 050,B3/B5/B6/B7/B8,2.07,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 050,V1/V5,3.29,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 050,V3/V6,2.96,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 080,B3/B5/B6/B7/B8,2.63,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 080,V1/V5,2.96,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 080,V3/V6,4.03,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 080,B3/B5/B6/B7/B8,2.54,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 080,V1/V5,4.19,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 080,V3/V6,3.88,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 080,B3/B5/B6/B7/B8,2.66,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 080,V1/V5,4.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 080,V3/V6,4.12,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 080,B3/B5/B6/B7/B8,2.91,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 080,V1/V5,5.17,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 080,V3/V6,4.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 130,B3/B5/B6/B7/B8,3.63,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 130,V1/V5,5.96,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 130,V3/V6,6.03,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,1
+HPL,HPL 130,B3/B5/B6/B7/B8,3.54,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 130,V1/V5,5.19,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 130,V3/V6,5.88,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 130,B3/B5/B6/B7/B8,3.66,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 130,V1/V5,6.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 130,V3/V6,6.12,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 130,B3/B5/B6/B7/B8,3.91,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 130,V1/V5,7.17,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 130,V3/V6,6.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 180,B3/B5/B6/B7/B8,4.04,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 180,V1/V5,5.69,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 180,V3/V6,6.38,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 180,B3/B5/B6/B7/B8,4.16,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 180,V1/V5,7.17,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 180,V3/V6,6.62,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 180,B3/B5/B6/B7/B8,4.41,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 180,V1/V5,7.67,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 180,V3/V6,7.17,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 220,B3/B5/B6/B7/B8,6.68,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 220,V1/V5,12.3,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 220,V3/V6,9.5,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 220,B3/B5/B6/B7/B8,6.74,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 220,V1/V5,12.4,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 220,V3/V6,9.56,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 220,B3/B5/B6/B7/B8,6.85,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 220,V1/V5,13,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 220,V3/V6,9.75,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 380,B3/B5/B6/B7/B8,8.86,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 380,V1/V5,16.70,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 380,V3/V6,12.20,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,2
+HPL,HPL 380,B3/B5/B6/B7/B8,9.43,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 380,V1/V5,16.96,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 380,V3/V6,11.34,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,3
+HPL,HPL 380,B3/B5/B6/B7/B8,8.42,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 380,V1/V5,17.25,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,HPL 380,V3/V6,11.50,ISO VG 320 PAO optional first fill (reducer supplied without oil; see extra_lubricant_viscosity.csv),37,4
+HPL,VP P613,all,0.33,NMRV-P063 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P613,B3/B5,0.95,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P613,B6/B7,0.95,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P613,B8,0.95,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P613,V1/V5,1.31,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P613,V3/V6,1.58,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P623,all,0.33,NMRV-P063 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P623,B3/B5,1.09,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P623,B6/B7,1.09,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P623,B8,1.09,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P623,V1/V5,1.44,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P623,V3/V6,1.72,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 010)
+HPL,VP P633,all,0.33,NMRV-P063 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P633,B3/B5,1.32,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 030)
+HPL,VP P633,B6/B7,1.32,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 030)
+HPL,VP P633,B8,1.32,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 030)
+HPL,VP P633,V1/V5,2.09,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 030)
+HPL,VP P633,V3/V6,1.88,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 030)
+HPL,VP P653,all,0.33,NMRV-P063 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P653,B3/B5,1.49,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 050)
+HPL,VP P653,B6/B7,1.49,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 050)
+HPL,VP P653,B8,1.49,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 050)
+HPL,VP P653,V1/V5,2.21,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 050)
+HPL,VP P653,V3/V6,1.88,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 050)
+HPL,VP P983,all,1.15,NMRV-P090 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P983,B3/B5,2.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 080)
+HPL,VP P983,B6/B7,2.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 080)
+HPL,VP P983,B8,2.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 080)
+HPL,VP P983,V1/V5,4.19,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 080)
+HPL,VP P983,V3/V6,3.88,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 080)
+HPL,VP P1133,all,1.6,NMRV-P110 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P1133,B3/B5,3.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 130)
+HPL,VP P1133,B6/B7,3.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 130)
+HPL,VP P1133,B8,3.54,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 130)
+HPL,VP P1133,V1/V5,5.19,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 130)
+HPL,VP P1133,V3/V6,5.88,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 130)
+HPL,VP P1183,all,1.6,NMRV-P110 worm stage: lifetime synthetic polyglycol LAND OIL GEAR SINT (supplied filled),37,worm stage
+HPL,VP P1183,B3/B5,4.04,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 180)
+HPL,VP P1183,B6/B7,4.04,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 180)
+HPL,VP P1183,B8,4.04,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 180)
+HPL,VP P1183,V1/V5,5.69,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 180)
+HPL,VP P1183,V3/V6,6.38,planetary part: see HPL lubricant table (supplied without oil),37,planetary part (HL2 180)

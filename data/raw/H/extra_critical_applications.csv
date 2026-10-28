@@ -1,0 +1,40 @@
+series,size,condition,status,src_page
+H,A31,V5-V1 1500<n1<3000,verified,25
+H,A31,V5-V1 n1>3000,B: check application / call technical service,25
+H,A31,V3-V6,B: check application / call technical service,25
+H,A30,V5-V1 1500<n1<3000,verified,25
+H,A30,V5-V1 n1>3000,B: check application / call technical service,25
+H,A30,V3-V6,B: check application / call technical service,25
+H,A40,V5-V1 1500<n1<3000,verified,25
+H,A40,V5-V1 n1>3000,B: check application / call technical service,25
+H,A40,V3-V6,B: check application / call technical service,25
+H,A50,V5-V1 1500<n1<3000,verified,25
+H,A50,V5-V1 n1>3000,B: check application / call technical service,25
+H,A50,V3-V6,B: check application / call technical service,25
+H,A60,V5-V1 1500<n1<3000,verified,25
+H,A60,V5-V1 n1>3000,B: check application / call technical service,25
+H,A60,V3-V6,B: check application / call technical service,25
+H,H030,V5-V1 1500<n1<3000,verified,25
+H,H030,V5-V1 n1>3000,B: check application / call technical service,25
+H,H030,V3-V6,B: check application / call technical service,25
+H,H040,V5-V1 1500<n1<3000,verified,25
+H,H040,V5-V1 n1>3000,B: check application / call technical service,25
+H,H040,V3-V6,B: check application / call technical service,25
+H,H050,V5-V1 1500<n1<3000,verified,25
+H,H050,V5-V1 n1>3000,B: check application / call technical service,25
+H,H050,V3-V6,B: check application / call technical service,25
+H,H060,V5-V1 1500<n1<3000,verified,25
+H,H060,V5-V1 n1>3000,B: check application / call technical service,25
+H,H060,V3-V6,B: check application / call technical service,25
+H,H080,V5-V1 1500<n1<3000,verified,25
+H,H080,V5-V1 n1>3000,B: check application / call technical service,25
+H,H080,V3-V6,B: check application / call technical service,25
+H,H100,V5-V1 1500<n1<3000,verified,25
+H,H100,V5-V1 n1>3000,B: check application / call technical service,25
+H,H100,V3-V6,B: check application / call technical service,25
+H,H125,V5-V1 1500<n1<3000,B: check application / call technical service,25
+H,H125,V5-V1 n1>3000,A: application not recommended,25
+H,H125,V3-V6,B: check application / call technical service,25
+H,H140,V5-V1 1500<n1<3000,B: check application / call technical service,25
+H,H140,V5-V1 n1>3000,A: application not recommended,25
+H,H140,V3-V6,B: check application / call technical service,25

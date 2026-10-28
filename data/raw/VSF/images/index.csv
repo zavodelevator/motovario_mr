@@ -1,0 +1,63 @@
+file,series,size,kind,caption,src_page,width_px,height_px
+VSF_general_diagram_p10_1.png,VSF,general,diagram,"service factor nomogram (load class A/B/C, hours/day, starts/hour)",10,1600,624
+VSF_NMRV_diagram_p13_1.png,VSF,NMRV,diagram,designation NMRV/NRV,13,1412,1789
+VSF_NMRV-P_diagram_p14_1.png,VSF,NMRV-P,diagram,designation NMRV-P/NRV-P,14,1455,1842
+VSF_NMRV+NMRV_diagram_p15_1.png,VSF,NMRV+NMRV,diagram,designation combined NMRV units,15,1455,1381
+VSF_SW_diagram_p16_1.png,VSF,SW,diagram,designation SW/ISW,16,1455,1842
+VSF_SW+SW_diagram_p17_1.png,VSF,SW+SW,diagram,designation combined SW units,17,1455,1330
+VSF_NMRV_render_p18_1.png,VSF,NMRV,render,versions NMRV,18,1455,1709
+VSF_NMRV-P_render_p19_1.png,VSF,NMRV-P,render,versions NMRV-P,19,1455,1709
+VSF_SW_render_p20_1.png,VSF,SW,render,versions SW,20,1455,1709
+VSF_NMRV_render_p21_1.png,VSF,NMRV,render,modularity NMRV,21,1455,1709
+VSF_NMRV-P_render_p22_1.png,VSF,NMRV-P,render,modularity NMRV-P,22,1455,1749
+VSF_SW_render_p23_1.png,VSF,SW,render,modularity SW,23,1455,1637
+VSF_general_drawing_p24_1.png,VSF,general,drawing,mounting positions NMRV/NMRV-P/NRV/HW (+SW-T),24,1200,1200
+VSF_general_drawing_p24_2.png,VSF,general,drawing,mounting positions NMRV/NMRV-P/NRV/HW (+SW-T),24,674,581
+VSF_general_drawing_p24_3.png,VSF,general,drawing,mounting positions NMRV/NMRV-P/NRV/HW (+SW-T),24,674,626
+VSF_general_drawing_p24_4.png,VSF,general,drawing,mounting positions NMRV/NMRV-P/NRV/HW (+SW-T),24,674,674
+VSF_SW_drawing_p25_1.png,VSF,SW,drawing,mounting positions SW,25,685,685
+VSF_SW_drawing_p25_2.png,VSF,SW,drawing,mounting positions SW,25,685,685
+VSF_SW_drawing_p25_3.png,VSF,SW,drawing,mounting positions SW,25,685,685
+VSF_SW_drawing_p25_4.png,VSF,SW,drawing,mounting positions SW,25,685,685
+VSF_general_drawing_p26_1.png,VSF,general,drawing,executions,26,1455,818
+VSF_general_drawing_p26_2.png,VSF,general,drawing,executions,26,1455,408
+VSF_general_drawing_p27_1.png,VSF,general,drawing,executions and terminal box position,27,1412,794
+VSF_general_drawing_p27_2.png,VSF,general,drawing,executions and terminal box position,27,1412,394
+VSF_general_drawing_p27_3.png,VSF,general,drawing,executions and terminal box position,27,1352,440
+VSF_general_drawing_p27_4.png,VSF,general,drawing,executions and terminal box position,27,594,277
+VSF_general_drawing_p31_1.png,VSF,general,drawing,direction of rotation of high speed shaft,31,1455,920
+VSF_NMRV_drawing_p33_1.png,VSF,NMRV,drawing,motor flange dimensions N M P D,33,415,290
+VSF_NMRV_drawing_p34_1.png,VSF,NMRV,drawing,hybrid motor flange sketch,34,330,282
+VSF_SW_drawing_p37_1.png,VSF,SW,drawing,motor flange sketch SW,37,381,373
+VSF_SW_drawing_p38_1.png,VSF,SW,drawing,hybrid motor flange sketch SW,38,381,424
+VSF_combined_diagram_p40_1.png,VSF,combined,diagram,ratios of combined units (figure),40,1600,559
+VSF_combined_diagram_p43_1.png,VSF,combined,diagram,ratios of SW combined units (figure),43,1247,480
+VSF_general_drawing_p45_1.png,VSF,general,drawing,overhung load on input shaft,45,582,579
+VSF_general_drawing_p46_1.png,VSF,general,drawing,overhung load on output shaft,46,1124,564
+VSF_NMRV025_drawing_p51_1.png,VSF,NMRV025,drawing,dimensions NMRV 025,51,1028,1200
+VSF_NMRV_drawing_p52_1.png,VSF,NMRV,drawing,dimensions NMRV 030-150 views,52,1247,461
+VSF_SW_drawing_p53_1.png,VSF,SW,drawing,dimensions SW views,53,751,1200
+VSF_SW_drawing_p54_1.png,VSF,SW,drawing,dimensions SW views (2),54,981,1200
+VSF_NRV_drawing_p56_1.png,VSF,NRV,drawing,dimensions NRV views,56,1351,538
+VSF_ISW_drawing_p57_1.png,VSF,ISW,drawing,dimensions ISW views,57,751,1200
+VSF_ISW_drawing_p58_1.png,VSF,ISW,drawing,dimensions ISW views (2),58,981,1200
+VSF_HA31_drawing_p60_1.png,VSF,HA31,drawing,dimensions HA31+NMRV / HA31+SW,60,1247,552
+VSF_HA31_drawing_p60_2.png,VSF,HA31,drawing,dimensions HA31+NMRV / HA31+SW,60,1247,552
+VSF_HW_drawing_p61_1.png,VSF,HW,drawing,dimensions NMRV-P/HW,61,1247,485
+VSF_IHW_drawing_p62_1.png,VSF,IHW,drawing,dimensions NMRV-P/IHW,62,831,450
+VSF_combined_drawing_p63_1.png,VSF,combined,drawing,dimensions NMRV/NMRV-P + NMRV/NMRV-P,63,1039,397
+VSF_combined_drawing_p64_1.png,VSF,combined,drawing,dimensions NRV + NMRV,64,1039,437
+VSF_combined_drawing_p65_1.png,VSF,combined,drawing,dimensions SW+SW / ISW+SW,65,1039,325
+VSF_combined_drawing_p65_2.png,VSF,combined,drawing,dimensions SW+SW / ISW+SW,65,1039,453
+VSF_motors_drawing_p66_1.png,VSF,motors,drawing,electric motor dimensions 063-160S,66,1600,626
+VSF_motors_drawing_p67_1.png,VSF,motors,drawing,electric motor dimensions 160M-280M,67,1600,626
+VSF_general_drawing_p71_1.png,VSF,general,drawing,end shaft key,71,938,452
+VSF_general_drawing_p72_1.png,VSF,general,drawing,low speed shafts,72,1600,837
+VSF_general_drawing_p73_1.png,VSF,general,drawing,output flange drawings,73,1247,245
+VSF_general_drawing_p73_2.png,VSF,general,drawing,output flange drawings,73,1600,542
+VSF_general_drawing_p74_1.png,VSF,general,drawing,torque arm mounting positions,74,1600,645
+VSF_general_drawing_p75_1.png,VSF,general,drawing,torque arm mounting positions (NRV/ISW),75,1600,645
+VSF_general_drawing_p76_1.png,VSF,general,drawing,torque arm dimensions,76,1039,642
+VSF_general_drawing_p77_1.png,VSF,general,drawing,output shaft cover,77,519,456
+VSF_general_drawing_p78_1.png,VSF,general,drawing,torque limiter dimensions,78,935,472
+VSF_general_drawing_p79_1.png,VSF,general,drawing,torque limiter operating principle,79,980,1200

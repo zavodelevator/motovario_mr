@@ -1,0 +1,10 @@
+series,size,stages,n1_rpm,p1_kw,i,n2_rpm,t2_nm,fs,fr2_n,motor_frames,variant,src_page,kind,motor,poles,fr1_n,n2_calc_rpm,reason
+SN,ISN152,2,1450,26,26.11,56,4300,,29600,,reducer,69,reducer,,,,55.53,ratio not in the ratio list of SN152 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN163,3,1450,183,5.66,256,6660,,24062,,reducer,70,reducer,,,,256.18,ratio not in the ratio list of SN163 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN182,2,1450,183,5.66,256,6660,,24062,,reducer,71,reducer,,,,256.18,ratio not in the ratio list of SN182 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN183,3,1450,183,5.66,256,6660,,24062,,reducer,71,reducer,,,,256.18,ratio not in the ratio list of SN183 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN142,2,950,183,5.66,256,6660,,24062,,reducer,72,reducer,,,,167.84,ratio not in the ratio list of SN142 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN143,3,950,183,5.66,256,6660,,24062,,reducer,72,reducer,,,,167.84,ratio not in the ratio list of SN143 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN152,2,950,183,5.66,256,6660,,24062,,reducer,73,reducer,,,,167.84,ratio not in the ratio list of SN152 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN153,3,950,183,5.66,256,6660,,24062,,reducer,73,reducer,,,,167.84,ratio not in the ratio list of SN153 (motor-flange tables pp.22-23): stray/misplaced row in catalogue
+SN,ISN162,2,950,87,13.58,107,10150,,60141,,reducer,74,reducer,,,,69.96,ratio not in the ratio list of SN162 (motor-flange tables pp.22-23): stray/misplaced row in catalogue

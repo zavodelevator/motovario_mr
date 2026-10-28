@@ -1,0 +1,7 @@
+series,size,variant,D2,D2_fit,B2,b2,t2,f2,b2xh2xl2,a2,src_page
+PBH,180,PH-BH_output_shaft_end,100,m6,210,28,106,M24,28x16x180,15,50
+PBH,200,PH-BH_output_shaft_end,110,m6,210,28,116,M24,28x16x180,15,50
+PBH,225,PH-BH_output_shaft_end,120,m6,210,32,127,M24,32x18x180,15,50
+PBH,250,PH-BH_output_shaft_end,130,m6,250,32,137,M24,32x18x240,5,50
+PBH,280,PH-BH_output_shaft_end,140,m6,250,36,148,M30,36x20x220,15,50
+PBH,355,PH-BH_output_shaft_end,180,m6,300,45,190,M30,45x25x250,25,50

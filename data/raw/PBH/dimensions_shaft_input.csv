@@ -1,0 +1,13 @@
+series,size,variant,D1,D1_fit,B1,b1,t1,f1,b1xh1xl1,a1,src_page
+PBH,general,input_shaft_end,28,k6,60,8,31,M10,8x7x50,5,49
+PBH,general,input_shaft_end,32,k6,80,10,35,M12,10x8x70,5,49
+PBH,general,input_shaft_end,38,k6,80,10,41,M12,10x8x70,5,49
+PBH,general,input_shaft_end,42,k6,110,12,45,M16,12x8x100,5,49
+PBH,general,input_shaft_end,48,k6,110,14,51.5,M16,14x9x100,5,49
+PBH,general,input_shaft_end,55,m6,110,16,59,M20,16x10x100,5,49
+PBH,general,input_shaft_end,60,m6,140,16,64,M20,16x11x130,5,49
+PBH,general,input_shaft_end,65,m6,140,18,69,M20,18x11x130,5,49
+PBH,general,input_shaft_end,70,m6,140,20,74.5,M20,20x12x130,5,49
+PBH,general,input_shaft_end,80,m6,170,22,85,M20,22x14x150,10,49
+PBH,general,input_shaft_end,90,m6,170,25,95,M24,25x14x150,10,49
+PBH,general,input_shaft_end,110,m6,190,28,116,M24,28x16x160,15,49

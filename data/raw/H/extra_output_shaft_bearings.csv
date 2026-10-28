@@ -1,0 +1,26 @@
+series,size,version,bearing,availability,src_page
+H,HA30,HA 1,ball,standard,31
+H,HA30,HA 2/3,ball,standard,31
+H,HA40,HA 1,ball,standard,31
+H,HA40,HA 2/3,ball,standard,31
+H,HA50,HA 1,ball,standard,31
+H,HA50,HA 2/3,ball,standard,31
+H,HA60,HA 1,ball,standard,31
+H,HA60,HA 2/3,ball,standard,31
+H,HR041,HR 1/M,ball,standard,31
+H,HR041,HR 1/M,roller,on request,31
+H,HR051,HR 1/M,ball,standard,31
+H,HR051,HR 1/M,roller,on request,31
+H,HR061,HR 1/M,ball,standard,31
+H,HR061,HR 1/M,roller,on request,31
+H,HR081,HR 1/M,roller,standard,31
+H,HR101,HR 1/M,roller,standard,31
+H,HR121,HR 1/M,roller,standard,31
+H,H030,H 2/3,roller,standard,31
+H,H040,H 2/3,roller,standard,31
+H,H050,H 2/3,roller,standard,31
+H,H060,H 2/3,roller,standard,31
+H,H080,H 2/3,roller,standard,31
+H,H100,H 2/3,roller,standard,31
+H,H125,H 2/3,roller,standard,31
+H,H140,H 2/3,roller,standard,31

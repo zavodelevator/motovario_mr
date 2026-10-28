@@ -1,0 +1,32 @@
+series,oil_family,brand,iso_vg,tamb_c,product,src_page
+SN,mineral,LAND OIL,ISO VG220,(-5)-(+40),GEAR POWER 220,27
+SN,mineral,LAND OIL,ISO VG150,(-15)-(+25),,27
+SN,mineral,ENI,ISO VG220,(-5)-(+40),BLASIA 220,27
+SN,mineral,ENI,ISO VG150,(-15)-(+25),BLASIA 150,27
+SN,mineral,SHELL,ISO VG220,(-5)-(+40),OMALA S2 G 220,27
+SN,mineral,SHELL,ISO VG150,(-15)-(+25),OMALA S2 G 150,27
+SN,mineral,KLUBER,ISO VG220,(-5)-(+40),Kluberoil GEM 1-220N,27
+SN,mineral,KLUBER,ISO VG150,(-15)-(+25),Kluberoil GEM 1-150N,27
+SN,mineral,MOBIL,ISO VG220,(-5)-(+40),MOBILGEAR 600 XP220,27
+SN,mineral,MOBIL,ISO VG150,(-15)-(+25),MOBILGEAR 600 XP150,27
+SN,mineral,CASTROL,ISO VG220,(-5)-(+40),ALPHA SP 220,27
+SN,mineral,CASTROL,ISO VG150,(-15)-(+25),ALPHA SP 150,27
+SN,mineral,BP,ISO VG220,(-5)-(+40),ENERGOL GR-XP220,27
+SN,mineral,BP,ISO VG150,(-15)-(+25),ENERGOL GR-XP150,27
+SN,mineral,PETRONAS,ISO VG220,(-5)-(+40),GEAR MEP 220,27
+SN,mineral,PETRONAS,ISO VG150,(-15)-(+25),GEAR MEP 150,27
+SN,polyglycol synthetic,ENI,ISO VG150,(-30)-(+30),Blasia S 150,28
+SN,polyglycol synthetic,ENI,ISO VG220,(-20)-(+40),Blasia S 220,28
+SN,polyglycol synthetic,MOBIL,ISO VG32,(-45)-(+0),SHC 624,28
+SN,polyglycol synthetic,MOBIL,ISO VG68,(-40)-(+5),SHC 626,28
+SN,polyglycol synthetic,KLUBER,ISO VG32,(-40)-(+5),Klubersynth GH 6-32,28
+SN,polyglycol synthetic,KLUBER,ISO VG80,(-35)-(+10),Klubersynth GH 6-80,28
+SN,polyglycol synthetic,KLUBER,ISO VG150,(-30)-(+40),Klubersynth GH 6-150,28
+SN,polyglycol synthetic,KLUBER,ISO VG220,(-25)-(+40),Klubersynth GH 6-220,28
+SN,polyglycol synthetic,KLUBER,ISO VG460,(-15)-(+50),Klubersynth GH 6-460,28
+SN,polyglycol synthetic,KLUBER,ISO VG680,(-10)-(+70),Klubersynth GH 6-680,28
+SN,polyglycol synthetic food grade,KLUBER,ISO VG100,(-30)-(+15),Klubersynth UH1-6 100,28
+SN,polyglycol synthetic food grade,KLUBER,ISO VG220,(-25)-(+40),Klubersynth UH1-6 220,28
+SN,polyglycol synthetic food grade,KLUBER,ISO VG320,(-15)-(+40),Klubersynth UH1-6 320,28
+SN,polyglycol synthetic food grade,KLUBER,ISO VG460,(-15)-(+50),Klubersynth UH1-6 460,28
+SN,polyglycol synthetic food grade,KLUBER,ISO VG680,(-10)-(+50),Klubersynth UH1-6 680,28

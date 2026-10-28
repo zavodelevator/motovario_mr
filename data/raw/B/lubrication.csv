@@ -1,0 +1,103 @@
+series,size,mounting_position,oil_l,oil_type,src_page,version,note
+B,BA42,B3,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,B8,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,B6,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,B7,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,V5,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,V6,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,B3,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,B8,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,B6,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,B7,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,V5,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA52,V6,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,B3,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,B8,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,B6,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,B7,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,V5,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA53,V6,0.63,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,B3,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,B8,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,B6,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,B7,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,V5,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA72,V6,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,B3,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,B8,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,B6,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,B7,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,V5,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA73,V6,1.21,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,B,single value printed for all mounting positions (merged cell)
+B,BA42,B3,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA42,B8,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA42,B6,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA42,B7,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA42,V5,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA42,V6,0.33,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,B3,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,B8,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,B6,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,B7,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,V5,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA52,V6,0.42,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,B3,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,B8,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,B6,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,B7,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,V5,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA53,V6,0.55,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,B3,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,B8,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,B6,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,B7,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,V5,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA72,V6,1,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,B3,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,B8,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,B6,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,B7,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,V5,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,BA73,V6,1.13,mineral oil SAE 85W-140 (Tamb -5..+40 C),37,CB,single value printed for all mounting positions (merged cell)
+B,B063,B3,1.2,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,B3,2.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,B3,3.7,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,B3,5.7,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,B3,11.1,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,B3,19,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,B3,33,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B063,B8,1.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,B8,2.8,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,B8,4.2,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,B8,7.9,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,B8,13,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,B8,17.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,B8,42.8,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B063,B6,1.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,B6,3.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,B6,6,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,B6,8.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,B6,14.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,B6,26,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,B6,43,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B063,B7,1.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,B7,2.8,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,B7,3.9,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,B7,7.3,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,B7,11.8,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,B7,19,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,B7,30,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B063,V5,2.1,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,V5,3.7,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,V5,7,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,V5,9.9,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,V5,18.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,V5,32.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,V5,54.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B063,V6,1.3,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B083,V6,2.6,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B103,V6,4.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B123,V6,6.7,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B143,V6,10.8,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B153,V6,16.5,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,
+B,B163,V6,37.3,mineral oil ISO VG220 (Tamb -5..+40 C); ISO VG150 for -15..+25 C,37,B-CB,

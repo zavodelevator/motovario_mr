@@ -1,0 +1,91 @@
+{
+  "series": "SN",
+  "src_page": 17,
+  "pattern": "S <SN|ISN> <size> <C|D|L> <FB|FC> <ratio> <input dims> <output dims> <mounting position> <accessories>",
+  "example_in_catalogue": "S SN 103[sample size box] C FA[sample flange box] 9,78 160x14 250x28 B3 ...",
+  "nameplate_example": "SN183C  i 33,93  B3  (p16)",
+  "segments": [
+    {
+      "name": "series",
+      "values": {
+        "S": "S series, grey / spheroidal cast iron shaft-mounted gear units"
+      }
+    },
+    {
+      "name": "type",
+      "values": {
+        "SN": "geared motor version: set up for motor coupling (motor connections / PAM)",
+        "ISN": "gear reducer version with solid input shaft"
+      }
+    },
+    {
+      "name": "size",
+      "values": {
+        "142": "2 stages cast iron",
+        "143": "3 stages cast iron",
+        "152": "2 stages cast iron",
+        "153": "3 stages cast iron",
+        "162": "2 stages cast iron",
+        "163": "3 stages cast iron",
+        "182": "2 stages cast iron",
+        "183": "3 stages cast iron"
+      },
+      "note": "last digit = number of reduction stages (2/3; efficiency 0.98 / 0.96, p16); 14x/15x grey cast iron, 16x/18x spheroidal cast iron (p16)"
+    },
+    {
+      "name": "output_shaft_version",
+      "values": {
+        "C": "foot-flange / hollow shaft fixing (keyway)",
+        "D": "foot-flange / solid shaft fixing D",
+        "L": "foot-flange / shrink disc shaft fixing"
+      },
+      "src_page": 18
+    },
+    {
+      "name": "output_flange",
+      "values": {
+        "FB": "output flange FB (see dimensions_output_flange.csv)",
+        "FC": "output flange FC (SN142/143 only)"
+      },
+      "note": "diagram box reads \"FA OUTPUT FLANGE\" as sample; only FB and FC are listed as options"
+    },
+    {
+      "name": "reduction_ratio",
+      "values": {
+        "4,28 ... 222,16": "exact ratios per size, see ratings.csv"
+      }
+    },
+    {
+      "name": "input_dimensions",
+      "values": {
+        "160x14": "fitted for motor coupling (PAM flange x bore) - SN",
+        "ECE (28)": "input shaft diameter - ISN"
+      }
+    },
+    {
+      "name": "output_dimensions",
+      "values": {
+        "250x28": "output dimensions (sample code in the diagram)"
+      }
+    },
+    {
+      "name": "mounting_position",
+      "values": {
+        "B3": "assembly position B3",
+        "B8": "assembly position B8",
+        "B6": "assembly position B6",
+        "B7": "assembly position B7",
+        "V5": "assembly position V5",
+        "V6": "assembly position V6"
+      },
+      "note": "B3 gives lower oil splash and heating; performance tables are for B3 or similar (p20-21); oil quantities per position p29"
+    },
+    {
+      "name": "accessories",
+      "values": {
+        "...": "e.g. backstop device (p41), reaction bolt (p40), shrink disc (p42), assembly/disassembly kit (p43), machine shaft (p44)"
+      }
+    }
+  ],
+  "terminal_block_position": "unless otherwise specified supplied with terminal block in position 1 (p20)"
+}

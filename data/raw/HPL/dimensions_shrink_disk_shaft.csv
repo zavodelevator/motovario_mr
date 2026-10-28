@@ -1,0 +1,10 @@
+series,size,variant,D3,D3_tol,D4,D4_tol,D5,G4,R,T1,T2,T3,T4,X_min,CL,MT_nm,src_page
+HPL,HPL 010,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",52,H6/g6,35,H7/g6,62,50,1.6,42,18,39,18,15,110,12,84
+HPL,HPL 020,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",52,H6/g6,35,H7/g6,62,50,1.6,42,18,39,18,15,110,12,84
+HPL,HPL 030,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",75,H6/g6,65,H7/g6,100,85,1.6,70,30,67,30,15,170,30,84
+HPL,HPL 050,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",75,H6/g6,65,H7/g6,100,85,1.6,70,30,67,30,15,170,30,84
+HPL,HPL 080,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",90,H7/g6,75,H7/g6,115,115,1.6,90,55,87,55,15,188,59,84
+HPL,HPL 130,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",100,H7/g6,85,H7/g6,130,120,1.6,100,44,97,44,15,215,59,84
+HPL,HPL 180,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",120,H7/g6,,,165,245,2,140,,140,,20,290,250,86
+HPL,HPL 220,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",130,H7/g6,,,175,258.5,2,155,,155,,20,300,250,86
+HPL,HPL 380,"HM0/HM1 shrink-disc hollow shaft (F version only, not V3)",135,H7/g6,,,185,304.5,2,150,,150,,20,300,250,86

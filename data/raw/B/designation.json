@@ -1,0 +1,130 @@
+{
+ "series": "B",
+ "source_pages": {
+  "designation_chart": 17,
+  "versions": [
+   18,
+   19,
+   20,
+   21
+  ],
+  "modularity": [
+   22,
+   23
+  ],
+  "mounting_positions": 24
+ },
+ "pattern": "B <type> <size> <casing><output shaft> [<output flange>] <ratio> <input dims> <output dims> <mounting position> [accessories]",
+ "example_from_chart": "B 083 F C FA 91,3 160x14 250x28 B3 ...",
+ "note": "Chart on PDF p17 is an image; field order read from it. Casing letter + output-shaft letter combine, e.g. FC = foot mounting + C hollow shaft.",
+ "segments": [
+  {
+   "name": "series",
+   "values": {
+    "B": "B series helical-bevel (family code)"
+   }
+  },
+  {
+   "name": "type",
+   "description": "gearbox / motor-side execution",
+   "values": {
+    "PB": "gearmotor fitted for motor mounting with flexible coupling (PAM-type input with elastic coupling); not for size 063",
+    "B": "gearmotor fitted for motor coupling (PAM) - IEC B5/B11 motor flange",
+    "CB": "compact gearmotor (motor directly flanged; B10/B11 compact motor versions)",
+    "IB": "gear reducer with input shaft"
+   },
+   "aluminium_series_prefix": "BA = aluminium series: CBA compact motor, BA PAM motor-coupling, IBA input shaft"
+  },
+  {
+   "name": "size",
+   "values": {
+    "A42": "aluminium series 2 stages",
+    "A52": "aluminium 2 stages",
+    "A53": "aluminium 3 stages",
+    "A72": "aluminium 2 stages",
+    "A73": "aluminium 3 stages",
+    "063": "cast iron",
+    "083": "cast iron",
+    "103": "cast iron",
+    "123": "cast iron",
+    "143": "cast iron",
+    "153": "cast iron",
+    "163": "cast iron"
+   }
+  },
+  {
+   "name": "casing_version",
+   "description": "cast-iron series (063..163)",
+   "values": {
+    "F": "foot mounting",
+    "S": "flange mounting",
+    "U": "foot-flange mounting"
+   }
+  },
+  {
+   "name": "output_shaft_version",
+   "values": {
+    "C": "hollow shaft",
+    "D": "solid shaft",
+    "S": "solid shaft",
+    "P": "double output shaft",
+    "L": "shrink disc shaft",
+    "M": "shrink disc shaft (opposite side)"
+   },
+   "availability": "Sizes A42-A52-A53 are not available in versions D-S-P (p16). Aluminium series: foot mounting only (A40/A50/A70 pages 18); cast iron 063-123: F/S/U; 143-163: F and U only per p19-21 (S flange: 063-123)."
+  },
+  {
+   "name": "output_flange",
+   "values": {
+    "FA": "output flange type A",
+    "FB": "output flange type B",
+    "FC": "output flange type C",
+    "FD": "output flange type D (BA only)"
+   },
+   "availability": "BA: A42/A52-A53: FA,FB,FC,FD; A72-A73: FA,FB (p58). B..S/U: 063,083,103,123: FA,FB,FC; 143: FB; 153: FB,FC; 163: FB (p59)"
+  },
+  {
+   "name": "ratio",
+   "description": "reduction ratio i, 7.62 ... 442.76 (see ratings.csv)"
+  },
+  {
+   "name": "input_dimensions",
+   "description": "PAM motor-coupling flange PmxDm (e.g. 160x14) or ECE input shaft diameter",
+   "values": {
+    "PAM": "fitted for motor coupling (e.g. 160x14)",
+    "ECE": "input shaft diameter (2B)"
+   }
+  },
+  {
+   "name": "output_dimensions",
+   "description": "output shaft/bore dimension, e.g. 250x28 (free field in chart)"
+  },
+  {
+   "name": "mounting_position",
+   "values": {
+    "B3": "horizontal, feet down",
+    "B8": "horizontal, feet up",
+    "B6": "horizontal, feet at side",
+    "B7": "horizontal, feet at opposite side",
+    "V5": "vertical, output down (motor up)",
+    "V6": "vertical, output up (motor down)"
+   },
+   "note": "p22 shows the six positions B3,B6,B7,B8,V5,V6 pictorially; meaning of V5/V6 orientation as drawn (V5 motor up, V6 motor down)."
+  },
+  {
+   "name": "terminal_box_position",
+   "values": {
+    "1": "default (top)",
+    "2": "right",
+    "3": "bottom",
+    "4": "left"
+   },
+   "note": "p22; supplied in position 1 unless specified"
+  },
+  {
+   "name": "accessories",
+   "description": "torque arm, output shaft cover, backstop, shrink disc, reinforced seals, mounting kit, machine axis (section 4)"
+  }
+ ],
+ "direction_of_rotation": "p24: standard rotation as in diagram; opposite rotation on request except BA42-BA52-BA53"
+}

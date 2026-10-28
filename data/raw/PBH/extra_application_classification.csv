@@ -1,0 +1,81 @@
+series,group,application,load_class,src_page
+PBH,"CONVEYORS (for heavy, not uniform loads)",Scraper,Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Belt,Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Bucket,Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Elevators (Redler),Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Roller,Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",For furnaces,Moderate,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Reciprocating,Heavy,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Oscillating,Heavy,22
+PBH,"CONVEYORS (for heavy, not uniform loads)",Screw,Heavy,22
+PBH,PUMPS,Centrifugal,Moderate,22
+PBH,PUMPS,"Rotary (gear and screw) (for heavy, not uniform loads loads)",Uniform,22
+PBH,PUMPS,Rotary (gear and screw) (variable density),Moderate,22
+PBH,PUMPS,Reciprocating,Uniform,22
+PBH,PUMPS,Reciprocating double-acting multiple- cylinder,Moderate,22
+PBH,PUMPS,Reciprocating single-cylinder,Heavy,22
+PBH,MILLS,Rotary ball,Heavy,22
+PBH,MILLS,Hammer,Heavy,22
+PBH,MILLS,Rolling,Heavy,22
+PBH,MILLS,Cement,Moderate,22
+PBH,COMPRESSORS,Centrifugal,Uniform,22
+PBH,COMPRESSORS,Sliding-vane positive-displacement,Moderate,22
+PBH,COMPRESSORS,Reciprocating multiple-cylinder,Moderate,22
+PBH,COMPRESSORS,Reciprocating single-cylinder,Heavy,22
+PBH,BATCHERS,Rotary,Moderate,22
+PBH,BATCHERS,"Reciprocating, vibrating",Moderate,22
+PBH,TEXTILE INDUSTRY,Washing machines,Moderate,22
+PBH,TEXTILE INDUSTRY,Rotary presses,Moderate,22
+PBH,TEXTILE INDUSTRY,Carding machines,Moderate,22
+PBH,TEXTILE INDUSTRY,Dyeing machines,Moderate,22
+PBH,TEXTILE INDUSTRY,Looms,Moderate,22
+PBH,TEXTILE INDUSTRY,Picking machines,Moderate,22
+PBH,TEXTILE INDUSTRY,Spinning machines,Moderate,22
+PBH,PAPER INDUSTRY,Mixers (stirrers),Moderate,22
+PBH,PAPER INDUSTRY,Conveyor belts,Moderate,22
+PBH,PAPER INDUSTRY,Drying cylinders,Moderate,22
+PBH,PAPER INDUSTRY,Felt stretchers,Moderate,22
+PBH,PAPER INDUSTRY,Rotary presses,Heavy,22
+PBH,PAPER INDUSTRY,Presses,Heavy,22
+PBH,PAPER INDUSTRY,Winders,Heavy,22
+PBH,FOOD INDUSTRY,Mixers,Moderate,22
+PBH,FOOD INDUSTRY,Kneading machines,Moderate,22
+PBH,FOOD INDUSTRY,Sugar beet cutters,Moderate,22
+PBH,FOOD INDUSTRY,Meat grinders,Moderate,22
+PBH,RUBBER AND PLASTIC MACHINES,Mixers (palletizers),Heavy,22
+PBH,RUBBER AND PLASTIC MACHINES,Rotary presses,Heavy,22
+PBH,RUBBER AND PLASTIC MACHINES,Mills (crushers),Heavy,22
+PBH,RUBBER AND PLASTIC MACHINES,Tyre machines,Moderate,22
+PBH,STIRRERS,Variable-density,Moderate,22
+PBH,STIRRERS,Variable-density with suspended solids,Moderate,22
+PBH,MACHINE TOOLS,Punching presses,Heavy,23
+PBH,MACHINE TOOLS,Cutting,Heavy,23
+PBH,MACHINE TOOLS,Planers,Heavy,23
+PBH,MACHINE TOOLS,Main drives,Moderate,23
+PBH,MACHINE TOOLS,"Auxiliary drives (feeders, workpieces, conveyor)",Uniform,23
+PBH,"FANS (regular, balanced speed)",Centrifugal,Uniform,23
+PBH,"FANS (regular, balanced speed)","Lightweight, small-diameter",Uniform,23
+PBH,"FANS (regular, balanced speed)",Cooling towers,Moderate,23
+PBH,"FANS (regular, balanced speed)",Large-diameter turbo fans (mining),Moderate,23
+PBH,CRANES AND STACKER CRANES,Arm rotation,Uniform,23
+PBH,CRANES AND STACKER CRANES,Sideshifter,Moderate,23
+PBH,CRANES AND STACKER CRANES,Basket drive control,Heavy,23
+PBH,CRUSHERS,Ore,Moderate,23
+PBH,CRUSHERS,Stone,Moderate,23
+PBH,PACKAGING MACHINES,PACKAGING MACHINES,Uniform,23
+PBH,EXTRACTORS AND DREDGERS,Rope winders,Moderate,23
+PBH,EXTRACTORS AND DREDGERS,Rail-mounted conveyors,Moderate,23
+PBH,EXTRACTORS AND DREDGERS,Pumps,Moderate,23
+PBH,EXTRACTORS AND DREDGERS,Stackers,Moderate,23
+PBH,EXTRACTORS AND DREDGERS,Material hoisting,Moderate,23
+PBH,EXTRACTORS AND DREDGERS,Bucket extractors,Heavy,23
+PBH,METAL-WORKING,Drawbenches,Heavy,23
+PBH,METAL-WORKING,Forging presses,Heavy,23
+PBH,METAL-WORKING,Cutting machines,Heavy,23
+PBH,METAL-WORKING,Rolling mills,Heavy,23
+PBH,MIXERS,Steady-density,Uniform,23
+PBH,MIXERS,Variable-density,Moderate,23
+PBH,MIXERS,For concrete,Moderate,23
+PBH,ELEVATORS,Hoists,Moderate,23
+PBH,ELEVATORS,"Lifts, ski lifts (cableways)",Heavy,23
+PBH,WASHING MACHINES AND PUMPS,WASHING MACHINES AND PUMPS,Moderate,23

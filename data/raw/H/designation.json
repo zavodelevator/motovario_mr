@@ -1,0 +1,102 @@
+{
+ "source_page": 17,
+ "pattern": "H <family> <version> <size> <output flange> <ratio> <input> <output dims> <mounting position>",
+ "example_as_printed": "H H F 063 FA 118 160x14 250x40 B3",
+ "note": "Diagram on printed p.15 (PDF p.17) is a raster flow chart; field names are as printed, values listed are those printed in the boxes.",
+ "segments": [
+  {
+   "name": "series",
+   "values": {
+    "H": "Motovario H series helical gear units / geared motors"
+   }
+  },
+  {
+   "name": "type_family",
+   "values": {
+    "HA": "aluminium alloy series (sizes A31..A63)",
+    "HR": "cast iron single-stage series (041..121)",
+    "H": "cast iron 2/3-stage series (032/033..142/143)"
+   }
+  },
+  {
+   "name": "configuration",
+   "values": {
+    "PH": "PAM motoreducer fitted for motor mounting with flexible coupling",
+    "H": "PAM motoreducer (IEC motor flange + coupling)",
+    "CH": "compact motoreducer (motor directly coupled)",
+    "IH": "gear reducer with input shaft"
+   }
+  },
+  {
+   "name": "version",
+   "values": {
+    "F": "casing with flange (foot version has no letter in the diagram)",
+    "U": "casing universal (foot + flange)",
+    "M": "casing mono (HR single-stage only)"
+   }
+  },
+  {
+   "name": "size",
+   "values": {
+    "A31-A32-A33": "HA",
+    "A41-A42-A43": "HA",
+    "A51-A52-A53": "HA",
+    "A61-A62-A63": "HA",
+    "041-051-061-081-101-121": "HR (stage digit 1 = single stage)",
+    "032-033": "H",
+    "042-043": "H",
+    "052-053": "H",
+    "062-063": "H",
+    "082-083": "H",
+    "102-103": "H",
+    "122-123": "H",
+    "142-143": "H"
+   },
+   "note": "last digit = number of stages (1,2,3); example size printed: 063"
+  },
+  {
+   "name": "output_flange",
+   "values": {
+    "FA": "output flange FA",
+    "FB": "output flange FB",
+    "FC": "output flange FC",
+    "FD": "output flange FD (p.73 tables, small sizes)"
+   }
+  },
+  {
+   "name": "ratio",
+   "values": {
+    "range": "from 1.23 to 353.98 (as printed), example 118"
+   }
+  },
+  {
+   "name": "input_dimensions",
+   "values": {
+    "PAM": "fitted for motor coupling, e.g. 160x14 = flange Pm x bore Dm of the IEC motor",
+    "ECE": "input shaft with diameter e.g. 28"
+   }
+  },
+  {
+   "name": "output_dimensions",
+   "values": {
+    "example": "250x40 (printed example; free field for output shaft/flange dimensions)"
+   }
+  },
+  {
+   "name": "mounting_position",
+   "values": {
+    "B3": "foot, horizontal",
+    "B5": "flange, horizontal",
+    "B8": "ceiling foot",
+    "B6": "wall foot",
+    "B7": "wall foot",
+    "V5": "vertical shaft down, foot",
+    "V1": "vertical shaft down, flange",
+    "V6": "vertical shaft up",
+    "V3": "vertical shaft up"
+   },
+   "note": "meaning of B/V codes is the standard IEC one; the catalogue shows only the codes (pictograms p.20-21, p.22-23)"
+  }
+ ],
+ "terminal_box": "Position 1 unless specified at order (p.21 text)"
+}

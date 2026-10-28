@@ -1,0 +1,99 @@
+series,size,variant,motor_frame,mass_kg,src_page
+VSF,NMRV025,"NMRV gearbox (no motor, no oil)",,0.7,70
+VSF,NMRV030,"NMRV gearbox (no motor, no oil)",,1.2,70
+VSF,NMRV040,"NMRV gearbox (no motor, no oil)",,2.3,70
+VSF,NMRV050,"NMRV gearbox (no motor, no oil)",,3.5,70
+VSF,NMRV-P063,"NMRV gearbox (no motor, no oil)",,6.2,70
+VSF,NMRV-P075,"NMRV gearbox (no motor, no oil)",,9,70
+VSF,NMRV-P090,"NMRV gearbox (no motor, no oil)",,13,70
+VSF,NMRV-P110,"NMRV gearbox (no motor, no oil)",,21,70
+VSF,NMRV130,"NMRV gearbox (no motor, no oil)",,43.5,70
+VSF,NMRV150,"NMRV gearbox (no motor, no oil)",,7,70
+VSF,NRV030,"NRV reducer (no motor, no oil)",,1,70
+VSF,NRV040,"NRV reducer (no motor, no oil)",,2,70
+VSF,NRV050,"NRV reducer (no motor, no oil)",,3.3,70
+VSF,NRV-P063,"NRV reducer (no motor, no oil)",,5.8,70
+VSF,NRV-P075,"NRV reducer (no motor, no oil)",,8.8,70
+VSF,NRV-P090,"NRV reducer (no motor, no oil)",,13,70
+VSF,NRV-P110,"NRV reducer (no motor, no oil)",,21,70
+VSF,NRV130,"NRV reducer (no motor, no oil)",,43.5,70
+VSF,NRV150,"NRV reducer (no motor, no oil)",,77,70
+VSF,HA31+NMRV040,"HA31 prestage + reducer (no motor, no oil)",063,4.2,70
+VSF,HA31+NMRV050,"HA31 prestage + reducer (no motor, no oil)",063,5.4,70
+VSF,HA31+NMRV040,"HA31 prestage + reducer (no motor, no oil)",071,4.3,70
+VSF,HA31+NMRV050,"HA31 prestage + reducer (no motor, no oil)",071,5.5,70
+VSF,HA31+NMRV040,"HA31 prestage + reducer (no motor, no oil)",080,4.5,70
+VSF,HA31+NMRV050,"HA31 prestage + reducer (no motor, no oil)",080,5.7,70
+VSF,HW030+NMRV-P063,"HW prestage + NMRV-P (no motor, no oil)",056/063/071/080,7.1,70
+VSF,HW030+NMRV-P075,"HW prestage + NMRV-P (no motor, no oil)",056/063/071/080,10,70
+VSF,HW040+NMRV-P090,"HW prestage + NMRV-P (no motor, no oil)",063/071/080/090,14.6,70
+VSF,HW040+NMRV-P110,"HW prestage + NMRV-P (no motor, no oil)",063/071/080/090,24.4,70
+VSF,IHW040+NMRV-P090,"IHW prestage + NMRV-P (no motor, no oil)",,14.6,70
+VSF,IHW040+NMRV-P110,"IHW prestage + NMRV-P (no motor, no oil)",,38.4,70
+VSF,025-030,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,1.9,70
+VSF,025-040,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,3,70
+VSF,030-040,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,3.5,70
+VSF,030-050,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,4.7,70
+VSF,030-063,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,7.4,70
+VSF,040-050,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,5.8,70
+VSF,040-063,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,8.5,70
+VSF,040-075,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,11.3,70
+VSF,040-090,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,15.3,70
+VSF,050-090,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,16.5,70
+VSF,050-110,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,38.5,70
+VSF,063-110,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,41.2,70
+VSF,063-130,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,54.2,70
+VSF,063-150,"NMRV+NMRV - NMRV+NMRV-P - NMRV-P+NMRV - NMRV-P+NMRV-P combined (no motor, no oil)",,90.2,70
+VSF,030-040,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,3.5,70
+VSF,030-050,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,4.7,70
+VSF,030-063,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,7.4,70
+VSF,040-050,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,5.8,70
+VSF,040-063,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,8.5,70
+VSF,040-075,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,11.3,70
+VSF,040-090,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,15.3,70
+VSF,050-090,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,16.5,70
+VSF,050-110,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,38.5,70
+VSF,063-110,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,41.2,70
+VSF,063-130,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,54.2,70
+VSF,063-150,"NRV+NMRV - NRV+NMRV-P - NRV-P+NMRV - NRV-P+NMRV-P combined (no motor, no oil)",,90.2,70
+VSF,SW030,"SW (no motor, no oil)",,1.2,70
+VSF,SW040,"SW (no motor, no oil)",,2.3,70
+VSF,SW050,"SW (no motor, no oil)",,3.5,70
+VSF,SW063,"SW (no motor, no oil)",,6.2,70
+VSF,SW075,"SW (no motor, no oil)",,9,70
+VSF,SW090,"SW (no motor, no oil)",,13,70
+VSF,SW105,"SW (no motor, no oil)",,21,70
+VSF,ISW030,"ISW (no motor, no oil)",,1,70
+VSF,ISW040,"ISW (no motor, no oil)",,2,70
+VSF,ISW050,"ISW (no motor, no oil)",,3.3,70
+VSF,ISW063,"ISW (no motor, no oil)",,5.8,70
+VSF,ISW075,"ISW (no motor, no oil)",,8.8,70
+VSF,ISW090,"ISW (no motor, no oil)",,13,70
+VSF,ISW105,"ISW (no motor, no oil)",,21,70
+VSF,HA31+SW040,"HA31 prestage + reducer (no motor, no oil)",063,4.2,70
+VSF,HA31+SW050,"HA31 prestage + reducer (no motor, no oil)",063,5.4,70
+VSF,HA31+SW063,"HA31 prestage + reducer (no motor, no oil)",063,8.1,70
+VSF,HA31+SW075,"HA31 prestage + reducer (no motor, no oil)",063,10.9,70
+VSF,HA31+SW090,"HA31 prestage + reducer (no motor, no oil)",063,14.9,70
+VSF,HA31+SW040,"HA31 prestage + reducer (no motor, no oil)",071,4.3,70
+VSF,HA31+SW050,"HA31 prestage + reducer (no motor, no oil)",071,5.5,70
+VSF,HA31+SW063,"HA31 prestage + reducer (no motor, no oil)",071,8.2,70
+VSF,HA31+SW075,"HA31 prestage + reducer (no motor, no oil)",071,11.0,70
+VSF,HA31+SW090,"HA31 prestage + reducer (no motor, no oil)",071,15.0,70
+VSF,HA31+SW040,"HA31 prestage + reducer (no motor, no oil)",080,4.5,70
+VSF,HA31+SW050,"HA31 prestage + reducer (no motor, no oil)",080,5.7,70
+VSF,HA31+SW063,"HA31 prestage + reducer (no motor, no oil)",080,8.4,70
+VSF,HA31+SW075,"HA31 prestage + reducer (no motor, no oil)",080,11.2,70
+VSF,HA31+SW090,"HA31 prestage + reducer (no motor, no oil)",080,15.2,70
+VSF,030-040,"SW+SW combined (no motor, no oil)",,3.5,70
+VSF,030-050,"SW+SW combined (no motor, no oil)",,4.7,70
+VSF,030-063,"SW+SW combined (no motor, no oil)",,7.4,70
+VSF,040-075,"SW+SW combined (no motor, no oil)",,11.3,70
+VSF,040-090,"SW+SW combined (no motor, no oil)",,15.3,70
+VSF,050-105,"SW+SW combined (no motor, no oil)",,38.5,70
+VSF,030-040,"ISW+SW combined (no motor, no oil)",,3.5,70
+VSF,030-050,"ISW+SW combined (no motor, no oil)",,4.7,70
+VSF,030-063,"ISW+SW combined (no motor, no oil)",,7.4,70
+VSF,040-075,"ISW+SW combined (no motor, no oil)",,11.3,70
+VSF,040-090,"ISW+SW combined (no motor, no oil)",,15.3,70
+VSF,050-105,"ISW+SW combined (no motor, no oil)",,38.5,70

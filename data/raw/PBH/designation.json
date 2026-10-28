@@ -1,0 +1,355 @@
+{
+ "series": "PBH",
+ "source_pages": [
+  13,
+  14,
+  15,
+  18,
+  19,
+  20
+ ],
+ "pattern": "PBH <B|P><1H..4H> <size> <execution> <I|P> <input dimension> <output version> <output dimension> <ratio> <mounting>",
+ "note": "Order of segments read from the designation diagram on p13 (flow chart, no printed example string). Execution meanings are read from the drawings on p18 (visual interpretation).",
+ "segments": [
+  {
+   "name": "series",
+   "values": {
+    "PBH": "Motovario parallel/bevel helical industrial gear reducers, IEC"
+   }
+  },
+  {
+   "name": "type",
+   "values": {
+    "B": "bevel helical reducer",
+    "P": "parallel shaft reducer"
+   }
+  },
+  {
+   "name": "stages",
+   "values": {
+    "1H": "1 stage (P only, P1H)",
+    "2H": "2 stages",
+    "3H": "3 stages",
+    "4H": "4 stages"
+   },
+   "note": "Gear trains printed in catalogue: P1H P2H P3H P4H, B2H B3H B4H"
+  },
+  {
+   "name": "size",
+   "values": {
+    "180": "frame size 180",
+    "200": "frame size 200",
+    "225": "frame size 225",
+    "250": "frame size 250",
+    "280": "frame size 280",
+    "355": "frame size 355"
+   }
+  },
+  {
+   "name": "execution",
+   "values": {
+    "AZ": "parallel; single output shaft (output on right in drawing), solid input shaft",
+    "AU": "parallel; single output shaft (output on left in drawing), solid input shaft",
+    "DZ": "parallel; double input shaft (input shaft both sides in drawing), output on right",
+    "DU": "parallel; double input shaft (input shaft both sides in drawing), output on left",
+    "LR": "bevel helical; output shaft right (drawing p18)",
+    "LL": "bevel helical; output shaft left (drawing p18)",
+    "SR": "bevel helical; output shaft right, bevel input on rear face (drawing p18)",
+    "SL": "bevel helical; output shaft left, bevel input on rear face (drawing p18)",
+    "DR": "bevel helical; output shaft right, input shaft on the opposite side (drawing p18)",
+    "DL": "bevel helical; output shaft left, input shaft on the opposite side (drawing p18)"
+   },
+   "note": "AZ/AU/DZ/DU for P series; LR/LL/SR/SL/DR/DL for B series (p18 groups)"
+  },
+  {
+   "name": "input",
+   "values": {
+    "I": "male (solid) input shaft",
+    "P": "bell coupling input (motor flange + coupling)"
+   }
+  },
+  {
+   "name": "input_dimension",
+   "values": {
+    "PF x dm (e.g. 350x42)": "PAM: motor flange diameter PF x motor shaft dia dm, tables p54-57",
+    "D1 x B1 (e.g. 48x110)": "solid input shaft diameter x length, table p49 and dimensions p41-47"
+   }
+  },
+  {
+   "name": "output_shaft_version",
+   "values": {
+    "CS": "solid shaft",
+    "HC": "hollow shaft with key",
+    "HL": "shrink disk shaft",
+    "CD": "double output shaft",
+    "HS": "splined hollow shaft",
+    "SS": "splined solid shaft",
+    "SD": "double splined solid shaft"
+   }
+  },
+  {
+   "name": "output_dimension",
+   "values": {
+    "D": "e.g. 100 (shaft diameter)",
+    "D x B": "e.g. 100 x 210 (diameter x length)"
+   }
+  },
+  {
+   "name": "reduction_ratio",
+   "values": {
+    "1,22 ... 762,36": "range printed in diagram p13; ratios listed in performance tables p71-112"
+   }
+  },
+  {
+   "name": "mounting_position",
+   "values": {
+    "B3": "foot-mounted, preferred, default",
+    "B6": "wall, see p17-18",
+    "B7": "wall, see p17-18",
+    "B8": "ceiling, see p17-18",
+    "V5": "vertical, output down (see p17-18)",
+    "V6": "vertical (see p17-18)"
+   },
+   "note": "V5/V6 with vertical input shaft need pressure-fed lubrication (pump) per p27; orientation of each code only drawn, not described in text"
+  }
+ ],
+ "motor_frames_available_by_size": {
+  "B2H 180": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "B2H 200": [
+   "200",
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "B2H 225": [
+   "200",
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "B2H 250": [
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "B2H 280": [
+   "250",
+   "280",
+   "315"
+  ],
+  "B2H 355": [
+   "315"
+  ],
+  "B3H 180": [
+   "100",
+   "112",
+   "132",
+   "160",
+   "180",
+   "200"
+  ],
+  "B3H 200": [
+   "132",
+   "160",
+   "180",
+   "200",
+   "225"
+  ],
+  "B3H 225": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "B3H 250": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "B3H 280": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "B3H 355": [
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "B4H 180": [
+   "100",
+   "112",
+   "132"
+  ],
+  "B4H 200": [
+   "100",
+   "112",
+   "132",
+   "160",
+   "180"
+  ],
+  "B4H 225": [
+   "100",
+   "112",
+   "132",
+   "160",
+   "180"
+  ],
+  "B4H 250": [
+   "132",
+   "160",
+   "180",
+   "200"
+  ],
+  "B4H 280": [
+   "132",
+   "160",
+   "180",
+   "200",
+   "225"
+  ],
+  "B4H 355": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "P2H 180": [
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "P2H 200": [
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "P2H 225": [
+   "225",
+   "250",
+   "280"
+  ],
+  "P2H 250": [
+   "250",
+   "280",
+   "315"
+  ],
+  "P2H 280": [
+   "250",
+   "280",
+   "315"
+  ],
+  "P2H 355": [
+   "315"
+  ],
+  "P3H 180": [
+   "100",
+   "112",
+   "132",
+   "160",
+   "180",
+   "200"
+  ],
+  "P3H 200": [
+   "132",
+   "160",
+   "180",
+   "200",
+   "225"
+  ],
+  "P3H 225": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "P3H 250": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ],
+  "P3H 280": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "P3H 355": [
+   "225",
+   "250",
+   "280",
+   "315"
+  ],
+  "P4H 180": [
+   "100",
+   "112",
+   "132"
+  ],
+  "P4H 200": [
+   "100",
+   "112",
+   "132",
+   "160",
+   "180"
+  ],
+  "P4H 225": [
+   "132",
+   "160",
+   "180"
+  ],
+  "P4H 250": [
+   "132",
+   "160",
+   "180",
+   "200"
+  ],
+  "P4H 280": [
+   "132",
+   "160",
+   "180",
+   "200",
+   "225"
+  ],
+  "P4H 355": [
+   "160",
+   "180",
+   "200",
+   "225",
+   "250",
+   "280"
+  ]
+ }
+}

@@ -1,0 +1,393 @@
+series,size,variant,motor_frame,mass_kg,src_page
+H,HA31,"H-PH reducer (with motor flange for IEC frame, without motor)",063,1.9,66
+H,HA31,"H-PH reducer (with motor flange for IEC frame, without motor)",071,2.0,66
+H,HA31,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,2.2,66
+H,IHA32,IH input-shaft reducer (without motor),,4.3,66
+H,HA32,"H-PH reducer (with motor flange for IEC frame, without motor)",063,4.2,66
+H,HA32,"H-PH reducer (with motor flange for IEC frame, without motor)",071,4.3,66
+H,HA32,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,4.6,66
+H,IHA33,IH input-shaft reducer (without motor),,5.0,66
+H,HA33,"H-PH reducer (with motor flange for IEC frame, without motor)",063,4.0,66
+H,HA33,"H-PH reducer (with motor flange for IEC frame, without motor)",071,4.1,66
+H,HA33,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,5.2,66
+H,IHA41,IH input-shaft reducer (without motor),,3.3,66
+H,HA41,"H-PH reducer (with motor flange for IEC frame, without motor)",063,3.1,66
+H,HA41,"H-PH reducer (with motor flange for IEC frame, without motor)",071,3.2,66
+H,HA41,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,3.5,66
+H,IHA42,IH input-shaft reducer (without motor),,5.2,66
+H,HA42,"H-PH reducer (with motor flange for IEC frame, without motor)",063,5.2,66
+H,HA42,"H-PH reducer (with motor flange for IEC frame, without motor)",071,5.3,66
+H,HA42,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,5.5,66
+H,IHA43,IH input-shaft reducer (without motor),,5.8,66
+H,HA43,"H-PH reducer (with motor flange for IEC frame, without motor)",063,5.8,66
+H,HA43,"H-PH reducer (with motor flange for IEC frame, without motor)",071,5.9,66
+H,HA43,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,6.1,66
+H,IHA51,IH input-shaft reducer (without motor),,4.2,66
+H,HA51,"H-PH reducer (with motor flange for IEC frame, without motor)",063,4.2,66
+H,HA51,"H-PH reducer (with motor flange for IEC frame, without motor)",071,4.3,66
+H,HA51,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,4.5,66
+H,IHA52,IH input-shaft reducer (without motor),,9.4,66
+H,HA52,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,9.5,66
+H,HA52,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,13.0,66
+H,IHA53,IH input-shaft reducer (without motor),,9.9,66
+H,HA53,"H-PH reducer (with motor flange for IEC frame, without motor)",063,9.9,66
+H,HA53,"H-PH reducer (with motor flange for IEC frame, without motor)",071,10.0,66
+H,HA53,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,10.2,66
+H,IHA61,IH input-shaft reducer (without motor),,6.5,66
+H,HA61,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,6.6,66
+H,HA61,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,7.0,66
+H,IHA62,IH input-shaft reducer (without motor),,11.2,66
+H,HA62,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,11.3,66
+H,HA62,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,14.8,66
+H,IHA63,IH input-shaft reducer (without motor),,12.9,66
+H,HA63,"H-PH reducer (with motor flange for IEC frame, without motor)",063,12.5,66
+H,HA63,"H-PH reducer (with motor flange for IEC frame, without motor)",071,12.6,66
+H,HA63,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,13.2,66
+H,IH032-033,IH input-shaft reducer (without motor),,11.5,66
+H,H032-033,"H-PH reducer (with motor flange for IEC frame, without motor)",063,8.4,66
+H,H032-033,"H-PH reducer (with motor flange for IEC frame, without motor)",071,8.8,66
+H,H032-033,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,9.4,66
+H,H032-033,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,13.7,66
+H,IH042-043,IH input-shaft reducer (without motor),,14.0,66
+H,H042-043,"H-PH reducer (with motor flange for IEC frame, without motor)",063,10.9,66
+H,H042-043,"H-PH reducer (with motor flange for IEC frame, without motor)",071,11.3,66
+H,H042-043,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,11.9,66
+H,H042-043,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,16.2,66
+H,IHR041,IH input-shaft reducer (without motor),,7.5,66
+H,HR041,"H-PH reducer (with motor flange for IEC frame, without motor)",071,4.8,66
+H,HR041,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,5.4,66
+H,IH052-053,IH input-shaft reducer (without motor),,19.1,66
+H,H052-053,"H-PH reducer (with motor flange for IEC frame, without motor)",063,16.0,66
+H,H052-053,"H-PH reducer (with motor flange for IEC frame, without motor)",071,16.4,66
+H,H052-053,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,17.0,66
+H,H052-053,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,21.3,66
+H,IHR051,IH input-shaft reducer (without motor),,9.4,66
+H,HR051,"H-PH reducer (with motor flange for IEC frame, without motor)",071,6.7,66
+H,HR051,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,7.3,66
+H,HR051,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,11.6,66
+H,IH062-063,IH input-shaft reducer (without motor),,33.1,66
+H,H062-063,"H-PH reducer (with motor flange for IEC frame, without motor)",071,27.0,66
+H,H062-063,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,29.1,66
+H,H062-063,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,31.2,66
+H,H062-063,"H-PH reducer (with motor flange for IEC frame, without motor)",132,33.9,66
+H,IHR061,IH input-shaft reducer (without motor),,11.4,66
+H,HR061,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,9.3,66
+H,HR061,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,13.6,66
+H,IH082-083,IH input-shaft reducer (without motor),,53.1,66
+H,H082-083,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,49.1,66
+H,H082-083,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,51.2,66
+H,H082-083,"H-PH reducer (with motor flange for IEC frame, without motor)",132,53.2,66
+H,H082-083,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,60.5,66
+H,IHR081,IH input-shaft reducer (without motor),,23.2,66
+H,HR081,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,19.3,66
+H,HR081,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,21.3,66
+H,HR081,"H-PH reducer (with motor flange for IEC frame, without motor)",132,23.9,66
+H,IH102-103,IH input-shaft reducer (without motor),,87.5,66
+H,H102-103,"H-PH reducer (with motor flange for IEC frame, without motor)",080-090,77.6,66
+H,H102-103,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,79.9,66
+H,H102-103,"H-PH reducer (with motor flange for IEC frame, without motor)",132,82.7,66
+H,H102-103,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,88.7,66
+H,IHR101,IH input-shaft reducer (without motor),,40.3,66
+H,HR101,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,32.7,66
+H,HR101,"H-PH reducer (with motor flange for IEC frame, without motor)",132,35.5,66
+H,HR101,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,41.5,66
+H,IHR121,IH input-shaft reducer (without motor),,41.6,66
+H,HR121,"H-PH reducer (with motor flange for IEC frame, without motor)",132,36.8,66
+H,HR121,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,42.8,66
+H,HR121,"H-PH reducer (with motor flange for IEC frame, without motor)",200,57.8,66
+H,IH122-123,IH input-shaft reducer (without motor),,117.1,66
+H,H122-123,"H-PH reducer (with motor flange for IEC frame, without motor)",100-112,109.5,66
+H,H122-123,"H-PH reducer (with motor flange for IEC frame, without motor)",132,112.3,66
+H,H122-123,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,118.3,66
+H,H122-123,"H-PH reducer (with motor flange for IEC frame, without motor)",200,133.3,66
+H,IH142-143,IH input-shaft reducer (without motor),,192.1,66
+H,H142-143,"H-PH reducer (with motor flange for IEC frame, without motor)",132,177.0,66
+H,H142-143,"H-PH reducer (with motor flange for IEC frame, without motor)",160-180,184.9,66
+H,H142-143,"H-PH reducer (with motor flange for IEC frame, without motor)",200,199.1,66
+H,H142-143,"H-PH reducer (with motor flange for IEC frame, without motor)",225,200.9,66
+H,CHA32,CH compact geared motor with TH motor,63,7.58,67
+H,CHA32,CH compact geared motor with TH motor,71,9.776,67
+H,CHA32,CH compact geared motor with TH motor,80,14.4,67
+H,CHA32,CH compact geared motor with TBH motor,63,8.9,67
+H,CHA32,CH compact geared motor with TBH motor,71,11.7,67
+H,CHA32,CH compact geared motor with TBH motor,80,17.5,67
+H,CHA33,CH compact geared motor with TH motor,63,8.28,67
+H,CHA33,CH compact geared motor with TH motor,71,10.576,67
+H,CHA33,CH compact geared motor with TH motor,80,15.2,67
+H,CHA33,CH compact geared motor with TBH motor,63,9.6,67
+H,CHA33,CH compact geared motor with TBH motor,71,12.5,67
+H,CHA33,CH compact geared motor with TBH motor,80,18.3,67
+H,CHA41,CH compact geared motor with TH motor,63,6.58,67
+H,CHA41,CH compact geared motor with TH motor,71,8.876,67
+H,CHA41,CH compact geared motor with TH motor,80,13.5,67
+H,CHA41,CH compact geared motor with TBH motor,63,7.9,67
+H,CHA41,CH compact geared motor with TBH motor,71,10.8,67
+H,CHA41,CH compact geared motor with TBH motor,80,16.6,67
+H,CHA42,CH compact geared motor with TH motor,63,8.48,67
+H,CHA42,CH compact geared motor with TH motor,71,10.776,67
+H,CHA42,CH compact geared motor with TH motor,80,15.4,67
+H,CHA42,CH compact geared motor with TBH motor,63,9.8,67
+H,CHA42,CH compact geared motor with TBH motor,71,12.7,67
+H,CHA42,CH compact geared motor with TBH motor,80,18.5,67
+H,CHA43,CH compact geared motor with TH motor,63,9.08,67
+H,CHA43,CH compact geared motor with TH motor,71,11.376,67
+H,CHA43,CH compact geared motor with TH motor,80,16,67
+H,CHA43,CH compact geared motor with TBH motor,63,10.4,67
+H,CHA43,CH compact geared motor with TBH motor,71,13.3,67
+H,CHA43,CH compact geared motor with TBH motor,80,19.1,67
+H,CHA51,CH compact geared motor with TH motor,63,6.88,67
+H,CHA51,CH compact geared motor with TH motor,71,9.176,67
+H,CHA51,CH compact geared motor with TH motor,80,13.8,67
+H,CHA51,CH compact geared motor with TBH motor,63,8.2,67
+H,CHA51,CH compact geared motor with TBH motor,71,11.1,67
+H,CHA51,CH compact geared motor with TBH motor,80,16.9,67
+H,CHA52,CH compact geared motor with TH motor,80,18.9,67
+H,CHA52,CH compact geared motor with TBH motor,80,22,67
+H,CHA53,CH compact geared motor with TH motor,63,12.68,67
+H,CHA53,CH compact geared motor with TH motor,71,14.976,67
+H,CHA53,CH compact geared motor with TH motor,80,19.6,67
+H,CHA53,CH compact geared motor with TBH motor,63,14,67
+H,CHA53,CH compact geared motor with TBH motor,71,16.9,67
+H,CHA53,CH compact geared motor with TBH motor,80,22.7,67
+H,CHA61,CH compact geared motor with TH motor,80,16,67
+H,CHA61,CH compact geared motor with TBH motor,80,19.1,67
+H,CHA62,CH compact geared motor with TH motor,80,20.9,67
+H,CHA62,CH compact geared motor with TBH motor,80,24,67
+H,CHA63,CH compact geared motor with TH motor,63,15.28,67
+H,CHA63,CH compact geared motor with TH motor,71,17.576,67
+H,CHA63,CH compact geared motor with TH motor,80,22.1,67
+H,CHA63,CH compact geared motor with TBH motor,63,16.6,67
+H,CHA63,CH compact geared motor with TBH motor,71,19.5,67
+H,CHA63,CH compact geared motor with TBH motor,80,25.3,67
+H,CH032-033,CH compact geared motor with TH motor,63,12.58,67
+H,CH032-033,CH compact geared motor with TH motor,71,13.876,67
+H,CH032-033,CH compact geared motor with TH motor,80,19.2,67
+H,CH032-033,CH compact geared motor with TBH motor,63,14.1,67
+H,CH032-033,CH compact geared motor with TBH motor,71,16.1,67
+H,CH032-033,CH compact geared motor with TBH motor,80,22.7,67
+H,CH042-043,CH compact geared motor with TH motor,63,15.08,67
+H,CH042-043,CH compact geared motor with TH motor,71,16.376,67
+H,CH042-043,CH compact geared motor with TH motor,80,21.7,67
+H,CH042-043,CH compact geared motor with TBH motor,63,16.6,67
+H,CH042-043,CH compact geared motor with TBH motor,71,18.6,67
+H,CH042-043,CH compact geared motor with TBH motor,80,25.2,67
+H,CHR041,CH compact geared motor with TH motor,71,9.876,67
+H,CHR041,CH compact geared motor with TH motor,80,15.2,67
+H,CHR041,CH compact geared motor with TBH motor,71,12.1,67
+H,CHR041,CH compact geared motor with TBH motor,80,18.6,67
+H,CH052-053,CH compact geared motor with TH motor,63,20.18,67
+H,CH052-053,CH compact geared motor with TH motor,71,21.476,67
+H,CH052-053,CH compact geared motor with TH motor,80,26.8,67
+H,CH052-053,CH compact geared motor with TBH motor,63,21.7,67
+H,CH052-053,CH compact geared motor with TBH motor,71,23.7,67
+H,CH052-053,CH compact geared motor with TBH motor,80,30.3,67
+H,CHR051,CH compact geared motor with TH motor,71,11.776,67
+H,CHR051,CH compact geared motor with TH motor,80,17.1,67
+H,CHR051,CH compact geared motor with TBH motor,71,14,67
+H,CHR051,CH compact geared motor with TBH motor,80,20.6,67
+H,CH062-063,CH compact geared motor with TH motor,71,33.776,67
+H,CH062-063,CH compact geared motor with TH motor,80,39.5,67
+H,CH062-063,CH compact geared motor with TBH motor,71,36,67
+H,CH062-063,CH compact geared motor with TBH motor,80,43,67
+H,CHR061,CH compact geared motor with TH motor,80,19.1,67
+H,CHR061,CH compact geared motor with TBH motor,80,22.6,67
+H,CH082-083,CH compact geared motor with TH motor,80,61.4,67
+H,CH082-083,CH compact geared motor with TBH motor,80,64.9,67
+H,CHR081,CH compact geared motor with TH motor,80,28.8,67
+H,CHR081,CH compact geared motor with TBH motor,80,32.3,67
+H,CHA32,CH compact geared motor with TP motor,80,16,67
+H,CHA32,CH compact geared motor with TBP motor,80,19.1,67
+H,CHA33,CH compact geared motor with TP motor,80,16.8,67
+H,CHA33,CH compact geared motor with TBP motor,80,19.9,67
+H,CHA41,CH compact geared motor with TP motor,80,15.1,67
+H,CHA41,CH compact geared motor with TBP motor,80,18.2,67
+H,CHA42,CH compact geared motor with TP motor,80,17,67
+H,CHA42,CH compact geared motor with TP motor,090S,21.4,67
+H,CHA42,CH compact geared motor with TP motor,090L,23.4,67
+H,CHA42,CH compact geared motor with TBP motor,80,20.1,67
+H,CHA42,CH compact geared motor with TBP motor,090S,26.3,67
+H,CHA42,CH compact geared motor with TBP motor,090L,28.4,67
+H,CHA43,CH compact geared motor with TP motor,80,17.6,67
+H,CHA43,CH compact geared motor with TP motor,090S,22,67
+H,CHA43,CH compact geared motor with TP motor,090L,24,67
+H,CHA43,CH compact geared motor with TBP motor,80,20.7,67
+H,CHA43,CH compact geared motor with TBP motor,090S,26.9,67
+H,CHA43,CH compact geared motor with TBP motor,090L,29,67
+H,CHA51,CH compact geared motor with TP motor,80,15.4,67
+H,CHA51,CH compact geared motor with TP motor,090S,19.8,67
+H,CHA51,CH compact geared motor with TP motor,090L,21.8,67
+H,CHA51,CH compact geared motor with TBP motor,80,18.5,67
+H,CHA51,CH compact geared motor with TBP motor,090S,24.7,67
+H,CHA51,CH compact geared motor with TBP motor,090L,26.8,67
+H,CHA52,CH compact geared motor with TP motor,80,20.5,67
+H,CHA52,CH compact geared motor with TP motor,090S,25,67
+H,CHA52,CH compact geared motor with TP motor,090L,27,67
+H,CHA52,CH compact geared motor with TP motor,100,31.5,67
+H,CHA52,CH compact geared motor with TP motor,112,50.7,67
+H,CHA52,CH compact geared motor with TBP motor,80,23.6,67
+H,CHA52,CH compact geared motor with TBP motor,090S,30.1,67
+H,CHA52,CH compact geared motor with TBP motor,090L,31.9,67
+H,CHA52,CH compact geared motor with TBP motor,100,37.8,67
+H,CHA52,CH compact geared motor with TBP motor,112,61.7,67
+H,CHA53,CH compact geared motor with TP motor,80,21.2,67
+H,CHA53,CH compact geared motor with TP motor,090S,25.6,67
+H,CHA53,CH compact geared motor with TP motor,090L,27.7,67
+H,CHA53,CH compact geared motor with TBP motor,80,24.3,67
+H,CHA53,CH compact geared motor with TBP motor,090S,30.5,67
+H,CHA53,CH compact geared motor with TBP motor,090L,32.6,67
+H,CHA61,CH compact geared motor with TP motor,80,17.6,67
+H,CHA61,CH compact geared motor with TP motor,090S,22.1,67
+H,CHA61,CH compact geared motor with TP motor,090L,24.1,67
+H,CHA61,CH compact geared motor with TP motor,100,28.6,67
+H,CHA61,CH compact geared motor with TP motor,112,47.8,67
+H,CHA61,CH compact geared motor with TBP motor,80,20.7,67
+H,CHA61,CH compact geared motor with TBP motor,090S,26.9,67
+H,CHA61,CH compact geared motor with TBP motor,090L,29,67
+H,CHA61,CH compact geared motor with TBP motor,100,34.9,67
+H,CHA61,CH compact geared motor with TBP motor,112,58.8,67
+H,CHA62,CH compact geared motor with TP motor,80,22.5,67
+H,CHA62,CH compact geared motor with TP motor,090S,26.9,67
+H,CHA62,CH compact geared motor with TP motor,090L,29,67
+H,CHA62,CH compact geared motor with TP motor,100,33.5,67
+H,CHA62,CH compact geared motor with TP motor,112,52.7,67
+H,CHA62,CH compact geared motor with TBP motor,80,25.6,67
+H,CHA62,CH compact geared motor with TBP motor,090S,31.8,67
+H,CHA62,CH compact geared motor with TBP motor,090L,33.9,67
+H,CHA62,CH compact geared motor with TBP motor,100,39.8,67
+H,CHA62,CH compact geared motor with TBP motor,112,63.7,67
+H,CHA63,CH compact geared motor with TP motor,80,23.7,67
+H,CHA63,CH compact geared motor with TP motor,090S,28.2,67
+H,CHA63,CH compact geared motor with TP motor,090L,30.2,67
+H,CHA63,CH compact geared motor with TBP motor,80,26.9,67
+H,CHA63,CH compact geared motor with TBP motor,090S,33.1,67
+H,CHA63,CH compact geared motor with TBP motor,090L,35.2,67
+H,CH032-033,CH compact geared motor with TP motor,80,20.8,67
+H,CH032-033,CH compact geared motor with TP motor,090S,27.2,67
+H,CH032-033,CH compact geared motor with TP motor,090L,28.7,67
+H,CH032-033,CH compact geared motor with TP motor,100,34.2,67
+H,CH032-033,CH compact geared motor with TP motor,112,54.6,67
+H,CH032-033,CH compact geared motor with TBP motor,80,24.3,67
+H,CH032-033,CH compact geared motor with TBP motor,090S,32.7,67
+H,CH032-033,CH compact geared motor with TBP motor,090L,34.3,67
+H,CH032-033,CH compact geared motor with TBP motor,100,41.1,67
+H,CH032-033,CH compact geared motor with TBP motor,112,67,67
+H,CH042-043,CH compact geared motor with TP motor,80,23.3,67
+H,CH042-043,CH compact geared motor with TP motor,090S,29.8,67
+H,CH042-043,CH compact geared motor with TP motor,090L,31.3,67
+H,CH042-043,CH compact geared motor with TP motor,100,36.8,67
+H,CH042-043,CH compact geared motor with TP motor,112,57.1,67
+H,CH042-043,CH compact geared motor with TBP motor,80,26.8,67
+H,CH042-043,CH compact geared motor with TBP motor,090S,35.2,67
+H,CH042-043,CH compact geared motor with TBP motor,090L,36.8,67
+H,CH042-043,CH compact geared motor with TBP motor,100,43.6,67
+H,CH042-043,CH compact geared motor with TBP motor,112,69.5,67
+H,CHR041,CH compact geared motor with TP motor,80,16.8,67
+H,CHR041,CH compact geared motor with TP motor,090S,23.2,67
+H,CHR041,CH compact geared motor with TP motor,090L,24.7,67
+H,CHR041,CH compact geared motor with TBP motor,80,20.2,67
+H,CHR041,CH compact geared motor with TBP motor,090S,28.7,67
+H,CHR041,CH compact geared motor with TBP motor,090L,30.3,67
+H,CH052-053,CH compact geared motor with TP motor,80,28.4,67
+H,CH052-053,CH compact geared motor with TP motor,090S,34.9,67
+H,CH052-053,CH compact geared motor with TP motor,090L,36.4,67
+H,CH052-053,CH compact geared motor with TP motor,100,41.9,67
+H,CH052-053,CH compact geared motor with TP motor,112,62.2,67
+H,CH052-053,CH compact geared motor with TBP motor,80,31.9,67
+H,CH052-053,CH compact geared motor with TBP motor,090S,40.4,67
+H,CH052-053,CH compact geared motor with TBP motor,090L,42,67
+H,CH052-053,CH compact geared motor with TBP motor,100,48.8,67
+H,CH052-053,CH compact geared motor with TBP motor,112,74.7,67
+H,CHR051,CH compact geared motor with TP motor,80,18.7,67
+H,CHR051,CH compact geared motor with TP motor,090S,25.1,67
+H,CHR051,CH compact geared motor with TP motor,090L,26.6,67
+H,CHR051,CH compact geared motor with TP motor,100,32.1,67
+H,CHR051,CH compact geared motor with TP motor,112,52.5,67
+H,CHR051,CH compact geared motor with TBP motor,80,22.2,67
+H,CHR051,CH compact geared motor with TBP motor,090S,30.6,67
+H,CHR051,CH compact geared motor with TBP motor,090L,32.2,67
+H,CHR051,CH compact geared motor with TBP motor,100,39,67
+H,CHR051,CH compact geared motor with TBP motor,112,64.9,67
+H,CH062-063,CH compact geared motor with TP motor,80,41.1,67
+H,CH062-063,CH compact geared motor with TP motor,090S,46,67
+H,CH062-063,CH compact geared motor with TP motor,090L,47.1,67
+H,CH062-063,CH compact geared motor with TP motor,100,52.1,67
+H,CH062-063,CH compact geared motor with TP motor,112,72.4,67
+H,CH062-063,CH compact geared motor with TP motor,132S,91.5,67
+H,CH062-063,CH compact geared motor with TP motor,132M,95.8,67
+H,CH062-063,CH compact geared motor with TBP motor,80,44.6,67
+H,CH062-063,CH compact geared motor with TBP motor,090S,51.5,67
+H,CH062-063,CH compact geared motor with TBP motor,090L,52.6,67
+H,CH062-063,CH compact geared motor with TBP motor,100,59,67
+H,CH062-063,CH compact geared motor with TBP motor,112,84.8,67
+H,CH062-063,CH compact geared motor with TBP motor,132S,105.5,67
+H,CH062-063,CH compact geared motor with TBP motor,132M,109.8,67
+H,CHR061,CH compact geared motor with TP motor,80,20.7,67
+H,CHR061,CH compact geared motor with TP motor,090S,27.1,67
+H,CHR061,CH compact geared motor with TP motor,090L,28.6,67
+H,CHR061,CH compact geared motor with TP motor,100,34.1,67
+H,CHR061,CH compact geared motor with TP motor,112,54.5,67
+H,CHR061,CH compact geared motor with TBP motor,80,24.2,67
+H,CHR061,CH compact geared motor with TBP motor,090S,32.6,67
+H,CHR061,CH compact geared motor with TBP motor,090L,34.2,67
+H,CHR061,CH compact geared motor with TBP motor,100,41,67
+H,CHR061,CH compact geared motor with TBP motor,112,66.9,67
+H,CH082-083,CH compact geared motor with TP motor,80,63,67
+H,CH082-083,CH compact geared motor with TP motor,090S,67.9,67
+H,CH082-083,CH compact geared motor with TP motor,090L,69,67
+H,CH082-083,CH compact geared motor with TP motor,100,74,67
+H,CH082-083,CH compact geared motor with TP motor,112,94.3,67
+H,CH082-083,CH compact geared motor with TP motor,132S,113.4,67
+H,CH082-083,CH compact geared motor with TP motor,132M,117.7,67
+H,CH082-083,CH compact geared motor with TBP motor,80,66.5,67
+H,CH082-083,CH compact geared motor with TBP motor,090S,73.4,67
+H,CH082-083,CH compact geared motor with TBP motor,090L,74.5,67
+H,CH082-083,CH compact geared motor with TBP motor,100,80.9,67
+H,CH082-083,CH compact geared motor with TBP motor,112,106.7,67
+H,CH082-083,CH compact geared motor with TBP motor,132S,127.4,67
+H,CH082-083,CH compact geared motor with TBP motor,132M,131.7,67
+H,CHR081,CH compact geared motor with TP motor,80,30.4,67
+H,CHR081,CH compact geared motor with TP motor,090S,35.3,67
+H,CHR081,CH compact geared motor with TP motor,090L,36.4,67
+H,CHR081,CH compact geared motor with TP motor,100,41.4,67
+H,CHR081,CH compact geared motor with TP motor,112,61.7,67
+H,CHR081,CH compact geared motor with TP motor,132S,80.8,67
+H,CHR081,CH compact geared motor with TP motor,132M,85.1,67
+H,CHR081,CH compact geared motor with TBP motor,80,33.9,67
+H,CHR081,CH compact geared motor with TBP motor,090S,40.8,67
+H,CHR081,CH compact geared motor with TBP motor,090L,41.9,67
+H,CHR081,CH compact geared motor with TBP motor,100,48.3,67
+H,CHR081,CH compact geared motor with TBP motor,112,74.1,67
+H,CHR081,CH compact geared motor with TBP motor,132S,94.8,67
+H,CHR081,CH compact geared motor with TBP motor,132M,99.1,67
+H,CH102-103,CH compact geared motor with TP motor,090S,99.6,67
+H,CH102-103,CH compact geared motor with TP motor,090L,100.2,67
+H,CH102-103,CH compact geared motor with TP motor,100,106.1,67
+H,CH102-103,CH compact geared motor with TP motor,112,125,67
+H,CH102-103,CH compact geared motor with TP motor,132S,145.1,67
+H,CH102-103,CH compact geared motor with TP motor,132M,146.8,67
+H,CH102-103,CH compact geared motor with TBP motor,090S,105.2,67
+H,CH102-103,CH compact geared motor with TBP motor,090L,105.8,67
+H,CH102-103,CH compact geared motor with TBP motor,100,113.1,67
+H,CH102-103,CH compact geared motor with TBP motor,112,137.5,67
+H,CH102-103,CH compact geared motor with TBP motor,132S,159.2,67
+H,CH102-103,CH compact geared motor with TBP motor,132M,160.9,67
+H,CHR101,CH compact geared motor with TP motor,100,54.9,67
+H,CHR101,CH compact geared motor with TP motor,112,73.8,67
+H,CHR101,CH compact geared motor with TP motor,132S,93.9,67
+H,CHR101,CH compact geared motor with TP motor,132M,95.6,67
+H,CHR101,CH compact geared motor with TBP motor,100,61.7,67
+H,CHR101,CH compact geared motor with TBP motor,112,86.2,67
+H,CHR101,CH compact geared motor with TBP motor,132S,108,67
+H,CHR101,CH compact geared motor with TBP motor,132M,109.6,67
+H,CHR121,CH compact geared motor with TP motor,132S,96.3,67
+H,CHR121,CH compact geared motor with TP motor,132M,98,67
+H,CHR121,CH compact geared motor with TBP motor,132S,110.3,67
+H,CHR121,CH compact geared motor with TBP motor,132M,112,67
+H,CH122-123,CH compact geared motor with TP motor,100,139.8,67
+H,CH122-123,CH compact geared motor with TP motor,112,158.7,67
+H,CH122-123,CH compact geared motor with TP motor,132S,178.8,67
+H,CH122-123,CH compact geared motor with TP motor,132M,180.5,67
+H,CH122-123,CH compact geared motor with TBP motor,100,146.7,67
+H,CH122-123,CH compact geared motor with TBP motor,112,171.1,67
+H,CH122-123,CH compact geared motor with TBP motor,132S,192.8,67
+H,CH122-123,CH compact geared motor with TBP motor,132M,194.,67

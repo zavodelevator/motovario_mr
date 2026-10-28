@@ -1,0 +1,13 @@
+series,size,variant,mn2_max_nm,i_min,i_max,src_page
+PBH,PH 180,range_at_1400rpm,13000,2.04,604.77,17
+PBH,PH 200,range_at_1400rpm,18300,1.95,600.10,17
+PBH,PH 225,range_at_1400rpm,28000,1.96,627.06,17
+PBH,PH 250,range_at_1400rpm,35200,2.04,635.69,17
+PBH,PH 280,range_at_1400rpm,49500,1.96,625.43,17
+PBH,PH 355,range_at_1400rpm,91300,1.95,626.60,17
+PBH,BH 180,range_at_1400rpm,13000,5.27,592.67,17
+PBH,BH 200,range_at_1400rpm,18200,5.44,632.08,17
+PBH,BH 225,range_at_1400rpm,27900,5.41,634.03,17
+PBH,BH 250,range_at_1400rpm,35200,5.44,632.71,17
+PBH,BH 280,range_at_1400rpm,46500,5.41,622.50,17
+PBH,BH 355,range_at_1400rpm,80000,5.52,604.00,17

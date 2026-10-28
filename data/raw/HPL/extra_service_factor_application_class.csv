@@ -1,0 +1,88 @@
+series,group,application,type_of_load,src_page
+HPL,"CONVEYORS (for heavy, not uniform",loads) Scraper,Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",Belt,Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",Bucket,Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",Elevators (Redler),Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",Roller,Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",For furnaces,Moderate,20
+HPL,"CONVEYORS (for heavy, not uniform",Reciprocating,Heavy,20
+HPL,"CONVEYORS (for heavy, not uniform",Oscillating,Heavy,20
+HPL,"CONVEYORS (for heavy, not uniform",Screw,Heavy,20
+HPL,PUMPS,Centrifugal,Moderate,20
+HPL,PUMPS,"Rotary (gear and screw) (for heavy, not uniform loads loads)",Uniform,20
+HPL,PUMPS,Rotary (gear and screw) (variable density),Moderate,20
+HPL,PUMPS,Reciprocating,Uniform,20
+HPL,PUMPS,Reciprocating double-acting multiple- cylinder,Moderate,20
+HPL,PUMPS,Reciprocating single-cylinder,Heavy,20
+HPL,MILLS,Rotary ball,Heavy,20
+HPL,MILLS,Hammer,Heavy,20
+HPL,MILLS,Rolling,Heavy,20
+HPL,MILLS,Cement,Moderate,20
+HPL,COMPRESSORS,Centrifugal,Uniform,20
+HPL,COMPRESSORS,Sliding-vane positive-displacement,Moderate,20
+HPL,COMPRESSORS,Reciprocating multiple-cylinder,Moderate,20
+HPL,COMPRESSORS,Reciprocating single-cylinder,Heavy,20
+HPL,BATCHERS,Rotary,Moderate,20
+HPL,BATCHERS,"Reciprocating, vibrating",Moderate,20
+HPL,TEXTILE INDUSTRY,Washing machines,Moderate,20
+HPL,TEXTILE INDUSTRY,Rotary presses,Moderate,20
+HPL,TEXTILE INDUSTRY,Carding machines,Moderate,20
+HPL,TEXTILE INDUSTRY,Dyeing machines,Moderate,20
+HPL,TEXTILE INDUSTRY,Looms,Moderate,20
+HPL,TEXTILE INDUSTRY,Picking machines,Moderate,20
+HPL,TEXTILE INDUSTRY,Spinning machines,Moderate,20
+HPL,PAPER INDUSTRY,Mixers (stirrers),Moderate,20
+HPL,PAPER INDUSTRY,Conveyor belts,Moderate,20
+HPL,PAPER INDUSTRY,Drying cylinders,Moderate,20
+HPL,PAPER INDUSTRY,Felt stretchers,Moderate,20
+HPL,PAPER INDUSTRY,Rotary presses,Heavy,20
+HPL,PAPER INDUSTRY,Presses,Heavy,20
+HPL,PAPER INDUSTRY,Winders,Heavy,20
+HPL,FOOD INDUSTRY,Mixers,Moderate,20
+HPL,FOOD INDUSTRY,Kneading machines,Moderate,20
+HPL,FOOD INDUSTRY,Sugar beet cutters,Moderate,20
+HPL,FOOD INDUSTRY,Meat grinders,Moderate,20
+HPL,RUBBER AND PLASTIC MACHINES,Mixers (palletizers),Heavy,20
+HPL,RUBBER AND PLASTIC MACHINES,Rotary presses,Heavy,20
+HPL,RUBBER AND PLASTIC MACHINES,Mills (crushers),Heavy,20
+HPL,RUBBER AND PLASTIC MACHINES,Tyre machines,Moderate,20
+HPL,STIRRERS,Variable-density,Moderate,20
+HPL,STIRRERS,Variable-density with suspended solids,Moderate,20
+HPL,MACHINE TOOLS,Punching presses,Heavy,21
+HPL,MACHINE TOOLS,Cutting,Heavy,21
+HPL,MACHINE TOOLS,Planers,Heavy,21
+HPL,MACHINE TOOLS,Main drives,Moderate,21
+HPL,MACHINE TOOLS,"Auxiliary drives (feeders, workpieces, conveyor)",Uniform,21
+HPL,MACHINE TOOLS,Bending machines,Moderate,21
+HPL,"FANS (regular, balanced speed)",Centrifugal,Uniform,21
+HPL,"FANS (regular, balanced speed)","Lightweight, small-diameter",Uniform,21
+HPL,"FANS (regular, balanced speed)",Cooling towers,Moderate,21
+HPL,"FANS (regular, balanced speed)",Large-diameter turbo fans (mining),Moderate,21
+HPL,CRANES AND STACKER CRANES,Arm rotation,Uniform,21
+HPL,CRANES AND STACKER CRANES,Sideshifter,Moderate,21
+HPL,CRANES AND STACKER CRANES,Basket drive control,Heavy,21
+HPL,CRUSHERS,Ore,Moderate,21
+HPL,CRUSHERS,Stone,Moderate,21
+HPL,PACKAGING MACHINES,,Uniform,21
+HPL,WOOD WORKING,Debarkers,Heavy,21
+HPL,EXTRACTORS AND DREDGERS,Rope winders,Moderate,21
+HPL,EXTRACTORS AND DREDGERS,Rail-mounted conveyors,Moderate,21
+HPL,EXTRACTORS AND DREDGERS,Pumps,Moderate,21
+HPL,EXTRACTORS AND DREDGERS,Stackers,Moderate,21
+HPL,EXTRACTORS AND DREDGERS,Material hoisting,Moderate,21
+HPL,EXTRACTORS AND DREDGERS,Bucket extractors,Heavy,21
+HPL,METAL-WORKING,Drawbenches,Heavy,21
+HPL,METAL-WORKING,Forging presses,Heavy,21
+HPL,METAL-WORKING,Cutting machines,Heavy,21
+HPL,METAL-WORKING,Rolling mills,Heavy,21
+HPL,MIXERS,Steady-density,Uniform,21
+HPL,MIXERS,Variable-density,Moderate,21
+HPL,MIXERS,For concrete,Moderate,21
+HPL,ELEVATORS,Hoists,Moderate,21
+HPL,ELEVATORS,"Lifts, ski lifts (cableways)",Heavy,21
+HPL,WASHING MACHINES AND PUMPS,,Moderate,21
+HPL,WATER TREATMENT,Mud scraper machines,Moderate,21
+HPL,WATER TREATMENT,Machines thickeners,Uniform,21
+HPL,WATER TREATMENT,Sedimentation machines,Moderate,21
+HPL,WATER TREATMENT,Machines digesters,Moderate,21
+HPL,WATER TREATMENT,Machines augers,Moderate,21

@@ -1,0 +1,17 @@
+series,size,variant,flange,KA,KB,KC,KN,KM,KO,KP,KQ,KT,KW,src_page
+B,BA42,output_flange_BA,FA,92.5,9,5,70,90 min,11 (no4),125,110,,45°,58
+B,BA42,output_flange_BA,FB,122.5,9,5,70,90 min,11 (no4),125,110,,45°,58
+B,BA42,output_flange_BA,FC,91.5,10,5,110,130,9.5 (no4),160,,66,45°,58
+B,BA42,output_flange_BA,FD,74.5,14.5,5,95,115,11 (no4),140,,60,45°,58
+B,BA52,output_flange_BA,FA,80,10,6,115,150,11 (no4),180,142,,45°,58
+B,BA53,output_flange_BA,FA,80,10,6,115,150,11 (no4),180,142,,45°,58
+B,BA52,output_flange_BA,FB,110,10,6,115,150,11 (no4),180,142,,45°,58
+B,BA53,output_flange_BA,FB,110,10,6,115,150,11 (no4),180,142,,45°,58
+B,BA52,output_flange_BA,FC,96,10,5,130,165,11 (no4),200,,80,45°,58
+B,BA53,output_flange_BA,FC,96,10,5,130,165,11 (no4),200,,80,45°,58
+B,BA52,output_flange_BA,FD,105,10,5,130,165,11 (no4),200,,,45°,58
+B,BA53,output_flange_BA,FD,105,10,5,130,165,11 (no4),200,,,45°,58
+B,BA72,output_flange_BA,FA,119,13,6,130,165,14 (no4),200,170,,45°,58
+B,BA73,output_flange_BA,FA,119,13,6,130,165,14 (no4),200,170,,45°,58
+B,BA72,output_flange_BA,FB,98,13,6,110,130,11 (no4),160,,,45°,58
+B,BA73,output_flange_BA,FB,98,13,6,110,130,11 (no4),160,,,45°,58

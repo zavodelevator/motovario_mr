@@ -1,0 +1,121 @@
+series,size_group,shaft,parameter,value,src_page
+H,IH A32/A33/A41/A42/A43/A51/A53/A63,input Fr1 (p.32),a,84,32
+H,IH A32/A33/A41/A42/A43/A51/A53/A63,input Fr1 (p.32),b,64,32
+H,IH A32/A33/A41/A42/A43/A51/A53/A63,input Fr1 (p.32),Fr1 max,480,32
+H,IH A52/A61/A62,input Fr1 (p.32),a,89,32
+H,IH A52/A61/A62,input Fr1 (p.32),b,69,32
+H,IH A52/A61/A62,input Fr1 (p.32),Fr1 max,800,32
+H,IHR 041,input Fr1 (p.32),a,105,32
+H,IHR 041,input Fr1 (p.32),b,80,32
+H,IHR 041,input Fr1 (p.32),Fr1 max,1320,32
+H,IHR 051,input Fr1 (p.32),a,105,32
+H,IHR 051,input Fr1 (p.32),b,80,32
+H,IHR 051,input Fr1 (p.32),Fr1 max,1800,32
+H,IHR 061,input Fr1 (p.32),a,105,32
+H,IHR 061,input Fr1 (p.32),b,80,32
+H,IHR 061,input Fr1 (p.32),Fr1 max,2200,32
+H,IHR 081,input Fr1 (p.32),a,137,32
+H,IHR 081,input Fr1 (p.32),b,108,32
+H,IHR 081,input Fr1 (p.32),Fr1 max,2500,32
+H,IHR 101,input Fr1 (p.32),a,175,32
+H,IHR 101,input Fr1 (p.32),b,135,32
+H,IHR 101,input Fr1 (p.32),Fr1 max,3000,32
+H,IHR 121,input Fr1 (p.32),a,175,32
+H,IHR 121,input Fr1 (p.32),b,135,32
+H,IHR 121,input Fr1 (p.32),Fr1 max,3000,32
+H,IH 032/033,input Fr1 (p.32),a,105,32
+H,IH 032/033,input Fr1 (p.32),b,80,32
+H,IH 032/033,input Fr1 (p.32),Fr1 max,2200,32
+H,IH 042/043,input Fr1 (p.32),a,105,32
+H,IH 042/043,input Fr1 (p.32),b,80,32
+H,IH 042/043,input Fr1 (p.32),Fr1 max,2200,32
+H,IH 052/053,input Fr1 (p.32),a,105,32
+H,IH 052/053,input Fr1 (p.32),b,80,32
+H,IH 052/053,input Fr1 (p.32),Fr1 max,2500,32
+H,IH 062/063,input Fr1 (p.32),a,137,32
+H,IH 062/063,input Fr1 (p.32),b,108,32
+H,IH 062/063,input Fr1 (p.32),Fr1 max,3600,32
+H,IH 082/083,input Fr1 (p.32),a,137,32
+H,IH 082/083,input Fr1 (p.32),b,108,32
+H,IH 082/083,input Fr1 (p.32),Fr1 max,3600,32
+H,IH 102/103,input Fr1 (p.32),a,175,32
+H,IH 102/103,input Fr1 (p.32),b,135,32
+H,IH 102/103,input Fr1 (p.32),Fr1 max,7200,32
+H,IH 122/123,input Fr1 (p.32),a,175,32
+H,IH 122/123,input Fr1 (p.32),b,135,32
+H,IH 122/123,input Fr1 (p.32),Fr1 max,7200,32
+H,IH 142/143,input Fr1 (p.32),a,225,32
+H,IH 142/143,input Fr1 (p.32),b,170,32
+H,IH 142/143,input Fr1 (p.32),Fr1 max,15000,32
+H,H A31,output Fr2 (p.33),a,78.5,33
+H,H A31,output Fr2 (p.33),b,58.5,33
+H,H A31,output Fr2 (p.33),Fr2 max,1100,33
+H,H A41,output Fr2 (p.33),a,81,33
+H,H A41,output Fr2 (p.33),b,61,33
+H,H A41,output Fr2 (p.33),Fr2 max,1100,33
+H,H A51,output Fr2 (p.33),a,83,33
+H,H A51,output Fr2 (p.33),b,58,33
+H,H A51,output Fr2 (p.33),Fr2 max,3000,33
+H,H A61,output Fr2 (p.33),a,103,33
+H,H A61,output Fr2 (p.33),b,73,33
+H,H A61,output Fr2 (p.33),Fr2 max,4500,33
+H,H A32/A33,output Fr2 (p.33),a,105,33
+H,H A32/A33,output Fr2 (p.33),b,85,33
+H,H A32/A33,output Fr2 (p.33),Fr2 max,2000,33
+H,H A42/A43,output Fr2 (p.33),a,115,33
+H,H A42/A43,output Fr2 (p.33),b,90,33
+H,H A42/A43,output Fr2 (p.33),Fr2 max,4300,33
+H,H A52/A53,output Fr2 (p.33),a,135,33
+H,H A52/A53,output Fr2 (p.33),b,105,33
+H,H A52/A53,output Fr2 (p.33),Fr2 max,6000,33
+H,H A62/A63,output Fr2 (p.33),a,155,33
+H,H A62/A63,output Fr2 (p.33),b,115,33
+H,H A62/A63,output Fr2 (p.33),Fr2 max,8000,33
+H,HR 041,output Fr2 (p.33),a,89,33
+H,HR 041,output Fr2 (p.33),b,79,33
+H,HR 041,output Fr2 (p.33),Fr2 max,1000,33
+H,HR 041,output Fr2 (p.33),Fa max,5500,33
+H,HR 051,output Fr2 (p.33),a,98,33
+H,HR 051,output Fr2 (p.33),b,73,33
+H,HR 051,output Fr2 (p.33),Fr2 max,2500,33
+H,HR 051,output Fr2 (p.33),Fa max,6500,33
+H,HR 061,output Fr2 (p.33),a,115,33
+H,HR 061,output Fr2 (p.33),b,85,33
+H,HR 061,output Fr2 (p.33),Fr2 max,3700,33
+H,HR 061,output Fr2 (p.33),Fa max,7000,33
+H,HR 081,output Fr2 (p.33),a,151,33
+H,HR 081,output Fr2 (p.33),b,111,33
+H,HR 081,output Fr2 (p.33),Fr2 max,4000,33
+H,HR 081,output Fr2 (p.33),Fa max,8500,33
+H,HR 101,output Fr2 (p.33),a,210,33
+H,HR 101,output Fr2 (p.33),b,155,33
+H,HR 101,output Fr2 (p.33),Fr2 max,5000,33
+H,HR 101,output Fr2 (p.33),Fa max,11500,33
+H,HR 121,output Fr2 (p.33),a,232,33
+H,HR 121,output Fr2 (p.33),b,177,33
+H,HR 121,output Fr2 (p.33),Fr2 max,6000,33
+H,HR 121,output Fr2 (p.33),Fa max,13500,33
+H,H 032/033,output Fr2 (p.33),a,120,33
+H,H 032/033,output Fr2 (p.33),b,96,33
+H,H 032/033,output Fr2 (p.33),Fr2 max,5500,33
+H,H 042/043,output Fr2 (p.33),a,138,33
+H,H 042/043,output Fr2 (p.33),b,108,33
+H,H 042/043,output Fr2 (p.33),Fr2 max,6600,33
+H,H 052/053,output Fr2 (p.33),a,169,33
+H,H 052/053,output Fr2 (p.33),b,134,33
+H,H 052/053,output Fr2 (p.33),Fr2 max,8000,33
+H,H 062/063,output Fr2 (p.33),a,195,33
+H,H 062/063,output Fr2 (p.33),b,155,33
+H,H 062/063,output Fr2 (p.33),Fr2 max,12000,33
+H,H 082/083,output Fr2 (p.33),a,238,33
+H,H 082/083,output Fr2 (p.33),b,188,33
+H,H 082/083,output Fr2 (p.33),Fr2 max,18000,33
+H,H 102/103,output Fr2 (p.33),a,281,33
+H,H 102/103,output Fr2 (p.33),b,221,33
+H,H 102/103,output Fr2 (p.33),Fr2 max,22000,33
+H,H 122/123,output Fr2 (p.33),a,331,33
+H,H 122/123,output Fr2 (p.33),b,261,33
+H,H 122/123,output Fr2 (p.33),Fr2 max,30000,33
+H,H 142/143,output Fr2 (p.33),a,367,33
+H,H 142/143,output Fr2 (p.33),b,282,33
+H,H 142/143,output Fr2 (p.33),Fr2 max,55000,33

@@ -1,0 +1,10 @@
+series,size,variant,D1,D,D_tol,D2_H8,L,L1,L2,L3,src_page
+HPL,HPL 010,HS splined hollow shaft,A40x36 DIN5482,42,H7,35,8,22,12.5,42.5,89
+HPL,HPL 020,HS splined hollow shaft,A40x36 DIN5482,42,H7,35,8,22,12.5,42.5,89
+HPL,HPL 030,HS splined hollow shaft,A58x53 DIN5482,60,H8,50,10,29,15,54,89
+HPL,HPL 050,HS splined hollow shaft,A58x53 DIN5482,60,H8,50,10,29,15,54,89
+HPL,HPL 080,HS splined hollow shaft,A70x64 DIN5482,72,H8,60,12,45,22,79,89
+HPL,HPL 130,HS splined hollow shaft,A80x74 DIN5482,85,H8,70,12,51,24,87,89
+HPL,HPL 180,HS splined hollow shaft,A80x74 DIN5482,88,H8,,,77,7,,90
+HPL,HPL 220,HS splined hollow shaft,A100x94 H10 DIN 5482,102,H8,,,76,15,,90
+HPL,HPL 380,HS splined hollow shaft,A100x94 H10 DIN 5482,102,H8,,,77,15,,90

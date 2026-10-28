@@ -1,0 +1,28 @@
+series,size,variant,symbol,P613_P653,P983,P1133_P1183,src_page
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,A,100,140,170,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,A1,100,140,164 - 170,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,B,40,50,60,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,D1 (j6),19,24,28,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,G,109,145,185.5 (PAM 132); 168 (PAM 080/112),200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,G1,112,140,155,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,G3,75,108,135,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,H,72,103,127.5,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,H1,72,103,127.5,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,I,63,90,110,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,K,85,100,115,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,KE,M8*14,M10*18,M10*18,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,L,103,130,144,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,M,95,130,165,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,N,80,110,130,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,N1,53,67,74,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,O,8.5,13,14,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,P,110,160,200,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,Q,80,102,125,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,R,107,144,167.5,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,S,8,11,14.5,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,S1,8,11,14.5,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,V,50,70,82 - 85,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,W,45,45,45,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,b1,6,8,8,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,t1,21.5,27,31,200
+HPL,VP worm input (P613-P653 | P983 | P1133-P1183),worm-stage PAM flange,f1,M6,M8,M10,200

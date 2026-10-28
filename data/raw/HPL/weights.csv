@@ -1,0 +1,596 @@
+series,size,variant,motor_frame,mass_kg,src_page,stages
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,28,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,30,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,30,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,32,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,35,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,41,76,1
+HPL,HPL 010,"IHL foot (T) reducer, no oil",,35,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,30,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,32,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,32,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,34,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,37,76,1
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,43,76,1
+HPL,HPL 020,"IHL foot (T) reducer, no oil",,37,76,1
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,56,76,1
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,59,76,1
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,69,76,1
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,69,76,1
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,78,76,1
+HPL,HPL 030,"IHL foot (T) reducer, no oil",,59,76,1
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,74,76,1
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,84,76,1
+HPL,HPL 050,"IHL foot (T) reducer, no oil",,64,76,1
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,121,76,1
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",225,135,76,1
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",250,142,76,1
+HPL,HPL 080,"IHL foot (T) reducer, no oil",,108,76,1
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,142,76,1
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",225,156,76,1
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",250,164,76,1
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,36,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,38,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,38,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,40,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,43,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,49,76,2
+HPL,HPL 010,"IHL foot (T) reducer, no oil",,43,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,39,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,40,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,40,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,42,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,46,76,2
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,52,76,2
+HPL,HPL 020,"IHL foot (T) reducer, no oil",,45,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,60,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,61,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,61,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,63,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,67,76,2
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,73,76,2
+HPL,HPL 030,"IHL foot (T) reducer, no oil",,66,76,2
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,71,76,2
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,74,76,2
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,80,76,2
+HPL,HPL 050,"IHL foot (T) reducer, no oil",,74,76,2
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,110,76,2
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,113,76,2
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,123,76,2
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,123,76,2
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,133,76,2
+HPL,HPL 080,"IHL foot (T) reducer, no oil",,113,76,2
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,154,76,2
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,157,76,2
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,167,76,2
+HPL,HPL 130,"IHL foot (T) reducer, no oil",,147,76,2
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,184,76,2
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,188,76,2
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,198,76,2
+HPL,HPL 180,"IHL foot (T) reducer, no oil",,178,76,2
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,267,76,2
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,278,76,2
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",225,292,76,2
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",250,299,76,2
+HPL,HPL 220,"IHL foot (T) reducer, no oil",,256,76,2
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",225,334,76,2
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",250,342,76,2
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,44,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,46,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,46,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,48,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,51,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,57,76,3
+HPL,HPL 010,"IHL foot (T) reducer, no oil",,51,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,47,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,48,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,48,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,50,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,54,76,3
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,60,76,3
+HPL,HPL 020,"IHL foot (T) reducer, no oil",,53,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,68,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,69,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,69,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,71,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,75,76,3
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,81,76,3
+HPL,HPL 030,"IHL foot (T) reducer, no oil",,74,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,76,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,77,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,77,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,79,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,82,76,3
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,89,76,3
+HPL,HPL 050,"IHL foot (T) reducer, no oil",,82,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,116,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,117,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,117,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,119,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,123,76,3
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,129,76,3
+HPL,HPL 080,"IHL foot (T) reducer, no oil",,122,76,3
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,152,76,3
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,154,76,3
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,158,76,3
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,164,76,3
+HPL,HPL 130,"IHL foot (T) reducer, no oil",,157,76,3
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,185,76,3
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,188,76,3
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,194,76,3
+HPL,HPL 180,"IHL foot (T) reducer, no oil",,188,76,3
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,267,76,3
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,270,76,3
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,280,76,3
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,280,76,3
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,289,76,3
+HPL,HPL 220,"IHL foot (T) reducer, no oil",,270,76,3
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,327,76,3
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,337,76,3
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",180,337,76,3
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",200,346,76,3
+HPL,HPL 380,"IHL foot (T) reducer, no oil",,327,76,3
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,52,76,4
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,54,76,4
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,54,76,4
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,56,76,4
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,59,76,4
+HPL,HPL 010,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,65,76,4
+HPL,HPL 010,"IHL foot (T) reducer, no oil",,59,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,55,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,56,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,56,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,58,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,62,76,4
+HPL,HPL 020,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,68,76,4
+HPL,HPL 020,"IHL foot (T) reducer, no oil",,61,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,76,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,77,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,77,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,79,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,83,76,4
+HPL,HPL 030,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,89,76,4
+HPL,HPL 030,"IHL foot (T) reducer, no oil",,82,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,84,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,85,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,85,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,87,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,91,76,4
+HPL,HPL 050,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,97,76,4
+HPL,HPL 050,"IHL foot (T) reducer, no oil",,90,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,124,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,125,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,125,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,127,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,131,76,4
+HPL,HPL 080,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,137,76,4
+HPL,HPL 080,"IHL foot (T) reducer, no oil",,130,76,4
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,159,76,4
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,160,76,4
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,161,76,4
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,162,76,4
+HPL,HPL 130,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,166,76,4
+HPL,HPL 130,"IHL foot (T) reducer, no oil",,165,76,4
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,189,76,4
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,191,76,4
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,191,76,4
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,193,76,4
+HPL,HPL 180,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,196,76,4
+HPL,HPL 180,"IHL foot (T) reducer, no oil",,196,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",71,271,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",80,272,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,273,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,274,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,278,76,4
+HPL,HPL 220,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,284,76,4
+HPL,HPL 220,"IHL foot (T) reducer, no oil",,277,76,4
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",90,335,76,4
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",100-112,337,76,4
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",132,341,76,4
+HPL,HPL 380,"HL/PHL foot (T) reducer with PAM flange, no motor, no oil",160,347,76,4
+HPL,HPL 380,"IHL foot (T) reducer, no oil",,340,76,4
+HPL,HPL 010,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,3.75,76,
+HPL,HPL 020,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,3.75,76,
+HPL,HPL 030,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,9.32,76,
+HPL,HPL 050,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,9.32,76,
+HPL,HPL 080,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,13.57,76,
+HPL,HPL 130,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,13.71,76,
+HPL,HPL 180,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,32.58,76,
+HPL,HPL 220,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,44,76,
+HPL,HPL 380,deduction for flange (F) version: subtract from foot-version mass (HL/PHL/IHL/CHL),,57,76,
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,33,77,1
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,33,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,37,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,42,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,44,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,48,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,59,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,85,77,1
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,88,77,1
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,62,77,1
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,88,77,1
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,91,77,1
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,72,77,1
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,83,77,1
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,109,77,1
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,112,77,1
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,41,77,2
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,41,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,45,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,50,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,52,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,56,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,67,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,93,77,2
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,96,77,2
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,43,77,2
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,43,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,48,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,52,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,54,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,59,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,70,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,96,77,2
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,99,77,2
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,64,77,2
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,64,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,69,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,73,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,75,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,80,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,91,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,117,77,2
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,120,77,2
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,88,77,2
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,99,77,2
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,125,77,2
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,128,77,2
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,126,77,2
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,137,77,2
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,163,77,2
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,166,77,2
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,49,77,3
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,49,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,54,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,58,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,60,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,64,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,75,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,101,77,3
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,104,77,3
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,51,77,3
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,51,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,56,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,61,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,63,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,67,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,78,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,104,77,3
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,107,77,3
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,72,77,3
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,72,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,77,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,82,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,84,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,88,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,99,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,125,77,3
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,128,77,3
+HPL,HPL 050,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,80,77,3
+HPL,HPL 050,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,80,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,85,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,89,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,91,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,96,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,107,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,133,77,3
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,136,77,3
+HPL,HPL 080,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,120,77,3
+HPL,HPL 080,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,120,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,125,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,130,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,132,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,136,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,147,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,173,77,3
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,176,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,165,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,167,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,171,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,182,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,208,77,3
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,211,77,3
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,197,77,3
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,201,77,3
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,212,77,3
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,238,77,3
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,241,77,3
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,294,77,3
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,320,77,3
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,323,77,3
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,380,77,3
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,57,77,4
+HPL,HPL 010,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,57,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,62,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,66,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,68,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,73,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,84,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,110,77,4
+HPL,HPL 010,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,113,77,4
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,59,77,4
+HPL,HPL 020,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,59,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,64,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,69,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,71,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,75,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,86,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,112,77,4
+HPL,HPL 020,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,115,77,4
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,80,77,4
+HPL,HPL 030,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,80,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,85,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,90,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,92,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,96,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,107,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,133,77,4
+HPL,HPL 030,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,136,77,4
+HPL,HPL 050,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,88,77,4
+HPL,HPL 050,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,88,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,93,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,97,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,99,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,104,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,115,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,141,77,4
+HPL,HPL 050,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,144,77,4
+HPL,HPL 080,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,128,77,4
+HPL,HPL 080,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,128,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,133,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,138,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,140,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,144,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,155,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,181,77,4
+HPL,HPL 080,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,184,77,4
+HPL,HPL 130,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,163,77,4
+HPL,HPL 130,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,163,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,168,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,173,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,175,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,179,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,190,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,216,77,4
+HPL,HPL 130,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,219,77,4
+HPL,HPL 180,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,193,77,4
+HPL,HPL 180,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,193,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,198,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,203,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,205,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,209,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,220,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,246,77,4
+HPL,HPL 180,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,249,77,4
+HPL,HPL 220,CHL foot gearmotor with TH motor (mass of complete gearmotor),71,275,77,4
+HPL,HPL 220,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,275,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,280,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,285,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,287,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,291,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,302,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,328,77,4
+HPL,HPL 220,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,331,77,4
+HPL,HPL 380,CHL foot gearmotor with TH motor (mass of complete gearmotor),80,289,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),80,343,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),90S,348,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),90L,350,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),100,354,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),112,365,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),132S,391,77,4
+HPL,HPL 380,CHL foot gearmotor with TP motor (mass of complete gearmotor),132M,394,77,4
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,35,78,1
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,36,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,41,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,45,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,50,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,55,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,69,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,99,78,1
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,102,78,1
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,72,78,1
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,102,78,1
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,105,78,1
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,79,78,1
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,93,78,1
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,123,78,1
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,126,78,1
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,43,78,2
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,44,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,49,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,53,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,58,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,63,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,77,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,107,78,2
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,110,78,2
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,45,78,2
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,47,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,51,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,56,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,60,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,66,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,80,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,110,78,2
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,113,78,2
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,66,78,2
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,68,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,72,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,77,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,81,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,87,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,101,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,131,78,2
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,134,78,2
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,95,78,2
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,109,78,2
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,139,78,2
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,142,78,2
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,133,78,2
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,147,78,2
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,177,78,2
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,180,78,2
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,51,78,3
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,52,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,57,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,62,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,66,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,71,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,85,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,115,78,3
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,118,78,3
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,53,78,3
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,55,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,60,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,64,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,68,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,74,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,88,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,118,78,3
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,121,78,3
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,74,78,3
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,76,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,81,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,85,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,89,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,95,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,109,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,139,78,3
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,142,78,3
+HPL,HPL 050,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,82,78,3
+HPL,HPL 050,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,83,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,88,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,93,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,97,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,103,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,117,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,147,78,3
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,150,78,3
+HPL,HPL 080,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,122,78,3
+HPL,HPL 080,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,124,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,129,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,133,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,137,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,143,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,157,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,187,78,3
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,190,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,168,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,172,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,178,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,192,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,222,78,3
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,225,78,3
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,202,78,3
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,208,78,3
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,222,78,3
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,252,78,3
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,255,78,3
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,304,78,3
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,334,78,3
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,337,78,3
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,394,78,3
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,59,78,4
+HPL,HPL 010,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,60,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,65,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,70,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,74,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,80,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,94,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,124,78,4
+HPL,HPL 010,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,127,78,4
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,61,78,4
+HPL,HPL 020,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,63,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,68,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,72,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,76,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,82,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,96,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,126,78,4
+HPL,HPL 020,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,129,78,4
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,82,78,4
+HPL,HPL 030,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,84,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,89,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,93,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,97,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,103,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,117,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,147,78,4
+HPL,HPL 030,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,150,78,4
+HPL,HPL 050,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,90,78,4
+HPL,HPL 050,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,92,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,96,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,101,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,105,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,111,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,125,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,155,78,4
+HPL,HPL 050,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,158,78,4
+HPL,HPL 080,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,130,78,4
+HPL,HPL 080,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,132,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,137,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,141,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,145,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,151,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,165,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,195,78,4
+HPL,HPL 080,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,198,78,4
+HPL,HPL 130,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,166,78,4
+HPL,HPL 130,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,167,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,172,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,176,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,180,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,186,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,200,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,230,78,4
+HPL,HPL 130,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,233,78,4
+HPL,HPL 180,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,196,78,4
+HPL,HPL 180,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,197,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,202,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,206,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,210,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,216,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,230,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,260,78,4
+HPL,HPL 180,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,263,78,4
+HPL,HPL 220,CHL foot gearmotor with TBH motor (mass of complete gearmotor),71,278,78,4
+HPL,HPL 220,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,279,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,284,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,288,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,292,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,298,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,312,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,342,78,4
+HPL,HPL 220,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,345,78,4
+HPL,HPL 380,CHL foot gearmotor with TBH motor (mass of complete gearmotor),80,342,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),80,347,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90S,351,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),90L,355,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),100,361,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),112,375,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132S,405,78,4
+HPL,HPL 380,CHL foot gearmotor with TBP motor (mass of complete gearmotor),132M,408,78,4
+HPL,VP P613,VP version T reducer without motor (only worm-stage lubricant),,38.5,201,3
+HPL,VP P623,VP version T reducer without motor (only worm-stage lubricant),,41,201,3
+HPL,VP P633,VP version T reducer without motor (only worm-stage lubricant),,62,201,3
+HPL,VP P653,VP version T reducer without motor (only worm-stage lubricant),,69.7,201,3
+HPL,VP P983,VP version T reducer without motor (only worm-stage lubricant),,115.3,201,3
+HPL,VP P1133,VP version T reducer without motor (only worm-stage lubricant),,157.8,201,3
+HPL,VP P1183,VP version T reducer without motor (only worm-stage lubricant),,188.2,201,3
+HPL,VP P613,VP version F reducer without motor (only worm-stage lubricant),,34.7,201,3
+HPL,VP P623,VP version F reducer without motor (only worm-stage lubricant),,37.2,201,3
+HPL,VP P633,VP version F reducer without motor (only worm-stage lubricant),,52.7,201,3
+HPL,VP P653,VP version F reducer without motor (only worm-stage lubricant),,60.4,201,3
+HPL,VP P983,VP version F reducer without motor (only worm-stage lubricant),,101.7,201,3
+HPL,VP P1133,VP version F reducer without motor (only worm-stage lubricant),,144.1,201,3
+HPL,VP P1183,VP version F reducer without motor (only worm-stage lubricant),,155.6,201,3

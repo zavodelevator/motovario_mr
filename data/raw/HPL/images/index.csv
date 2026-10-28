@@ -1,0 +1,89 @@
+file,series,size,kind,caption,src_page,width_px,height_px
+HPL_general_photo_p1_1.png,HPL,general,photo,cover,1,974,549
+HPL_general_photo_p1_2.png,HPL,general,photo,cover,1,443,273
+HPL_general_diagram_p22_1.png,HPL,general,diagram,installation - 1.6 INSTALLATION (1.6.1 Installation),22,916,361
+HPL_general_diagram_p22_2.png,HPL,general,diagram,installation - 1.6 INSTALLATION (1.6.1 Installation),22,916,361
+HPL_general_diagram_p23_1.png,HPL,general,diagram,installation - 1.6 INSTALLATION,23,771,273
+HPL_general_diagram_p23_2.png,HPL,general,diagram,installation - 1.6 INSTALLATION,23,381,273
+HPL_general_diagram_p26_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD (2.2.2 Input),26,343,343
+HPL_general_diagram_p26_2.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD (2.2.2 Input),26,1076,572
+HPL_general_diagram_p26_3.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD (2.2.2 Input),26,1076,572
+HPL_general_diagram_p27_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD (2.2.3 Output - Radial/Axial load),27,871,457
+HPL_general_diagram_p27_2.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD (2.2.3 Output - Radial/Axial load),27,1018,572
+HPL_general_diagram_p28_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,28,1018,572
+HPL_general_diagram_p29_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,29,1018,572
+HPL_general_diagram_p30_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,30,1018,572
+HPL_general_diagram_p31_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,31,1018,572
+HPL_general_diagram_p31_2.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,31,278,217
+HPL_general_diagram_p32_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,32,1018,572
+HPL_general_diagram_p32_2.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,32,278,217
+HPL_general_diagram_p33_1.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,33,1018,572
+HPL_general_diagram_p33_2.png,HPL,general,diagram,radial/axial load - 2.2 RADIAL LOAD,33,278,217
+HPL_general_diagram_p39_1.png,HPL,general,diagram,designation flow chart HL - 4.1 TYPOLOGY (4.1.1 Designation),39,1211,1789
+HPL_general_diagram_p40_1.png,HPL,general,diagram,versions legend - 4.1 TYPOLOGY (4.1.2 Versions),40,1168,1429
+HPL_general_render_p41_1.png,HPL,general,render,mounting positions - 4.2 MOUNTING POSITIONS (4.2.1 Mounting positions),41,742,742
+HPL_general_render_p41_2.png,HPL,general,render,mounting positions - 4.2 MOUNTING POSITIONS (4.2.1 Mounting positions),41,687,687
+HPL_general_drawing_p42_1.png,HPL,general,drawing,terminal box positions - 4.2 MOUNTING POSITIONS (4.2.2 Position of terminal box),42,1602,361
+HPL_general_drawing_p55_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.1 HL/PHL 1),55,1487,936
+HPL_general_drawing_p57_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.2 CHL 1),57,1487,936
+HPL_general_drawing_p58_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.3 IHL 1),58,1487,936
+HPL_general_drawing_p59_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.4 HL/PHL 2 010-130),59,1487,936
+HPL_general_drawing_p60_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.5 HL/PHL 2 180-380),60,1487,936
+HPL_general_drawing_p61_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.6 CHL 2),61,1487,936
+HPL_general_drawing_p62_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.7 IHL 2 010-130),62,1487,936
+HPL_general_drawing_p63_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.8 IHL 2 180-220),63,1487,936
+HPL_general_drawing_p64_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.9 HL/PHL 3 010-130),64,1487,936
+HPL_general_drawing_p65_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.10 HL/PHL 3 180-380),65,1487,936
+HPL_general_drawing_p66_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.11 CHL 3 010-130),66,1487,936
+HPL_general_drawing_p67_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.12 CHL 3 180-380),67,1487,936
+HPL_general_drawing_p68_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.13 IHL 3 010-130),68,1487,936
+HPL_general_drawing_p69_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.14 IHL 3 180-380),69,1487,936
+HPL_general_drawing_p70_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.15 HL/PHL 4 010-130),70,1487,936
+HPL_general_drawing_p71_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.16 HL/PHL 4 180-380),71,1487,936
+HPL_general_drawing_p72_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.17 CHL 4 010-130),72,1487,936
+HPL_general_drawing_p73_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.18 CHL 4 180-380),73,1487,936
+HPL_general_drawing_p74_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.19 IHL 4 010-130),74,1487,936
+HPL_general_drawing_p75_1.png,HPL,general,drawing,dimensions - 5.1 REDUCERS/GEARED MOTORS (5.1.20 IHL 4 180-380),75,1487,936
+HPL_general_drawing_p79_1.png,HPL,general,drawing,shaft end key - 5.3 SHAFT END,79,915,440
+HPL_general_drawing_p80_1.png,HPL,general,drawing,electric motor dimensions - 5.4 ELECTRIC MOTORS (5.4.1 Electric motors),80,1602,625
+HPL_general_drawing_p81_1.png,HPL,general,drawing,electric motor dimensions - 5.4 ELECTRIC MOTORS,81,1602,625
+HPL_general_drawing_p84_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.1 Shrink disk shaft HM0-HM1 010-130),84,1229,458
+HPL_general_drawing_p84_2.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.1 Shrink disk shaft HM0-HM1 010-130),84,1232,457
+HPL_general_drawing_p86_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.2 Shrink disk shaft HM0-HM1 180-380),86,1229,457
+HPL_general_drawing_p86_2.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.2 Shrink disk shaft HM0-HM1 180-380),86,1232,457
+HPL_general_drawing_p87_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.3 Splined solid shaft SS 010-130),87,1144,989
+HPL_general_drawing_p88_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.4 Splined solid shaft SS 180-380),88,1144,991
+HPL_general_drawing_p89_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.5 Splined hollow shaft HS 010-130),89,915,443
+HPL_general_drawing_p90_1.png,HPL,general,drawing,accessory / shaft option - 6.1 LOW SPEED SHAFTS (6.1.6 Splined hollow shaft HS 180-380),90,915,443
+HPL_general_drawing_p91_1.png,HPL,general,drawing,accessory / shaft option - 6.2 WHEEL FLANGE,91,1487,608
+HPL_general_drawing_p92_1.png,HPL,general,drawing,accessory / shaft option - 6.3 AXIAL FIXING WASHER,92,801,355
+HPL_general_drawing_p93_1.png,HPL,general,drawing,accessory / shaft option - 6.4 SHAFT MOUNTING FASTENING,93,1487,883
+HPL_general_drawing_p94_1.png,HPL,general,drawing,accessory / shaft option - 6.5 BACKSTOP DEVICE,94,613,387
+HPL_general_drawing_p94_2.png,HPL,general,drawing,accessory / shaft option - 6.5 BACKSTOP DEVICE,94,613,387
+HPL_general_drawing_p95_1.png,HPL,general,drawing,accessory / shaft option - 6.6 REINFORCED OIL SEALS FOR OUTPUT SHAF… TECHNICAL CATALOGUE,95,1487,1124
+HPL_general_diagram_p188_1.png,HPL,general,diagram,designation flow chart VP - 9.1 TYPOLOGY (9.1.1 Designation),188,1372,1830
+HPL_general_diagram_p189_1.png,HPL,general,diagram,VP modularity legend - 9.1 TYPOLOGY (9.1.2 Modularity),189,1487,1323
+HPL_general_render_p190_1.png,HPL,general,render,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,742,742
+HPL_general_render_p190_2.png,HPL,general,render,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,742,742
+HPL_general_diagram_p190_3.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,357,290
+HPL_general_diagram_p190_4.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,358,290
+HPL_general_diagram_p190_5.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,355,290
+HPL_general_diagram_p190_6.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,355,290
+HPL_general_diagram_p190_7.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,357,290
+HPL_general_diagram_p190_8.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,358,290
+HPL_general_diagram_p190_9.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,355,290
+HPL_general_diagram_p190_10.png,HPL,general,diagram,VP mounting positions / executions - 9.2 MOUNTING POSITIONS (9.2.1 Mounting positions),190,355,290
+HPL_general_drawing_p191_1.png,HPL,general,drawing,VP terminal box - 9.2 MOUNTING POSITIONS (9.2.2 Position of terminal box),191,1554,469
+HPL_general_diagram_p194_1.png,HPL,general,diagram,VP direction of rotation - 9.5 DIRECTION OF ROTATION,194,686,484
+HPL_general_diagram_p194_2.png,HPL,general,diagram,VP direction of rotation - 9.5 DIRECTION OF ROTATION,194,686,484
+HPL_general_drawing_p196_1.png,HPL,general,drawing,VP motor flange - 9.7 MOTOR FLANGE AVAILABILITY (9.7.1 VP Motor flange availability),196,458,320
+HPL_general_render_p197_1.png,HPL,general,render,VP combined reducer - 9.7 MOTOR FLANGE AVAILABILITY (9.7.2 Ratios VP),197,801,580
+HPL_general_drawing_p198_1.png,HPL,general,drawing,VP dimensions - 10.1 REDUCERS/GEARED MOTORS,198,1602,1044
+HPL_general_drawing_p199_1.png,HPL,general,drawing,VP dimensions - 10.1 REDUCERS/GEARED MOTORS,199,1602,1044
+HPL_general_drawing_p200_1.png,HPL,general,drawing,VP worm input dimensions - 10.1 REDUCERS/GEARED MOTORS,200,1602,710
+HPL_general_drawing_p202_1.png,HPL,general,drawing,VP shaft cover - 11.1 ACCESSORIES AND OPTIONS VP (11.1.1 Shaft cover),202,572,502
+HPL_general_diagram_p204_1.png,HPL,general,diagram,torque limiter principle - 12.1 TORQUE LIMITER (12.1.2 Operating principle),204,915,1121
+HPL_general_drawing_p205_1.png,HPL,general,drawing,VPL dimensions - 12.1 TORQUE LIMITER (12.1.3 Dimensions),205,513,519
+HPL_general_diagram_p206_1.png,HPL,general,diagram,VPL adjustment graphs - 12.1 TORQUE LIMITER (12.1.5 Adjustment graphs),206,572,405
+HPL_general_diagram_p206_2.png,HPL,general,diagram,VPL adjustment graphs - 12.1 TORQUE LIMITER (12.1.5 Adjustment graphs),206,686,636
+HPL_general_diagram_p206_3.png,HPL,general,diagram,VPL adjustment graphs - 12.1 TORQUE LIMITER (12.1.5 Adjustment graphs),206,686,627

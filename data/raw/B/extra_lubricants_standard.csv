@@ -1,0 +1,25 @@
+series,size,variant,brand,application,product,src_page
+B,,standard_lubricants,LAND OIL,B063-163 (-5..+40C) ISO VG220,GEAR POWER 220,35
+B,,standard_lubricants,LAND OIL,B063-163 (-15..+25C) ISO VG150,-,35
+B,,standard_lubricants,LAND OIL,BA42..A72/3 (-5..+40C) SAE 85W-140,-,35
+B,,standard_lubricants,ENI,B063-163 (-5..+40C) ISO VG220,BLASIA 220,35
+B,,standard_lubricants,ENI,B063-163 (-15..+25C) ISO VG150,BLASIA 150,35
+B,,standard_lubricants,ENI,BA42..A72/3 (-5..+40C) SAE 85W-140,ROTRA MP (85W-140),35
+B,,standard_lubricants,SHELL,B063-163 (-5..+40C) ISO VG220,OMALA S2 G 220,35
+B,,standard_lubricants,SHELL,B063-163 (-15..+25C) ISO VG150,OMALA S2 G 150,35
+B,,standard_lubricants,SHELL,BA42..A72/3 (-5..+40C) SAE 85W-140,SPIRAX S2 A 85W-140,35
+B,,standard_lubricants,KLUBER,B063-163 (-5..+40C) ISO VG220,Kluberoil GEM 1-220N,35
+B,,standard_lubricants,KLUBER,B063-163 (-15..+25C) ISO VG150,Kluberoil GEM 1-150N,35
+B,,standard_lubricants,KLUBER,BA42..A72/3 (-5..+40C) SAE 85W-140,Kluberoil GEM 1-460N,35
+B,,standard_lubricants,MOBIL,B063-163 (-5..+40C) ISO VG220,MOBILGEAR 600 XP220,35
+B,,standard_lubricants,MOBIL,B063-163 (-15..+25C) ISO VG150,MOBILGEAR 600 XP150,35
+B,,standard_lubricants,MOBIL,BA42..A72/3 (-5..+40C) SAE 85W-140,-,35
+B,,standard_lubricants,CASTROL,B063-163 (-5..+40C) ISO VG220,ALPHA SP 220,35
+B,,standard_lubricants,CASTROL,B063-163 (-15..+25C) ISO VG150,ALPHA SP 150,35
+B,,standard_lubricants,CASTROL,BA42..A72/3 (-5..+40C) SAE 85W-140,-,35
+B,,standard_lubricants,BP,B063-163 (-5..+40C) ISO VG220,ENERGOL GR-XP220,35
+B,,standard_lubricants,BP,B063-163 (-15..+25C) ISO VG150,ENERGOL GR-XP150,35
+B,,standard_lubricants,BP,BA42..A72/3 (-5..+40C) SAE 85W-140,-,35
+B,,standard_lubricants,PETRONAS,B063-163 (-5..+40C) ISO VG220,GEAR MEP 220,35
+B,,standard_lubricants,PETRONAS,B063-163 (-15..+25C) ISO VG150,GEAR MEP 150,35
+B,,standard_lubricants,PETRONAS,BA42..A72/3 (-5..+40C) SAE 85W-140,TUTELA TRANSMISSION W 140/M-DA,35
