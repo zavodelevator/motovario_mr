@@ -333,3 +333,123 @@ test('techSnapshot omits null fields and states the catalogue source', () => {
   assert.ok(snap.source.includes('с. ' + c.src_page));
   assert.equal(snap.motor.frequency, 50);
 });
+
+// ---------------------------------------------------------------- selectSimple (simple mode)
+const SS = (o) => EN.selectSimple(o, data);
+
+test('selectSimple: deterministic, pure (same input -> identical output; input not mutated)', () => {
+  const q = { p_kw: 1.1, n2_rpm: 47 }, copy = JSON.stringify(q);
+  const strip = (r) => JSON.stringify(r.variants.map((v) => [v.row_id, v.designation, v.fs, v.dev_pct]));
+  assert.equal(strip(SS(q)), strip(SS(q)));
+  assert.equal(JSON.stringify(q), copy);
+  assert.equal(SS(q).status, 'ok');
+});
+
+test('selectSimple: 3..12 rows, sorted by housing, then fs closest to min, then speed error', () => {
+  const r = SS({ p_kw: 1.1, n2_rpm: 47 });
+  assert.ok(r.variants.length >= 3 && r.variants.length <= 12);
+  for (let k = 1; k < r.variants.length; k++) {
+    const a = r.variants[k - 1], b = r.variants[k];
+    assert.ok(a.housing_no <= b.housing_no, 'housing order');
+    if (a.housing_no === b.housing_no && a.config === b.config) {
+      const da = Math.abs(a.mn2_nm / a.m2_nm - 1), db = Math.abs(b.mn2_nm / b.m2_nm - 1);
+      assert.ok(da <= db + 1e-9, 'fs closeness within a housing');
+    }
+  }
+});
+
+test('selectSimple: every row exists in data with matching power, speed, Mn2/M2', () => {
+  for (const q of [{ p_kw: 1.1, n2_rpm: 47 }, { p_kw: 0.75, n2_rpm: 90 }, { p_kw: 4, n2_rpm: 28 }, { p_kw: 0.37, n2_rpm: 14 }]) {
+    const r = SS(q);
+    for (const v of r.variants) {
+      const row = E.rowById(v.row_id);
+      assert.ok(row, 'row exists');
+      assert.equal(row.p1, r.power.matched); assert.equal(row.kind, 'gm');
+      assert.equal(v.m2_nm, row.m2); assert.equal(v.mn2_nm, row.mn2); assert.equal(v.i, row.i);
+      assert.ok(Math.abs(v.fs - row.mn2 / row.m2) < 0.006);
+      assert.ok(Math.abs(row.n2 - q.n2_rpm) / q.n2_rpm <= r.tol_pct / 100 + 1e-9);
+      assert.ok(data.ratings.some((d) => d.id === row.id && d.size === row.size));
+      assert.ok(v.src_page > 0);
+    }
+  }
+});
+
+test('selectSimple: tolerance 5 % by default, widened to 10 % only when fewer than 3 variants', () => {
+  const r5 = SS({ p_kw: 1.1, n2_rpm: 47 });
+  assert.equal(r5.tol_pct, 5); assert.equal(r5.widened, false);
+  let widened = null;
+  for (const n of [11, 13, 17, 19, 23, 29, 31, 37, 41, 53, 59, 67, 73, 83, 97, 110, 130]) {
+    const r = SS({ p_kw: 0.75, n2_rpm: n });
+    if (r.widened) { widened = r; break; }
+  }
+  assert.ok(widened, 'a widened case exists in the catalogue');
+  assert.equal(widened.tol_pct, 10);
+  assert.ok(widened.variants.some((v) => Math.abs(v.dev_pct) > 5), 'widened result shows deviation above 5 %');
+  widened.variants.forEach((v) => assert.ok(Math.abs(v.dev_pct) <= 10 + 1e-9));
+  const fixed = SS({ p_kw: 0.75, n2_rpm: 11, tol_pct: 5 });
+  assert.equal(fixed.widened, false);
+});
+
+test('selectSimple: min_fs filters; lowering it adds red (<1.0) rows only then', () => {
+  const hi = SS({ p_kw: 1.1, n2_rpm: 47, min_fs: 1.0 });
+  hi.variants.forEach((v) => assert.ok(v.mn2_nm / v.m2_nm >= 1 - 1e-9));
+  const strict = SS({ p_kw: 1.1, n2_rpm: 47, min_fs: 2.0 });
+  strict.variants.forEach((v) => assert.ok(v.mn2_nm / v.m2_nm >= 2 - 1e-9));
+  assert.ok(strict.variants.length < hi.variants.length || strict.status === 'empty');
+  assert.ok(strict.excluded_by_fs > 0);
+  let sawRed = false;
+  for (const q of [{ p_kw: 0.75, n2_rpm: 93 }, { p_kw: 1.5, n2_rpm: 47 }, { p_kw: 0.37, n2_rpm: 28 }, { p_kw: 2.2, n2_rpm: 14 }, { p_kw: 4, n2_rpm: 28 }]) {
+    const lo = SS(Object.assign({ min_fs: 0.5 }, q)), def = SS(q);
+    lo.variants.forEach((v) => { if (v.fs_band === 'red') sawRed = true; });
+    def.variants.forEach((v) => assert.notEqual(v.fs_band, 'red'));
+  }
+  assert.ok(sawRed, 'lowering min_fs exposes red rows for at least one case');
+});
+
+test('selectSimple: non-catalogue power -> next catalogue power + chips; too-large power -> empty with hint', () => {
+  const r = SS({ p_kw: 1.2, n2_rpm: 47 });
+  assert.equal(r.power.exact, false); assert.equal(r.power.matched, 1.5);
+  assert.deepEqual(r.power.next.slice(0, 2), [1.85, 2.2]);
+  assert.ok(r.variants.every((v) => v.p_kw === 1.5));
+  const big = SS({ p_kw: 80, n2_rpm: 47 });
+  assert.equal(big.status, 'empty'); assert.match(big.hint_uk, /кВт/);
+});
+
+test('selectSimple: empty result explains with nearest speeds/powers that DO have variants', () => {
+  const r = SS({ p_kw: 1.1, n2_rpm: 3000 });
+  assert.equal(r.status, 'error');
+  const e = SS({ p_kw: 0.09, n2_rpm: 900, poles: 4 });
+  assert.equal(e.status, 'empty');
+  assert.match(e.hint_uk, /немає варіантів/);
+  assert.ok(e.suggestions.speeds.length > 0);
+  for (const s of e.suggestions.speeds) {
+    const r2 = SS({ p_kw: 0.09, n2_rpm: s, poles: 4 });
+    assert.equal(r2.status, 'ok', 'suggested speed ' + s + ' has variants');
+  }
+});
+
+test('selectSimple: family filter', () => {
+  for (const f of ['NMRV', 'NMRV-P']) {
+    const r = SS({ p_kw: 1.1, n2_rpm: 47, family: f });
+    r.variants.forEach((v) => assert.equal(v.series, f));
+  }
+  const all = SS({ p_kw: 1.1, n2_rpm: 47 });
+  assert.ok(new Set(all.variants.map((v) => v.series)).size >= 1);
+});
+
+test('selectSimple: 2/4/6 poles map to 2800/1400/900 and filter rows', () => {
+  for (const [p, n1] of [[2, 2800], [4, 1400], [6, 900]]) {
+    const r = SS({ p_kw: 1.1, n2_rpm: 47, poles: p });
+    assert.ok(r.variants.length > 0, p + 'p has variants');
+    r.variants.forEach((v) => { assert.equal(v.poles, p); assert.equal(v.n1, n1); assert.ok(Math.abs(v.n2 * v.i / n1 - 1) < 0.15); });
+  }
+  const any = SS({ p_kw: 1.1, n2_rpm: 47 });
+  assert.deepEqual([...new Set(any.variants.map((v) => v.poles))].sort(), [2, 4, 6]);
+});
+
+test('selectSimple: validation and incomplete input', () => {
+  assert.equal(SS({}).status, 'incomplete');
+  assert.equal(SS({ p_kw: -1, n2_rpm: 10 }).status, 'error');
+  assert.equal(SS({ p_kw: 1.1, n2_rpm: 47, poles: 3 }).status, 'error');
+  assert.equal(SS({ p_kw: 1.1, n2_rpm: 47, min_fs: 9 }).status, 'error');
+});

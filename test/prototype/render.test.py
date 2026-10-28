@@ -65,6 +65,88 @@ def check(cond, msg):
         fails.append(msg)
 
 
+def simple_mode_checks(page, ctx):
+    check(page.locator("#simple").is_visible() and page.locator("#sec-select").is_hidden(), "simple mode is the default")
+    check(page.locator("#mode_simple").get_attribute("aria-pressed") == "true", "toggle shows simple pressed")
+    page.fill("#s_kw", "1.1")
+    page.fill("#s_n2", "47")
+    page.wait_for_selector("#s_table tbody tr")  # live on input, no button press
+    head = page.locator("#s_table thead th").all_inner_texts()
+    for lab in ["Двигун, об/хв", "Передавальне число i", "Габаритний розмір редуктора", "Д×Ш×В, мм", "Сервіс-фактор", "Момент на виході M2, Нм"]:
+        check(any(lab in h for h in head), "simple table header: " + lab)
+    rows = page.locator("#s_table tbody tr").count()
+    check(rows >= 3, "simple table has >=3 rows (%d)" % rows)
+    first = page.locator("#s_table tbody tr").first.inner_text()
+    check(re.search(r"\d+×\d+×\d+", first) is not None, "overall size cell Д×Ш×В present: " + first.replace("\n", " | ")[:120])
+    check(page.locator("#s_table tbody tr img").first.evaluate("e=>e.naturalWidth>0"), "simple row thumbnail loaded")
+    check(page.locator("#s_table .fsb.green").count() >= 1, "fs badge coloured")
+    page.screenshot(path=str(SHOTS / "simple_table.png"), full_page=False)
+    page.locator("#s_table tbody tr").nth(1).focus()
+    page.keyboard.press("Enter")
+    page.wait_for_selector("#s_det")
+    dt = page.locator("#s_detail").inner_text()
+    check("Mn2" in dt and re.search(r"Сторінки каталогу\s*\d+", dt) is not None, "detail panel shows Mn2 and a source page")
+    for lab in ["Серія", "Типорозмір", "Передавальне число i", "Мастило", "Типорозмір IEC", "Сервіс-фактор застосування", "Використання за моментом"]:
+        check(lab in dt, "detail label: " + lab)
+    page.locator("#s_table tbody tr").first.click()
+    check(page.locator("#s_table tbody tr.sel").count() == 1, "clicking a row selects it")
+    page.screenshot(path=str(SHOTS / "simple_detail.png"), full_page=True)
+    # 3D from detail
+    page.click("#s_3d")
+    page.wait_for_selector("#m3d:not([hidden]) #m3d-view canvas", timeout=15000)
+    page.click("#m3d-close")
+    page.click("#s_add")
+    check(page.locator("#quoteitems tbody tr").count() == 1, "simple: added to the quote")
+    # non-catalogue power hint
+    page.fill("#s_kw", "1.2"); page.wait_for_selector("#s_msg .chipbtn")
+    check("не стандартна потужність" in page.locator("#s_msg").inner_text(), "non-catalogue power hint with chips")
+    page.fill("#s_kw", "1.1")
+    page.wait_for_selector("#s_table tbody tr")
+    # empty-state explanation
+    page.fill("#s_kw", "0.09"); page.fill("#s_n2", "900")
+    page.wait_for_selector("#s_msg .nocand")
+    check("немає варіантів" in page.locator("#s_msg").inner_text() and page.locator("#s_msg .chipbtn").count() > 0, "empty result explained with suggestions")
+    page.fill("#s_kw", "1.1"); page.fill("#s_n2", "47"); page.wait_for_selector("#s_table tbody tr")
+    # to advanced with prefill
+    page.locator("#s_table tbody tr").first.click()
+    page.click("#s_toadv")
+    check(page.locator("#sec-select").is_visible() and page.locator("#simple").is_hidden(), "switch to advanced via detail button")
+    check(page.input_value("#f_n2") == "47" and page.input_value("#f_torque") != "", "advanced form prefilled")
+    check(page.locator("#results .ct tbody tr").count() >= 1, "advanced select ran with prefill")
+    check(page.locator("#quoteitems tbody tr").count() == 1, "quote kept after switching to advanced")
+    page.click("#mode_simple")
+    check(page.locator("#simple").is_visible() and page.locator("#quoteitems tbody tr").count() == 1, "back to simple keeps the quote")
+    # persistence
+    page.click("#mode_adv"); page.reload()
+    check(page.locator("#sec-select").is_visible(), "mode choice persisted in localStorage")
+    page.click("#mode_simple"); page.reload()
+    check(page.locator("#simple").is_visible(), "simple persisted")
+    page.fill("#s_kw", "1.1"); page.fill("#s_n2", "47"); page.wait_for_selector("#s_table tbody tr")
+    page.locator("#s_table tbody tr").first.click()
+    page.click("#s_add")
+    # KP from simple item
+    page.click("#btn_kp")
+    page.wait_for_selector(".page", timeout=60000)
+    check("ПОЗ. 01" in page.locator("#kp").inner_text() and "ТЕХНІЧНІ ДАНІ" in page.locator("#kp").inner_text(), "KP renders from simple-mode item")
+    # mobile
+    mp = ctx.new_page()
+    mp.set_viewport_size({"width": 390, "height": 800})
+    mp.goto((VSF / "index.html").as_uri())
+    mp.fill("#s_kw", "1.1"); mp.fill("#s_n2", "47"); mp.wait_for_selector("#s_table tbody tr")
+    mp.locator("#s_table tbody tr").first.click(); mp.wait_for_selector("#s_det")
+    ov = mp.evaluate("()=>document.documentElement.scrollWidth-window.innerWidth")
+    check(ov <= 1, "mobile 390px: no horizontal page overflow (%s px)" % ov)
+    mp.screenshot(path=str(SHOTS / "simple_mobile.png"), full_page=True)
+    mp.click("#mode_adv")
+    mp.screenshot(path=str(SHOTS / "simple_mobile_adv.png"), full_page=False)
+    mp.close()
+    page.click("#mode_adv")
+    page.screenshot(path=str(SHOTS / "simple_advanced_mode.png"), full_page=False)
+    page.click("#btn_clear")
+    page.evaluate("()=>localStorage.clear()")
+    page.reload()
+
+
 def main():
     with sync_playwright() as p:
         b = p.chromium.launch(args=["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"])
@@ -74,6 +156,8 @@ def main():
         page.on("pageerror", lambda e: errs.append(str(e)))
         page.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
         page.goto((VSF / "index.html").as_uri())
+        simple_mode_checks(page, ctx)
+        page.click("#mode_adv")
         page.fill("#f_torque", "120")
         page.fill("#f_n2", "47")
         page.select_option("#f_poles", "4")

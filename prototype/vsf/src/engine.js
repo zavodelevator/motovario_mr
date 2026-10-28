@@ -595,6 +595,108 @@
       return snap;
     }
 
+    // ------------------------------------------------------------ simple mode (power kW + output rpm)
+    // selectSimple({p_kw, n2_rpm, poles?, family?, min_fs?, tol_pct?, limit?}) -> plain JSON. Gearmotor rows only (no
+    // brake-only rows). fs = Mn2 / M2 from the catalogue row. Nothing is invented: a variant needs i, M2 and fs.
+    var SIMPLE_DUTY = { load_class: 'B', hours_per_day: 8, starts_per_hour: 10 };
+    function fmtKw(p) { return String(p).replace('.', ','); }
+    function housingNo(size) { var n = outputUnitNumber(size); return n ? parseInt(n, 10) : 9999; }
+    function simpleFamilies(f) { return f === 'NMRV' ? ['NMRV'] : f === 'NMRV-P' ? ['NMRV-P'] : ['NMRV', 'NMRV-P']; }
+    function selectSimple(p0) {
+      p0 = p0 || {};
+      var P = num(p0.p_kw), N2 = num(p0.n2_rpm), minFs = num(p0.min_fs), limit = num(p0.limit) || 12;
+      var poles = p0.poles === undefined || p0.poles === null || p0.poles === '' || p0.poles === 'any' ? 'any' : num(p0.poles);
+      var fam = p0.family === 'NMRV' || p0.family === 'NMRV-P' ? p0.family : 'all';
+      if (minFs === null) minFs = 1.0;
+      var out = {
+        engine_version: MODEL_VERSION, status: 'ok', errors: [], request: { p_kw: P, n2_rpm: N2, poles: poles, family: fam, min_fs: minFs },
+        power: null, tol_pct: null, widened: false, variants: [], excluded_by_fs: 0, hint_uk: null, suggestions: { powers: [], speeds: [], powers_for_speed: [] },
+        duty_defaults: SIMPLE_DUTY
+      };
+      if (P === null || N2 === null) { out.status = 'incomplete'; return out; }
+      if (!(P > 0 && P <= 90)) out.errors.push(err('p_kw', 'power_range', 'Потужність двигуна: 0 < P ≤ 90 кВт'));
+      if (!(N2 >= 0.1 && N2 <= 1500)) out.errors.push(err('n2_rpm', 'n2_range', 'Частота на виході: 0,1…1500 об/хв'));
+      if (poles !== 'any' && !N1_NOM[poles]) out.errors.push(err('poles', 'poles', 'Кількість полюсів: 2, 4 або 6'));
+      if (!(minFs >= 0.5 && minFs <= 3)) out.errors.push(err('min_fs', 'fs_range', 'Мінімальний сервіс-фактор: 0,5…3'));
+      if (out.errors.length) { out.status = 'error'; return out; }
+      var famSet = simpleFamilies(fam);
+      var pool = rows.filter(function (r) {
+        return r.kind === 'gm' && !r.brk && famSet.indexOf(r.fam) >= 0 && (poles === 'any' || r.poles === poles) && isNum(r.m2) && r.m2 > 0 && isNum(r.mn2) && isNum(r.i) && r.i > 0;
+      });
+      var powers = []; pool.forEach(function (r) { if (powers.indexOf(r.p1) < 0) powers.push(r.p1); });
+      powers.sort(function (a, b) { return a - b; });
+      var up = powers.filter(function (p) { return p >= P - 1e-9; });
+      if (!up.length) {
+        out.status = 'empty';
+        out.suggestions.powers = powers.slice(-4);
+        out.hint_uk = 'У каталозі немає двигунів потужністю ' + fmtKw(P) + ' кВт і більше для вибраних умов. Максимальна потужність: ' + fmtKw(powers[powers.length - 1]) + ' кВт.';
+        return out;
+      }
+      var matched = up[0], exact = Math.abs(matched - P) < 1e-6;
+      out.power = { typed: P, matched: matched, exact: exact, next: up.slice(exact ? 1 : 1, 5), lower: powers.filter(function (p) { return p < matched; }).slice(-2) };
+      out.suggestions.powers = (exact ? [] : [matched]).concat(up.slice(1, 5)).concat(exact ? powers.filter(function (p) { return p < matched; }).slice(-2) : []);
+      function gather(pw, tol) {
+        var inP = pool.filter(function (r) { return Math.abs(r.p1 - pw) < 1e-9; });
+        var near = inP.filter(function (r) { return Math.abs(r.n2 - N2) / N2 <= tol / 100 + 1e-12; });
+        var byFs = near.filter(function (r) { return r.mn2 / r.m2 >= minFs - 1e-9; });
+        return { inP: inP, near: near, ok: byFs };
+      }
+      var tol = p0.tol_pct === undefined || p0.tol_pct === null || p0.tol_pct === '' ? 5 : num(p0.tol_pct);
+      var g = gather(matched, tol);
+      if (g.ok.length < 3 && tol < 10 && (p0.tol_pct === undefined || p0.tol_pct === null || p0.tol_pct === '')) {
+        var g2 = gather(matched, 10);
+        if (g2.ok.length > g.ok.length) { g = g2; tol = 10; out.widened = true; }
+      }
+      out.tol_pct = tol;
+      out.excluded_by_fs = g.near.length - g.ok.length;
+      // one entry per (size, config, i, poles, power): keep the first row id (the catalogue has duplicates only for motor frames)
+      var seen = {}, list = [];
+      g.ok.slice().sort(function (a, b) { return a.id - b.id; }).forEach(function (r) {
+        var k = r.size + '|' + r.cfg + '|' + r.i + '|' + r.poles + '|' + r.p1;
+        if (!seen[k]) { seen[k] = 1; list.push(r); }
+      });
+      list.forEach(function (r) { r._fs = r.mn2 / r.m2; });
+      list.sort(function (a, b) {
+        return (housingNo(a.size) - housingNo(b.size)) || ((a.cfg === 'single' ? 0 : 1) - (b.cfg === 'single' ? 0 : 1)) ||
+          (Math.abs(a._fs - minFs) - Math.abs(b._fs - minFs)) || (Math.abs(a.n2 - N2) - Math.abs(b.n2 - N2)) ||
+          (a.fam < b.fam ? -1 : a.fam > b.fam ? 1 : 0) || (a.id - b.id);
+      });
+      if (!list.length) {
+        out.status = 'empty';
+        var sp = {}; g.inP.forEach(function (r) { if (r.mn2 / r.m2 >= minFs - 1e-9) sp[round(r.n2, 1)] = 1; });
+        var speeds = Object.keys(sp).map(Number).sort(function (a, b) { return Math.abs(a - N2) - Math.abs(b - N2) || a - b; }).slice(0, 6).sort(function (a, b) { return a - b; });
+        out.suggestions.speeds = speeds;
+        powers.forEach(function (pw) { if (pw !== matched && gather(pw, tol).ok.length) out.suggestions.powers_for_speed.push(pw); });
+        out.suggestions.powers_for_speed.sort(function (a, b) { return Math.abs(a - matched) - Math.abs(b - matched) || a - b; });
+        out.suggestions.powers_for_speed = out.suggestions.powers_for_speed.slice(0, 5).sort(function (a, b) { return a - b; });
+        out.hint_uk = 'Для ' + fmtKw(matched) + ' кВт немає варіантів із n2 ' + fmt0(N2) + ' об/хв ±' + tol + ' %' + (out.excluded_by_fs ? ' і сервіс-фактором ≥ ' + String(round(minFs, 2)).replace('.', ',') + ' (відсіяно за fs: ' + out.excluded_by_fs + ')' : '') + '.' +
+          (speeds.length ? ' Для цієї потужності є швидкості: ' + speeds.map(fmt0).join(', ') + ' об/хв.' : '') +
+          (out.suggestions.powers_for_speed.length ? ' Для цієї швидкості є потужності: ' + out.suggestions.powers_for_speed.map(fmtKw).join(', ') + ' кВт.' : '');
+        return out;
+      }
+      var total = list.length;
+      list = list.slice(0, limit);
+      out.total_found = total;
+      out.variants = list.map(function (r) {
+        var req = Object.assign({ load_torque_nm: r.m2, n2_rpm: r.n2, poles: r.poles, family: r.fam, mounting_position: 'B3', version: 'foot', output: 'hollow' }, SIMPLE_DUTY);
+        var v = verify(req, r.id, null), c = v.candidate;
+        var fs = r.mn2 / r.m2;
+        return {
+          row_id: r.id, key: 'gm' + r.id,
+          designation: spaced(r.size) + ' i=' + fmtI(r.i) + (c && c.motor ? ' ' + c.motor.frame : '') + ' ' + fmtKw(r.p1) + 'кВт ' + r.poles + 'P',
+          series: r.fam, size: r.size, size_spaced: spaced(r.size), config: r.cfg, stages: r.cfg === 'combined' ? 2 : 1,
+          i: r.i, poles: r.poles, n1: N1_NOM[r.poles], n2: r.n2, dev_pct: round(relDev(r.n2, N2) * 100, 1),
+          p_kw: r.p1, motor: c ? c.motor : null, m2_nm: r.m2, mn2_nm: r.mn2, mn2_source: r.mn2_src,
+          fs: round(fs, 2), fs_catalogue: isNum(r.fs) ? r.fs : null, fs_band: fs >= 1.25 ? 'green' : fs >= 1.0 ? 'amber' : 'red',
+          mass_kg: c ? c.mass_kg : null, image_key: c ? c.image_key : imageKey(r), src_page: r.pg, src_pages: c ? c.src_pages : [r.pg],
+          cand: c, housing_no: housingNo(r.size)
+        };
+      });
+      out.status = 'ok';
+      return out;
+    }
+    function fmt0(x) { return String(round(x, 1)).replace('.', ','); }
+
     // ------------------------------------------------------------ misc
     function priceHook(item) { return null; }   // D1: no prices yet; KP hides price columns when every hook is null
 
@@ -606,15 +708,22 @@
 
     return {
       version: MODEL_VERSION, rows: rows, rowById: function (id) { return byId[id] || null; }, dropped: dropped,
-      normalise: normalise, requiredFs: requiredFs, select: select, verify: verify, overrideOptions: overrideOptions,
+      normalise: normalise, requiredFs: requiredFs, select: select, selectSimple: selectSimple, verify: verify, overrideOptions: overrideOptions,
       techSnapshot: techSnapshot, priceHook: priceHook, sizeMeta: sizeMeta, designationList: designationList,
       fsLookup: function (c, h, s) { return fsLookup(data.service_factor, c, h, s); },
       data: data
     };
   }
 
+  var engineCache = typeof WeakMap === 'function' ? new WeakMap() : null;
+  function selectSimple(params, data) {
+    var e = engineCache && engineCache.get(data);
+    if (!e) { e = createEngine(data); if (engineCache) engineCache.set(data, e); }
+    return e.selectSimple(params);
+  }
+
   return {
-    createEngine: createEngine, fsLookup: fsLookup, N1_NOM: N1_NOM, FS_TOLERANCE: FS_TOLERANCE, LOAD_CLASS_UK: LOAD_CLASS_UK,
+    createEngine: createEngine, selectSimple: selectSimple, fsLookup: fsLookup, N1_NOM: N1_NOM, FS_TOLERANCE: FS_TOLERANCE, LOAD_CLASS_UK: LOAD_CLASS_UK,
     FAMILY_ORDER: FAMILY_ORDER, spaced: spaced, inputUnit: inputUnit, outputUnitNumber: outputUnitNumber
   };
 });

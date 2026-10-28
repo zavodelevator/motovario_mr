@@ -168,6 +168,39 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
   .page{margin:0;box-shadow:none;width:210mm;height:297mm}
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+
+/* ---------- simple mode ---------- */
+.modebar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--mv-blue);border-radius:4px;overflow:hidden}
+.segbtn{font:inherit;font-size:14px;padding:8px 22px;border:0;background:#fff;color:var(--mv-blue);cursor:pointer}
+.segbtn.on{background:var(--mv-blue);color:#fff}
+.segbtn:focus-visible{outline:2px solid var(--mv-blue-mid);outline-offset:-2px}
+.sgrid{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}
+.sgrid .sbtn{padding-bottom:1px}
+details.more{margin-top:10px}details.more summary{cursor:pointer;color:var(--mv-blue);font-size:13px}
+details.more .sgrid{grid-template-columns:repeat(4,1fr);margin-top:6px}
+#s_msg .fsbox,#s_msg .nocand{margin:10px 0}
+.chipbtn{font:inherit;font-size:12px;border:1px solid var(--mv-blue);background:#fff;color:var(--mv-blue);border-radius:12px;padding:2px 10px;margin:2px 4px 2px 0;cursor:pointer}
+.chipbtn:hover{background:var(--mv-blue-tint)}
+.st tbody tr{cursor:pointer}.st tbody tr:hover{background:var(--mv-blue-tint)!important}
+.st tbody tr.sel{outline:2px solid var(--mv-blue);outline-offset:-2px;background:#eaf1f9!important}
+.st tbody tr:focus-visible{outline:3px solid var(--mv-blue)}
+.st th small{display:block;font-weight:400;opacity:.9}
+.st .vr{display:flex;gap:8px;align-items:center;min-width:210px}.st .vr img{width:56px;height:42px;object-fit:contain;flex:none}
+.fsb{display:inline-block;min-width:44px;text-align:center;font-weight:600;padding:1px 8px;border-radius:10px}
+.fsb.green{background:#dfeedd;color:#2b6a1f}.fsb.amber{background:#fbefd0;color:#8a5a00}.fsb.red{background:#f6dddd;color:var(--mv-red)}
+.sdet{border:2px solid var(--mv-blue);border-radius:4px;margin-top:14px;padding:12px 14px;background:#fbfcfe}
+.sdet h3{margin:0 0 8px;font-size:16px;color:var(--mv-blue);font-weight:600;overflow-wrap:anywhere}
+.sdet .two2{display:grid;grid-template-columns:1fr 1fr;gap:4px 24px}
+.sdet .kv{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted var(--mv-blue-mid);padding:3px 0;font-size:13px}
+.sdet .kv .k{color:var(--mv-grey-text)}.sdet .kv .v{text-align:right;font-weight:600;overflow-wrap:anywhere}
+.sdet .coltitle{font-size:11px;font-weight:600;text-transform:uppercase;color:var(--mv-blue);margin:8px 0 2px;letter-spacing:.04em}
+.assum{background:var(--mv-blue-tint);padding:6px 10px;margin:8px 0;border-radius:3px}
+.assum .agrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+@media (max-width:700px){
+ .sgrid,details.more .sgrid{grid-template-columns:1fr}.sdet .two2,.assum .agrid{grid-template-columns:1fr}
+ .segbtn{padding:8px 16px}.st .vr{min-width:150px}.wrap{padding:10px}.card{padding:12px}
+}
 </style>
 </head>
 <body>
@@ -182,8 +215,36 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
   </header>
 
   <main class="wrap">
+    <div class="modebar" role="group" aria-label="Режим підбору">
+      <div class="seg">
+        <button type="button" id="mode_simple" class="segbtn on" aria-pressed="true">Простий</button>
+        <button type="button" id="mode_adv" class="segbtn" aria-pressed="false">Складний</button>
+      </div>
+      <span class="hint" id="mode_hint">Простий: лише потужність двигуна і потрібні оберти на виході.</span>
+    </div>
+    <section id="simple" class="card">
+      <h2>1. Простий підбір: потужність і оберти</h2>
+      <form id="sform" autocomplete="off" novalidate>
+        <div class="sgrid">
+          <label>Потужність двигуна, кВт <input id="s_kw" type="number" step="any" min="0" inputmode="decimal" placeholder="напр. 1,1"></label>
+          <label>Потрібні оберти на виході, об/хв <input id="s_n2" type="number" step="any" min="0" inputmode="decimal" placeholder="напр. 47"></label>
+          <div class="sbtn"><button type="submit" id="btn_ssel" class="btn primary">Підібрати</button></div>
+        </div>
+        <details class="more" id="s_more"><summary>Додатково</summary>
+          <div class="sgrid">
+            <label>Полюси двигуна <select id="s_poles"><option value="any" selected>будь-які (2 / 4 / 6)</option><option value="2">2p (2800 об/хв)</option><option value="4">4p (1400 об/хв)</option><option value="6">6p (900 об/хв)</option></select></label>
+            <label>Сімейство <select id="s_family"><option value="all" selected>NMRV і NMRV-P</option><option value="NMRV">лише NMRV</option><option value="NMRV-P">лише NMRV-P</option></select></label>
+            <label>Мін. сервіс-фактор <input id="s_minfs" type="number" step="0.05" value="1.0" min="0.5" max="3"></label>
+            <label>Кількість, шт <input id="s_qty" type="number" min="1" max="999" step="1" value="1"></label>
+          </div>
+        </details>
+      </form>
+      <div id="s_msg" role="status"></div>
+      <div id="s_results"></div>
+      <div id="s_detail"></div>
+    </section>
     <section id="sec-select" class="card">
-      <h2>1. Підбір за параметрами застосування</h2>
+      <h2>1. Складний підбір за параметрами застосування</h2>
       <form id="selform" autocomplete="off" novalidate>
         <div class="grid">
           <fieldset><legend>Навантаження</legend>
@@ -949,6 +1010,108 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
       return snap;
     }
 
+    // ------------------------------------------------------------ simple mode (power kW + output rpm)
+    // selectSimple({p_kw, n2_rpm, poles?, family?, min_fs?, tol_pct?, limit?}) -> plain JSON. Gearmotor rows only (no
+    // brake-only rows). fs = Mn2 / M2 from the catalogue row. Nothing is invented: a variant needs i, M2 and fs.
+    var SIMPLE_DUTY = { load_class: 'B', hours_per_day: 8, starts_per_hour: 10 };
+    function fmtKw(p) { return String(p).replace('.', ','); }
+    function housingNo(size) { var n = outputUnitNumber(size); return n ? parseInt(n, 10) : 9999; }
+    function simpleFamilies(f) { return f === 'NMRV' ? ['NMRV'] : f === 'NMRV-P' ? ['NMRV-P'] : ['NMRV', 'NMRV-P']; }
+    function selectSimple(p0) {
+      p0 = p0 || {};
+      var P = num(p0.p_kw), N2 = num(p0.n2_rpm), minFs = num(p0.min_fs), limit = num(p0.limit) || 12;
+      var poles = p0.poles === undefined || p0.poles === null || p0.poles === '' || p0.poles === 'any' ? 'any' : num(p0.poles);
+      var fam = p0.family === 'NMRV' || p0.family === 'NMRV-P' ? p0.family : 'all';
+      if (minFs === null) minFs = 1.0;
+      var out = {
+        engine_version: MODEL_VERSION, status: 'ok', errors: [], request: { p_kw: P, n2_rpm: N2, poles: poles, family: fam, min_fs: minFs },
+        power: null, tol_pct: null, widened: false, variants: [], excluded_by_fs: 0, hint_uk: null, suggestions: { powers: [], speeds: [], powers_for_speed: [] },
+        duty_defaults: SIMPLE_DUTY
+      };
+      if (P === null || N2 === null) { out.status = 'incomplete'; return out; }
+      if (!(P > 0 && P <= 90)) out.errors.push(err('p_kw', 'power_range', 'Потужність двигуна: 0 < P ≤ 90 кВт'));
+      if (!(N2 >= 0.1 && N2 <= 1500)) out.errors.push(err('n2_rpm', 'n2_range', 'Частота на виході: 0,1…1500 об/хв'));
+      if (poles !== 'any' && !N1_NOM[poles]) out.errors.push(err('poles', 'poles', 'Кількість полюсів: 2, 4 або 6'));
+      if (!(minFs >= 0.5 && minFs <= 3)) out.errors.push(err('min_fs', 'fs_range', 'Мінімальний сервіс-фактор: 0,5…3'));
+      if (out.errors.length) { out.status = 'error'; return out; }
+      var famSet = simpleFamilies(fam);
+      var pool = rows.filter(function (r) {
+        return r.kind === 'gm' && !r.brk && famSet.indexOf(r.fam) >= 0 && (poles === 'any' || r.poles === poles) && isNum(r.m2) && r.m2 > 0 && isNum(r.mn2) && isNum(r.i) && r.i > 0;
+      });
+      var powers = []; pool.forEach(function (r) { if (powers.indexOf(r.p1) < 0) powers.push(r.p1); });
+      powers.sort(function (a, b) { return a - b; });
+      var up = powers.filter(function (p) { return p >= P - 1e-9; });
+      if (!up.length) {
+        out.status = 'empty';
+        out.suggestions.powers = powers.slice(-4);
+        out.hint_uk = 'У каталозі немає двигунів потужністю ' + fmtKw(P) + ' кВт і більше для вибраних умов. Максимальна потужність: ' + fmtKw(powers[powers.length - 1]) + ' кВт.';
+        return out;
+      }
+      var matched = up[0], exact = Math.abs(matched - P) < 1e-6;
+      out.power = { typed: P, matched: matched, exact: exact, next: up.slice(exact ? 1 : 1, 5), lower: powers.filter(function (p) { return p < matched; }).slice(-2) };
+      out.suggestions.powers = (exact ? [] : [matched]).concat(up.slice(1, 5)).concat(exact ? powers.filter(function (p) { return p < matched; }).slice(-2) : []);
+      function gather(pw, tol) {
+        var inP = pool.filter(function (r) { return Math.abs(r.p1 - pw) < 1e-9; });
+        var near = inP.filter(function (r) { return Math.abs(r.n2 - N2) / N2 <= tol / 100 + 1e-12; });
+        var byFs = near.filter(function (r) { return r.mn2 / r.m2 >= minFs - 1e-9; });
+        return { inP: inP, near: near, ok: byFs };
+      }
+      var tol = p0.tol_pct === undefined || p0.tol_pct === null || p0.tol_pct === '' ? 5 : num(p0.tol_pct);
+      var g = gather(matched, tol);
+      if (g.ok.length < 3 && tol < 10 && (p0.tol_pct === undefined || p0.tol_pct === null || p0.tol_pct === '')) {
+        var g2 = gather(matched, 10);
+        if (g2.ok.length > g.ok.length) { g = g2; tol = 10; out.widened = true; }
+      }
+      out.tol_pct = tol;
+      out.excluded_by_fs = g.near.length - g.ok.length;
+      // one entry per (size, config, i, poles, power): keep the first row id (the catalogue has duplicates only for motor frames)
+      var seen = {}, list = [];
+      g.ok.slice().sort(function (a, b) { return a.id - b.id; }).forEach(function (r) {
+        var k = r.size + '|' + r.cfg + '|' + r.i + '|' + r.poles + '|' + r.p1;
+        if (!seen[k]) { seen[k] = 1; list.push(r); }
+      });
+      list.forEach(function (r) { r._fs = r.mn2 / r.m2; });
+      list.sort(function (a, b) {
+        return (housingNo(a.size) - housingNo(b.size)) || ((a.cfg === 'single' ? 0 : 1) - (b.cfg === 'single' ? 0 : 1)) ||
+          (Math.abs(a._fs - minFs) - Math.abs(b._fs - minFs)) || (Math.abs(a.n2 - N2) - Math.abs(b.n2 - N2)) ||
+          (a.fam < b.fam ? -1 : a.fam > b.fam ? 1 : 0) || (a.id - b.id);
+      });
+      if (!list.length) {
+        out.status = 'empty';
+        var sp = {}; g.inP.forEach(function (r) { if (r.mn2 / r.m2 >= minFs - 1e-9) sp[round(r.n2, 1)] = 1; });
+        var speeds = Object.keys(sp).map(Number).sort(function (a, b) { return Math.abs(a - N2) - Math.abs(b - N2) || a - b; }).slice(0, 6).sort(function (a, b) { return a - b; });
+        out.suggestions.speeds = speeds;
+        powers.forEach(function (pw) { if (pw !== matched && gather(pw, tol).ok.length) out.suggestions.powers_for_speed.push(pw); });
+        out.suggestions.powers_for_speed.sort(function (a, b) { return Math.abs(a - matched) - Math.abs(b - matched) || a - b; });
+        out.suggestions.powers_for_speed = out.suggestions.powers_for_speed.slice(0, 5).sort(function (a, b) { return a - b; });
+        out.hint_uk = 'Для ' + fmtKw(matched) + ' кВт немає варіантів із n2 ' + fmt0(N2) + ' об/хв ±' + tol + ' %' + (out.excluded_by_fs ? ' і сервіс-фактором ≥ ' + String(round(minFs, 2)).replace('.', ',') + ' (відсіяно за fs: ' + out.excluded_by_fs + ')' : '') + '.' +
+          (speeds.length ? ' Для цієї потужності є швидкості: ' + speeds.map(fmt0).join(', ') + ' об/хв.' : '') +
+          (out.suggestions.powers_for_speed.length ? ' Для цієї швидкості є потужності: ' + out.suggestions.powers_for_speed.map(fmtKw).join(', ') + ' кВт.' : '');
+        return out;
+      }
+      var total = list.length;
+      list = list.slice(0, limit);
+      out.total_found = total;
+      out.variants = list.map(function (r) {
+        var req = Object.assign({ load_torque_nm: r.m2, n2_rpm: r.n2, poles: r.poles, family: r.fam, mounting_position: 'B3', version: 'foot', output: 'hollow' }, SIMPLE_DUTY);
+        var v = verify(req, r.id, null), c = v.candidate;
+        var fs = r.mn2 / r.m2;
+        return {
+          row_id: r.id, key: 'gm' + r.id,
+          designation: spaced(r.size) + ' i=' + fmtI(r.i) + (c && c.motor ? ' ' + c.motor.frame : '') + ' ' + fmtKw(r.p1) + 'кВт ' + r.poles + 'P',
+          series: r.fam, size: r.size, size_spaced: spaced(r.size), config: r.cfg, stages: r.cfg === 'combined' ? 2 : 1,
+          i: r.i, poles: r.poles, n1: N1_NOM[r.poles], n2: r.n2, dev_pct: round(relDev(r.n2, N2) * 100, 1),
+          p_kw: r.p1, motor: c ? c.motor : null, m2_nm: r.m2, mn2_nm: r.mn2, mn2_source: r.mn2_src,
+          fs: round(fs, 2), fs_catalogue: isNum(r.fs) ? r.fs : null, fs_band: fs >= 1.25 ? 'green' : fs >= 1.0 ? 'amber' : 'red',
+          mass_kg: c ? c.mass_kg : null, image_key: c ? c.image_key : imageKey(r), src_page: r.pg, src_pages: c ? c.src_pages : [r.pg],
+          cand: c, housing_no: housingNo(r.size)
+        };
+      });
+      out.status = 'ok';
+      return out;
+    }
+    function fmt0(x) { return String(round(x, 1)).replace('.', ','); }
+
     // ------------------------------------------------------------ misc
     function priceHook(item) { return null; }   // D1: no prices yet; KP hides price columns when every hook is null
 
@@ -960,15 +1123,22 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
 
     return {
       version: MODEL_VERSION, rows: rows, rowById: function (id) { return byId[id] || null; }, dropped: dropped,
-      normalise: normalise, requiredFs: requiredFs, select: select, verify: verify, overrideOptions: overrideOptions,
+      normalise: normalise, requiredFs: requiredFs, select: select, selectSimple: selectSimple, verify: verify, overrideOptions: overrideOptions,
       techSnapshot: techSnapshot, priceHook: priceHook, sizeMeta: sizeMeta, designationList: designationList,
       fsLookup: function (c, h, s) { return fsLookup(data.service_factor, c, h, s); },
       data: data
     };
   }
 
+  var engineCache = typeof WeakMap === 'function' ? new WeakMap() : null;
+  function selectSimple(params, data) {
+    var e = engineCache && engineCache.get(data);
+    if (!e) { e = createEngine(data); if (engineCache) engineCache.set(data, e); }
+    return e.selectSimple(params);
+  }
+
   return {
-    createEngine: createEngine, fsLookup: fsLookup, N1_NOM: N1_NOM, FS_TOLERANCE: FS_TOLERANCE, LOAD_CLASS_UK: LOAD_CLASS_UK,
+    createEngine: createEngine, selectSimple: selectSimple, fsLookup: fsLookup, N1_NOM: N1_NOM, FS_TOLERANCE: FS_TOLERANCE, LOAD_CLASS_UK: LOAD_CLASS_UK,
     FAMILY_ORDER: FAMILY_ORDER, spaced: spaced, inputUnit: inputUnit, outputUnitNumber: outputUnitNumber
   };
 });
@@ -2137,9 +2307,177 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
     } catch (e) { msg('Не вдалося завантажити збережене КП'); }
   }
 
+  // ------------------------------------------------------------------ simple mode (power + output rpm)
+  var MODE_KEY = 'vsf_mode_v1';
+  var sm = { res: null, sel: null, assume: { load_class: 'B', hours: 8, starts: 10, torque: null }, timer: null, added: false };
+  function kw(p) { return fmt(p); }
+  function dimsOf(v) {
+    if (v._dims !== undefined) return v._dims;
+    var d = null;
+    try {
+      var sp = M3 && v.cand ? M3.buildModelSpec(v.cand, v.cand.motor, D, { mounting: 'B3' }) : null;
+      if (sp && !sp.error && sp.bbox) d = { l: sp.bbox.size[2], w: sp.bbox.size[0], h: sp.bbox.size[1], pages: sp.src_pages };
+    } catch (e) { d = null; }
+    v._dims = d; return d;
+  }
+  function dimsTxt(d) { return d ? fmt(d.l, 0) + '×' + fmt(d.w, 0) + '×' + fmt(d.h, 0) : ''; }
+  function readSimple() {
+    return { p_kw: $('s_kw').value, n2_rpm: $('s_n2').value, poles: $('s_poles').value, family: $('s_family').value, min_fs: $('s_minfs').value };
+  }
+  function chipsFor(list, attr, unit) {
+    return list.map(function (x) { return '<button type="button" class="chipbtn" data-' + attr + '="' + x + '">' + fmt(x) + ' ' + unit + '</button>'; }).join('');
+  }
+  function doSimple() {
+    var r = EN.selectSimple(readSimple(), D);
+    sm.res = r; sm.sel = null; $('s_detail').innerHTML = '';
+    var msg = $('s_msg'), el = $('s_results'); el.innerHTML = '';
+    if (r.status === 'incomplete') { msg.innerHTML = '<p class="muted">Введіть потужність двигуна (кВт) і потрібні оберти на виході (об/хв) — варіанти з\'являться автоматично.</p>'; return; }
+    if (r.status === 'error') { msg.innerHTML = '<div class="errors"><ul>' + r.errors.map(function (e) { return '<li>' + esc(e.message_uk) + '</li>'; }).join('') + '</ul></div>'; return; }
+    var h = '';
+    if (r.power && !r.power.exact) {
+      h += '<div class="fsbox">' + esc(fmt(r.request.p_kw)) + ' кВт — не стандартна потужність двигуна з каталогу. Показано найближчу більшу: <b>' + esc(kw(r.power.matched)) + ' кВт</b>. Інші стандартні потужності: ' +
+        chipsFor(r.power.next, 'kw', 'кВт') + '</div>';
+    }
+    if (r.status === 'empty') {
+      h += '<div class="nocand"><b>Підходящих варіантів немає.</b> ' + esc(r.hint_uk) + '<div>' +
+        (r.suggestions.speeds.length ? 'Швидкості: ' + chipsFor(r.suggestions.speeds, 'rpm', 'об/хв') + ' ' : '') +
+        (r.suggestions.powers_for_speed.length ? 'Потужності: ' + chipsFor(r.suggestions.powers_for_speed, 'kw', 'кВт') : '') +
+        (!r.suggestions.speeds.length && !r.suggestions.powers_for_speed.length && r.suggestions.powers.length ? chipsFor(r.suggestions.powers, 'kw', 'кВт') : '') + '</div></div>';
+      msg.innerHTML = h; return;
+    }
+    h += '<div class="fsbox">Знайдено варіантів: <b>' + r.total_found + '</b>' + (r.total_found > r.variants.length ? ' (показано перші ' + r.variants.length + ')' : '') +
+      '. Допуск за обертами ±' + r.tol_pct + ' %' + (r.widened ? ' (розширено з 5 %: за 5 % було менше 3 варіантів)' : '') + '; сервіс-фактор ≥ ' + fmt(r.request.min_fs, 2) +
+      (r.excluded_by_fs ? '; відсіяно за сервіс-фактором: ' + r.excluded_by_fs : '') + '.</div>';
+    msg.innerHTML = h;
+    var t = '<div class="tw"><table class="ct st" id="s_table"><thead><tr><th>Варіант</th><th>Двигун, об/хв</th><th>Передавальне число i</th><th>Габаритний розмір редуктора<small>Д×Ш×В, мм</small></th><th>Сервіс-фактор</th><th>Момент на виході M2, Нм</th></tr></thead><tbody>';
+    r.variants.forEach(function (v, ix) {
+      var ph = photoFor(v), d = dimsOf(v), m = v.motor;
+      t += '<tr tabindex="0" role="button" aria-label="Показати параметри: ' + esc(v.designation) + '" data-ix="' + ix + '">' +
+        '<td><div class="vr">' + (ph ? '<img alt="" src="' + ph.src + '">' : '') + '<div><b>' + esc(v.designation) + '</b><div class="sub">' + esc(v.series) + (v.config === 'combined' ? ' · двоступінчастий' : '') +
+        ' · <u>Показати параметри</u></div></div></div></td>' +
+        '<td class="r"><b>' + fmt(v.n1) + '</b><div class="sub">' + (m ? esc(m.frame) + ' · ' : '') + kw(v.p_kw) + ' кВт · ' + v.poles + 'p</div></td>' +
+        '<td class="r">' + fmt(v.i, 2) + '<div class="sub">n2 ' + fmt(v.n2) + ' (' + (v.dev_pct > 0 ? '+' : '') + fmt(v.dev_pct, 1) + ' %)</div></td>' +
+        '<td class="r">' + (d ? dimsTxt(d) : '<span class="muted">–</span>') + '</td>' +
+        '<td class="r"><span class="fsb ' + v.fs_band + '">' + fmt(v.fs, 2) + '</span></td>' +
+        '<td class="r">' + fmt(v.m2_nm) + '</td></tr>';
+    });
+    t += '</tbody></table></div><p class="hint">Порядок: найменший придатний типорозмір, далі сервіс-фактор найближчий до мінімального, далі відхилення за обертами. Сервіс-фактор = Mn2 / M2 з каталогу: зелений ≥ 1,25; бурштиновий 1,0–1,25; червоний &lt; 1,0 (лише коли мінімум знижено). Габарити — з концептуальної 3D-моделі за каталожними розмірами, у положенні B3, разом з двигуном; для двоступінчастих і NMRV 025 даних немає. Клік або Enter по рядку — повні параметри.</p>';
+    el.innerHTML = t;
+  }
+  function simpleRaw(v) {
+    var a = sm.assume, T = a.torque === null ? v.m2_nm : a.torque;
+    return { load_torque_nm: T, n2_rpm: v.n2, poles: v.poles, family: v.series, load_class: a.load_class, hours_per_day: a.hours, starts_per_hour: a.starts,
+      mounting_position: 'B3', output: 'hollow', version: 'foot', flange: 'any', qty: $('s_qty').value };
+  }
+  function selectSimpleRow(ix) {
+    var v = sm.res.variants[ix]; sm.sel = ix; sm.added = false; sm.assume.torque = null;
+    [].forEach.call(document.querySelectorAll('#s_table tbody tr'), function (tr) { tr.classList.toggle('sel', Number(tr.getAttribute('data-ix')) === ix); });
+    renderDetail();
+    $('s_detail').scrollIntoView({ block: 'nearest' });
+  }
+  function renderDetail() {
+    var v = sm.res.variants[sm.sel], a = sm.assume, raw = simpleRaw(v);
+    var ver = E.verify(raw, v.row_id, v.motor ? v.motor.frame : null);
+    if (ver.errors.length) { $('s_detail').innerHTML = '<div class="errors"><ul>' + ver.errors.map(function (e) { return '<li>' + esc(e.message_uk) + '</li>'; }).join('') + '</ul></div>'; return; }
+    var c = ver.candidate, req = E.normalise(raw).req, snap = E.techSnapshot(c, req, {}), g = snap.gear, m = snap.motor, d = dimsOf(v);
+    var failed = c.fails.length > 0;
+    sm.cur = { cand: c, raw: raw, failed: failed, ver: ver };
+    var left = [['Серія', g.series], ['Типорозмір', g.size], ['Кількість ступенів', g.stages], ['Виконання', g.version], ['Вихідний вал', g.output_shaft],
+      ['Передавальне число i', fmt(g.i, 2)], ['Частота обертання вх./вих., об/хв', String(g.n1_n2).replace(/(\d)\.(\d)/g, '$1,$2')],
+      ['Момент на виході M2, Нм', fmt(g.m2)], ['Номінальний момент Mn2, Нм', fmt(g.mn2)],
+      ['Сервіс-фактор каталожний (Mn2/M2)', fmt(v.fs, 2)], ['Сервіс-фактор каталожний fs (таблиця)', has(g.fs_catalogue) ? fmt(g.fs_catalogue, 1) : null],
+      ['Сервіс-фактор застосування (Mn2/T)', fmt(g.fs_app, 2) + ' (потрібно ' + fmt(ver.fs.fs_req, 2) + ')'], ['Використання за моментом, %', fmt(g.utilisation, 1)],
+      ['Допустиме радіальне навантаження Fr2, Н', fmt(g.fr2, 0)], ['Мастило / кількість', g.lubricant], ['Покриття', g.paint],
+      ['ККД черв\'ячної пари (каталог)', has(g.eta_catalogue) ? fmt(g.eta_catalogue, 2) : null], ['Маса редуктора нетто, кг (без двигуна і мастила)', has(snap.mass_kg) ? fmt(snap.mass_kg) : null],
+      ['Габарити Д×Ш×В, мм (3D, з двигуном)', d ? dimsTxt(d) : null]].filter(function (r) { return has(r[1]); });
+    var right = m ? [['Тип двигуна', m.type], ['Типорозмір IEC', m.frame], ['Кількість полюсів', m.poles], ['Потужність, кВт', fmt(m.p_kw)], ['Напруга, В / схема', m.voltage], ['Частота мережі, Гц', m.frequency],
+      ['Клас енергоефективності', m.ie_class], ['Ступінь захисту', m.ip], ['Клас ізоляції', m.insulation], ['Режим роботи', m.duty], ['Фланець', m.flange]].filter(function (r) { return has(r[1]); }) : [];
+    function kvs(list) { return list.map(function (r) { return '<div class="kv"><span class="k">' + esc(r[0]) + '</span><span class="v">' + esc(r[1]) + '</span></div>'; }).join(''); }
+    var warn = failed ? '<div class="nocand">За припущеннями застосування нижче перевірку не пройдено: ' + c.fails.map(function (f) { return esc(CHECK_UK[f] || f); }).join('; ') + '. У КП позиція буде позначена.</div>'
+      : '<div class="fsbox">Перевірку за припущеннями застосування пройдено.</div>';
+    var h = '<div class="sdet" id="s_det" tabindex="-1"><h3>' + esc(v.designation) + '</h3>' +
+      '<div class="assum"><b>Припущення для сервіс-фактора застосування</b> (змініть за потреби; для підбору не використовуються)' +
+      '<div class="agrid"><label>Клас навантаження <select id="a_class"><option value="A">A</option><option value="B">B</option><option value="C">C</option></select></label>' +
+      '<label>Годин на добу <input id="a_hours" type="number" step="any" value="' + a.hours + '"></label>' +
+      '<label>Пусків на годину <input id="a_starts" type="number" step="any" value="' + a.starts + '"></label>' +
+      '<label>Момент навантаження T, Нм <input id="a_torque" type="number" step="any" value="' + (a.torque === null ? round1(v.m2_nm) : a.torque) + '"></label></div>' +
+      '<div class="sub">За замовчуванням T = M2 (двигун навантажений повністю). ' + esc(ver.fs.lookup.note_uk) + '</div></div>' + warn +
+      '<div class="two2"><div><div class="coltitle">Редуктор</div>' + kvs(left) + '</div><div><div class="coltitle">' + (m ? 'Двигун' : 'Двигун') + '</div>' + kvs(right) +
+      '<div class="coltitle">Джерело</div>' + kvs([['Сторінки каталогу', c.src_pages.join(', ')]]) + '</div></div>' +
+      '<div class="actions"><button type="button" class="btn primary" id="s_add">Додати до КП</button>' +
+      threeBtn(c, req).replace('class="btn small m3d-btn"', 'class="btn m3d-btn" id="s_3d"') +
+      '<button type="button" class="btn" id="s_toadv">Перейти до складного підбору з цими даними</button><span class="hint" id="s_addmsg"></span></div></div>';
+    $('s_detail').innerHTML = h;
+    $('a_class').value = a.load_class;
+  }
+  function round1(x) { return Math.round(x * 10) / 10; }
+  function addSimple() {
+    if (!sm.cur) return;
+    var cur = sm.cur, opts = {};
+    if (cur.failed) { opts.override = true; opts.reason = 'Простий підбір: сервіс-фактор застосування ' + fmt(cur.cand.fs_app, 2) + ' менший за потрібний ' + fmt(cur.ver.fs.fs_req, 2) + ' (клас ' + cur.raw.load_class + ', ' + cur.raw.hours_per_day + ' год/добу, ' + cur.raw.starts_per_hour + ' пусків/год)'; }
+    addItem(cur.cand, cur.raw, opts);
+    $('s_addmsg').textContent = 'Додано до КП (поз. ' + state.items.length + ')';
+  }
+  function toAdvanced() {
+    if (!sm.cur) return;
+    var raw = sm.cur.raw, v = sm.res.variants[sm.sel];
+    setMode('adv');
+    $('f_torque').value = raw.load_torque_nm === undefined ? '' : round1(raw.load_torque_nm); $('f_power').value = '';
+    $('f_n2').value = sm.res.request.n2_rpm; $('f_ratio').value = '';
+    $('f_poles').value = String(v.poles); $('f_family').value = v.series;
+    $('f_class').value = raw.load_class; $('f_hours').value = raw.hours_per_day; $('f_starts').value = raw.starts_per_hour; $('f_qty').value = raw.qty || 1;
+    doSelect();
+    $('sec-select').scrollIntoView({ block: 'start' });
+  }
+  function setMode(mode) {
+    var simple = mode !== 'adv';
+    $('simple').hidden = !simple; $('sec-select').hidden = simple;
+    $('mode_simple').classList.toggle('on', simple); $('mode_adv').classList.toggle('on', !simple);
+    $('mode_simple').setAttribute('aria-pressed', String(simple)); $('mode_adv').setAttribute('aria-pressed', String(!simple));
+    $('mode_hint').textContent = simple ? 'Простий: лише потужність двигуна і потрібні оберти на виході.' : 'Складний: повна форма підбору за моментом, режимом роботи, навантаженнями.';
+    document.body.setAttribute('data-mode', simple ? 'simple' : 'adv');
+    try { localStorage.setItem(MODE_KEY, simple ? 'simple' : 'adv'); } catch (e) { /* storage unavailable */ }
+  }
+  function initSimple() {
+    var mode = 'simple';
+    try { if (localStorage.getItem(MODE_KEY) === 'adv') mode = 'adv'; } catch (e) { /* ignore */ }
+    setMode(mode);
+    $('mode_simple').addEventListener('click', function () { setMode('simple'); });
+    $('mode_adv').addEventListener('click', function () { setMode('adv'); });
+    $('sform').addEventListener('submit', function (e) { e.preventDefault(); doSimple(); });
+    ['s_kw', 's_n2', 's_minfs'].forEach(function (id) { $(id).addEventListener('input', function () { clearTimeout(sm.timer); sm.timer = setTimeout(doSimple, 250); }); });
+    ['s_poles', 's_family'].forEach(function (id) { $(id).addEventListener('change', doSimple); });
+    $('s_msg').addEventListener('click', function (e) {
+      var b = e.target.closest('.chipbtn'); if (!b) return;
+      if (b.hasAttribute('data-kw')) $('s_kw').value = b.getAttribute('data-kw');
+      if (b.hasAttribute('data-rpm')) $('s_n2').value = b.getAttribute('data-rpm');
+      doSimple();
+    });
+    var tbl = $('s_results');
+    tbl.addEventListener('click', function (e) { var tr = e.target.closest('tr[data-ix]'); if (tr) selectSimpleRow(Number(tr.getAttribute('data-ix'))); });
+    tbl.addEventListener('keydown', function (e) {
+      var tr = e.target.closest && e.target.closest('tr[data-ix]');
+      if (tr && e.target === tr && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); selectSimpleRow(Number(tr.getAttribute('data-ix'))); }
+    });
+    var det = $('s_detail');
+    det.addEventListener('click', function (e) {
+      if (e.target.closest('#s_add')) addSimple();
+      else if (e.target.closest('#s_toadv')) toAdvanced();
+      else { var b = e.target.closest('.m3d-btn'); if (b && !b.disabled && sm.cur) open3d(sm.cur.cand, E.normalise(sm.cur.raw).req); }
+    });
+    det.addEventListener('change', function (e) {
+      var id = e.target.id; if (id.indexOf('a_') !== 0) return;
+      var a = sm.assume;
+      a.load_class = $('a_class').value; a.hours = Number($('a_hours').value) || 8; a.starts = $('a_starts').value === '' ? 10 : Number($('a_starts').value);
+      var tv = Number($('a_torque').value); a.torque = tv > 0 ? tv : null;
+      renderDetail();
+    });
+  }
+
   // ------------------------------------------------------------------ wiring
   function init() {
     initParties();
+    initSimple();
     $('selform').addEventListener('submit', function (e) { e.preventDefault(); doSelect(); });
     $('btn_reset').addEventListener('click', resetForm);
     $('results').addEventListener('click', function (e) {
@@ -2197,7 +2535,7 @@ table.dims td{padding:1.1mm 1.5mm;font-size:8pt}
     $('btn_kp').addEventListener('click', renderKp);
     $('btn_print').addEventListener('click', function () { renderKp().then(function () { window.print(); }); });
   }
-  window.__vsf = { E: E, state: state, buildKp: buildKp, fmt: fmt, getViewer: function () { return viewer; }, specFor: specFor, getThree: getThree };
+  window.__vsf = { E: E, state: state, buildKp: buildKp, fmt: fmt, getViewer: function () { return viewer; }, specFor: specFor, getThree: getThree, simple: sm, setMode: setMode };
   init();
 })();
 </script>

@@ -18,8 +18,36 @@
   </header>
 
   <main class="wrap">
+    <div class="modebar" role="group" aria-label="Режим підбору">
+      <div class="seg">
+        <button type="button" id="mode_simple" class="segbtn on" aria-pressed="true">Простий</button>
+        <button type="button" id="mode_adv" class="segbtn" aria-pressed="false">Складний</button>
+      </div>
+      <span class="hint" id="mode_hint">Простий: лише потужність двигуна і потрібні оберти на виході.</span>
+    </div>
+    <section id="simple" class="card">
+      <h2>1. Простий підбір: потужність і оберти</h2>
+      <form id="sform" autocomplete="off" novalidate>
+        <div class="sgrid">
+          <label>Потужність двигуна, кВт <input id="s_kw" type="number" step="any" min="0" inputmode="decimal" placeholder="напр. 1,1"></label>
+          <label>Потрібні оберти на виході, об/хв <input id="s_n2" type="number" step="any" min="0" inputmode="decimal" placeholder="напр. 47"></label>
+          <div class="sbtn"><button type="submit" id="btn_ssel" class="btn primary">Підібрати</button></div>
+        </div>
+        <details class="more" id="s_more"><summary>Додатково</summary>
+          <div class="sgrid">
+            <label>Полюси двигуна <select id="s_poles"><option value="any" selected>будь-які (2 / 4 / 6)</option><option value="2">2p (2800 об/хв)</option><option value="4">4p (1400 об/хв)</option><option value="6">6p (900 об/хв)</option></select></label>
+            <label>Сімейство <select id="s_family"><option value="all" selected>NMRV і NMRV-P</option><option value="NMRV">лише NMRV</option><option value="NMRV-P">лише NMRV-P</option></select></label>
+            <label>Мін. сервіс-фактор <input id="s_minfs" type="number" step="0.05" value="1.0" min="0.5" max="3"></label>
+            <label>Кількість, шт <input id="s_qty" type="number" min="1" max="999" step="1" value="1"></label>
+          </div>
+        </details>
+      </form>
+      <div id="s_msg" role="status"></div>
+      <div id="s_results"></div>
+      <div id="s_detail"></div>
+    </section>
     <section id="sec-select" class="card">
-      <h2>1. Підбір за параметрами застосування</h2>
+      <h2>1. Складний підбір за параметрами застосування</h2>
       <form id="selform" autocomplete="off" novalidate>
         <div class="grid">
           <fieldset><legend>Навантаження</legend>
