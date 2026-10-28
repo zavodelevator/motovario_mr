@@ -1,0 +1,663 @@
+{
+ "schema": 1,
+ "project": "motovario-quote-calculator",
+ "adr": "concept-3d (owner decision 2026-10-28)",
+ "footnote_uk": "Ілюстрація, концептуальна модель; розміри — за каталогом Motovario",
+ "rule": "All numbers in the KP come from catalogue data, never from model geometry. status concept -> official when the client's CAD replaces the generated model through the same pipeline.",
+ "entries": [
+  {
+   "id": "vsf-nmrv030",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "030",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv040",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "040",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv050",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "050",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv063",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "063",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv075",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "075",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv090",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "090",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv110",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "110",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv130",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "130",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nmrv150",
+   "type": "gearbox_housing",
+   "series": "NMRV / NMRV-P",
+   "size": "150",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    52
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks"
+  },
+  {
+   "id": "vsf-nrv030",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "030",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv040",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "040",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv050",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "050",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv063",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "063",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv075",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "075",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv090",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "090",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv110",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "110",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv130",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "130",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-nrv150",
+   "type": "gearbox_housing",
+   "series": "NRV / NRV-P",
+   "size": "150",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    56
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"
+  },
+  {
+   "id": "vsf-motor-063",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "063",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-071",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "071",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-080",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "080",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-90s",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "90S",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-90l",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "90L",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-100",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "100",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-112",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "112",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-132s",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "132S",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-132l",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "132L",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-160s",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "160S",
+   "poles": null,
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    66
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-160m-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "160M",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-160l-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "160L",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-180m-2-4",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "180M",
+   "poles": "2-4",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-180l-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "180L",
+   "poles": "4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-200l-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "200L",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-225s-4",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "225S",
+   "poles": "4",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-225m-2",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "225M",
+   "poles": "2",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-225m-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "225M",
+   "poles": "4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-250m-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "250M",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-250m-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "250M",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-280s-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "280S",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-280s-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "280S",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-280m-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "280M",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  },
+  {
+   "id": "vsf-motor-280m-2-4-6",
+   "type": "motor_iec",
+   "series": "IEC motor B5/B14",
+   "size": "280M",
+   "poles": "2-4-6",
+   "source": "parametric-from-catalogue",
+   "status": "concept",
+   "src_pages": [
+    67
+   ],
+   "generator": "prototype/vsf/src/model3d.js",
+   "file": null,
+   "official_file": null,
+   "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"
+  }
+ ]
+}

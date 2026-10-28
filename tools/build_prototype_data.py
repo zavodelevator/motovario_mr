@@ -167,9 +167,16 @@ def build_dims():
             if v is None:
                 continue
             if c == "G" and "PAM" in str(v):
-                continue  # NMRV110 G has two values tied to PAM; do not guess (see notes.md)
+                continue  # NMRV110 G has two values tied to PAM; kept separately as G_pam (below)
             d[c.replace(" j6", "")] = v
-        out[x["size"].replace(" ", "")] = {"variant": x["variant"], "dims": d, "pg": int(x["src_page"])}
+        ent = {"variant": x["variant"], "dims": d, "pg": int(x["src_page"])}
+        g_raw = nn(x["G"])
+        if g_raw is not None and "PAM" in str(g_raw):
+            gp = []
+            for g, a, b in re.findall(r"([\d.]+)\s*\(PAM\s*(\d+)(?:/(\d+))?\)", str(g_raw)):
+                gp.append({"G": float(g), "from": int(a), "to": int(b or a), "label": a + ("/" + b if b else "")})
+            ent["G_pam"] = gp
+        out[x["size"].replace(" ", "")] = ent
     b = read("dimensions_shaft_bore.csv")
     bores = {}
     for _, x in b.iterrows():
@@ -178,6 +185,42 @@ def build_dims():
         bores.setdefault(x["size"].replace(" ", ""), []).append(
             {"D": num(x["D H8"]), "b": num(x["b"]), "t": num(x["t"]), "pg": int(x["src_page"])})
     return out, bores
+
+
+def build_motor_dims():
+    """Motor body + flange dimensions (catalogue p66-67) for the concept 3D model. Raw catalogue values, numbers only."""
+    m = read("motors_dimensions.csv")
+    bodies, flanges = [], {"B5": {}, "B14": {}}
+    for _, x in m.iterrows():
+        v = x["variant"]
+        if v.startswith("motor_body"):
+            row = {"frame": x["size"], "poles": nn(x["poles"]), "pg": int(x["src_page"])}
+            for k in ("AC", "AD", "L", "LB", "LC", "X", "Y", "V", "E", "GA", "F", "GD"):
+                row[k] = num(x[k]) if nn(x[k]) is not None else None
+            row["D"] = nn(x["D"])
+            bodies.append(row)
+        elif v.startswith("flange_"):
+            fl = v.split("_")[1]
+            key = ("000" + x["size"])[-3:]
+            if key in flanges[fl]:
+                continue  # 160 B5 is printed twice (p66 and p67): first (p66) wins
+            def fnum(k):
+                t = nn(x[k])
+                if t is None:
+                    return None
+                mm = re.search(r"\d+(?:\.\d+)?", str(t))
+                return float(mm.group(0)) if mm else None
+            flanges[fl][key] = {"M": fnum("M"), "N": fnum("N"), "P": fnum("P"), "LA": fnum("LA"), "S": fnum("S"), "T": fnum("T"),
+                                "pg": int(x["src_page"])}
+    return {"bodies": bodies, "flanges": flanges}
+
+
+def build_input_flanges():
+    f = read("dimensions_motor_input_flange.csv")
+    out = {}
+    for _, x in f.iterrows():
+        out.setdefault(x["variant"], {})[("000" + x["size"])[-3:]] = {"Pm": num(x["Pm"]), "pg": int(x["src_page"])}
+    return out
 
 
 def build_solid_shafts():
@@ -237,6 +280,53 @@ def build_images():
     return {"photos": photos, "drawings": drawings}
 
 
+def esm_to_function_body(src, kind):
+    """Rewrite an ES module (three.module.min.js / OrbitControls.js) into a function body that `return`s its exports,
+    so index.html stays one classic-script file and the library is evaluated lazily (new Function) on first 3D use."""
+    if kind == "three":
+        m = re.search(r"export\s*\{([^}]*)\}\s*;?\s*$", src)
+        assert m, "three.module.min.js: export clause not found"
+        pairs = []
+        for item in m.group(1).split(","):
+            item = item.strip()
+            if not item:
+                continue
+            if " as " in item:
+                a, b = [t.strip() for t in item.split(" as ")]
+                pairs.append("%s:%s" % (b, a))
+            else:
+                pairs.append("%s:%s" % (item, item))
+        return src[:m.start()] + "return {" + ",".join(pairs) + "};"
+    m = re.search(r"import\s*\{([^}]*)\}\s*from\s*'three';", src)
+    assert m, "OrbitControls: import not found"
+    names = ",".join(t.strip() for t in m.group(1).split(",") if t.strip())
+    out = src[:m.start()] + "const {" + names + "} = THREE;" + src[m.end():]
+    assert "export { OrbitControls };" in out
+    return out.replace("export { OrbitControls };", "return OrbitControls;")
+
+
+def build_manifest(data):
+    """models/manifest.json: one entry per generated parametric concept model part type (swap to official files later)."""
+    entries = []
+    for key, ent in sorted(data["dimensions"].items()):
+        n = key[-3:]
+        fam = "NRV / NRV-P" if key.startswith("NRV") else "NMRV / NMRV-P"
+        pgs = sorted({ent["pg"]} | {b["pg"] for b in data["shaft_bores"].get(key, [])})
+        entries.append({"id": "vsf-%s" % key.lower(), "type": "gearbox_housing", "series": fam, "size": n,
+                        "source": "parametric-from-catalogue", "status": "concept", "src_pages": pgs,
+                        "generator": "prototype/vsf/src/model3d.js", "file": None, "official_file": None,
+                        "note": "rounded box housing, hollow-shaft bore, spigots, foot hole marks" if not key.startswith("NRV") else "as NMRV, plus two input shaft stubs (G2/G3, B, D1)"})
+    for b in data["motor_dims"]["bodies"]:
+        entries.append({"id": "vsf-motor-%s%s" % (b["frame"].lower(), "-" + str(b["poles"]) if b["poles"] else ""), "type": "motor_iec", "series": "IEC motor B5/B14",
+                        "size": b["frame"], "poles": b["poles"], "source": "parametric-from-catalogue", "status": "concept", "src_pages": [b["pg"]],
+                        "generator": "prototype/vsf/src/model3d.js", "file": None, "official_file": None,
+                        "note": "finned body (AC), fan cover, terminal box (X,Y,AD,V), flange (P,M,LA,S)"})
+    return {"schema": 1, "project": "motovario-quote-calculator", "adr": "concept-3d (owner decision 2026-10-28)",
+            "footnote_uk": "Ілюстрація, концептуальна модель; розміри — за каталогом Motovario",
+            "rule": "All numbers in the KP come from catalogue data, never from model geometry. status concept -> official when the client's CAD replaces the generated model through the same pipeline.",
+            "entries": entries}
+
+
 def data_uri(path):
     return "data:image/png;base64," + base64.b64encode(Path(path).read_bytes()).decode()
 
@@ -267,6 +357,8 @@ def main():
         "efficiency": build_eff(),
         "dimensions": dims,
         "shaft_bores": bores,
+        "motor_dims": build_motor_dims(),
+        "input_flanges": build_input_flanges(),
         "solid_shafts": build_solid_shafts(),
         "images": build_images(),
     }
@@ -286,11 +378,21 @@ def main():
 
     html = tpl
     html = html.replace("/*{{CSS}}*/", css)
+    model3d = (SRC / "model3d.js").read_text(encoding="utf-8")
+    vend = OUT / "vendor"
+    vendor = {"three": esm_to_function_body((vend / "three.module.min.js").read_text(encoding="utf-8"), "three"),
+              "orbit": esm_to_function_body((vend / "OrbitControls.js").read_text(encoding="utf-8"), "orbit")}
     html = html.replace("/*{{ENGINE}}*/", engine.replace("</script", "<\\/script"))
+    html = html.replace("/*{{MODEL3D}}*/", model3d.replace("</script", "<\\/script"))
+    html = html.replace("/*{{VENDOR}}*/", "window.VSF_VENDOR=" + js_json(vendor).replace("<!--", "<\\!--") + ";")
     html = html.replace("/*{{APP}}*/", app.replace("</script", "<\\/script"))
     html = html.replace("/*{{DATA}}*/", "window.VSF_DATA=" + js_json(data) + ";")
     html = html.replace("/*{{IMG}}*/", "window.VSF_IMG=" + js_json(imgmap) + ";")
     (OUT / "index.html").write_text(html, encoding="utf-8")
+    (ROOT / "models").mkdir(exist_ok=True)
+    manifest = build_manifest(data)
+    (ROOT / "models" / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("models/manifest.json %d entries" % len(manifest["entries"]))
     print("data.json  %d KB" % (len((OUT / "data.json").read_bytes()) // 1024))
     print("index.html %d KB" % (len(html.encode()) // 1024))
     print("rows: gearmotor %d, reducer %d" % (data["meta"]["counts"]["gm"], data["meta"]["counts"]["red"]))

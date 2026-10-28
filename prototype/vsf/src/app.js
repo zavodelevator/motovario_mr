@@ -1,10 +1,10 @@
 /* VSF prototype UI: form, candidates, quote, KP preview (KP_SPEC). Browser only; the engine is in engine.js. */
 (function () {
   'use strict';
-  var D = window.VSF_DATA, IMGS = window.VSF_IMG || {}, EN = window.VSFEngine;
+  var D = window.VSF_DATA, IMGS = window.VSF_IMG || {}, EN = window.VSFEngine, M3 = window.VSFModel3D;
   var E = EN.createEngine(D);
   var NB = ' ';
-  var state = { items: [], cands: [], raw: null, nextId: 1, overrideTarget: null, ov: null };
+  var state = { items: [], cands: [], raw: null, nextId: 1, overrideTarget: null, ov: null, pngCache: {} };
 
   function $(id) { return document.getElementById(id); }
   function esc(s) { return String(s === null || s === undefined ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
@@ -81,6 +81,78 @@
     var p = D.images.photos[c.image_key] || null;
     return p && IMGS[p.file] ? { src: IMGS[p.file], pg: p.pg } : null;
   }
+  // ------------------------------------------------------------------ concept 3D (model3d.js; catalogue dimensions only)
+  var CONCEPT_NOTE = M3 ? M3.CONCEPT_NOTE : 'Ілюстрація, концептуальна модель; розміри — за каталогом Motovario';
+  var threeLib = null;
+  function getThree() {           // lazy: the 700 KB library is evaluated only on the first 3D use
+    if (threeLib !== null) return threeLib || null;
+    try {
+      var V = window.VSF_VENDOR, T = new Function(V.three)();
+      threeLib = { THREE: T, OrbitControls: new Function('THREE', V.orbit)(T) };
+    } catch (e) { threeLib = false; if (window.console) console.warn('3D library unavailable: ' + e.message); }
+    return threeLib || null;
+  }
+  function specFor(c, req) {
+    if (!M3) return { error: 'no_dimensions', reason: 'model3d_missing' };
+    return M3.buildModelSpec(c, c.motor, D, { mounting: req && req.mounting_position, version: req && req.version });
+  }
+  function modelKey(it) {
+    var c = it.cand;
+    return [c.series, c.size, c.config, c.motor ? c.motor.frame + '|' + c.motor.flange + '|' + c.motor.poles : '-', it.req && it.req.version].join('/');
+  }
+  function threeBtn(c, req) {
+    var sp = specFor(c, req);
+    return sp.error ? '<button type="button" class="btn small m3d-btn" disabled title="3D недоступне: немає каталожних розмірів (' + esc(sp.reason || '') + ')">3D</button>'
+      : '<button type="button" class="btn small m3d-btn" title="Концептуальна 3D-модель за каталожними розмірами">3D</button>';
+  }
+  var viewer = null, m3dCtx = null;
+  function close3d() {
+    if (viewer) { viewer.dispose(); viewer = null; }
+    $('m3d-view').innerHTML = '';
+    $('m3d').hidden = true; m3dCtx = null;
+  }
+  function open3d(c, req) {
+    m3dCtx = { c: c, req: req };
+    var spec = specFor(c, req), view = $('m3d-view'), ph = photoFor(c);
+    $('m3d-title').textContent = c.designation;
+    $('m3d-pos').value = (spec.mount && spec.mount.pos) || req.mounting_position || 'B3';
+    $('m3d-wire').checked = false;
+    $('m3d').hidden = false;
+    var fallback = function (why) {
+      view.innerHTML = '<div class="m3d-fb">' + (ph ? '<img alt="" src="' + ph.src + '">' : '') + '<p class="muted">' + esc(why) + ' Показано фото з каталогу.</p></div>';
+      $('m3d-info').textContent = '';
+    };
+    if (spec.error) { fallback('3D-модель недоступна: немає каталожних розмірів (' + (spec.reason || '') + (spec.missing && spec.missing.length ? ': ' + spec.missing.join(', ') : '') + ').'); return; }
+    var tp = getThree();
+    if (!tp) { fallback('3D-бібліотека не завантажилась.'); return; }
+    viewer = M3.createViewer(view, spec, tp.THREE, tp.OrbitControls);
+    if (!viewer) { fallback('WebGL недоступний у цьому браузері.'); return; }
+    viewer.setMounting($('m3d-pos').value);
+    var b = spec.bbox.size;
+    $('m3d-info').textContent = 'Габарити моделі за каталогом (B3), мм: довжина ' + fmt(b[2], 0) + ' × ширина ' + fmt(b[0], 0) + ' × висота ' + fmt(b[1], 0) + '. ' + CONCEPT_NOTE + '. Джерело: каталог, с. ' + spec.src_pages.join(', ') + '.';
+  }
+  // KP image: fixed isometric render (B3 frame) of the concept model, cached per unit; PNG data URL 1200x900
+  function prepareModelImages(items) {
+    var todo = items.filter(function (it) { return !(modelKey(it) in state.pngCache); });
+    if (!todo.length) return null;
+    return todo.reduce(function (p, it) {
+      return p.then(function () {
+        return new Promise(function (res) {
+          setTimeout(function () {
+            var png = null;
+            try {
+              var spec = specFor(it.cand, it.req);
+              var tp = !spec.error && getThree();
+              if (tp) png = M3.renderSpecToPng(spec, tp.THREE, { width: 1200, height: 900, mounting: 'B3' });
+            } catch (e) { png = null; if (window.console) console.warn('3D render failed: ' + e.message); }
+            state.pngCache[modelKey(it)] = png;
+            res();
+          }, 0);
+        });
+      });
+    }, Promise.resolve());
+  }
+
   function motorOptionsHtml(c, idx) {
     if (!c.motor) return c.kind === 'reducer' ? '<span class="muted">без двигуна</span>' + (c.motor_hint ? '<div class="sub">двигун ≥ ' + fmt(c.motor_hint.p_kw) + ' кВт (' + c.motor_hint.line + ')</div>' : '') : '';
     var m = c.motor;
@@ -126,7 +198,7 @@
       var warns = c.warnings.filter(function (w) { return w !== 'thermal_not_verified' || true; });
       var bandTxt = c.band === 'tight' ? '<span class="chip warn">впритул</span>' : c.band === 'oversized' ? '<span class="chip info">завеликий запас</span>' : '';
       h += '<tr class="' + (c.recommended ? 'rec' : '') + (c.alternative ? ' alt' : '') + '" data-idx="' + idx + '">' +
-        '<td class="ph">' + (ph ? '<img alt="" src="' + ph.src + '">' : '') + '</td>' +
+        '<td class="ph">' + (ph ? '<img alt="" src="' + ph.src + '">' : '') + '<div>' + threeBtn(c, state.raw) + '</div></td>' +
         '<td><b>' + esc(c.designation) + '</b>' + (c.recommended ? ' <span class="chip ok">рекомендовано</span>' : '') + (c.alternative ? ' <span class="chip info">наступний типорозмір</span>' : '') + bandTxt +
         '<div class="sub">' + esc(c.series) + (c.config === 'combined' ? ' · двоступінчастий' : '') + ' · ' + (c.kind === 'gearmotor' ? 'мотор-редуктор' : 'редуктор') + (c.mass_kg !== null ? ' · редуктор ' + fmt(c.mass_kg) + ' кг' : '') + '</div>' +
         '<div class="chips">' + warnChips(warns) + '</div></td>' +
@@ -192,7 +264,7 @@
         '<td><input data-f="terminal_box" value="' + esc(it.terminal_box) + '" placeholder="напр. 0 / 90"></td>' +
         '<td><input data-f="options" value="' + esc(it.options) + '" placeholder="напр. суцільний вал"></td>' +
         '<td><input data-f="hs_code" value="' + esc(hs) + '"></td>' +
-        '<td class="nw"><button type="button" class="btn small ov-btn">Вручну…</button> <button type="button" class="btn small rm-btn" title="Видалити">×</button></td></tr>';
+        '<td class="nw">' + threeBtn(c, it.req) + ' <button type="button" class="btn small ov-btn">Вручну…</button> <button type="button" class="btn small rm-btn" title="Видалити">×</button></td></tr>';
     });
     h += '</tbody></table></div>';
     el.innerHTML = h;
@@ -441,12 +513,22 @@
     var bar1 = '<div class="posbar"><span class="pn">ПОЗ. ' + String(ix + 1).padStart(2, '0') + '</span><span>' + qty + ' шт</span><span>' + esc(typeName(c)) + '</span><b class="pd">' + esc(c.designation) + '</b>' +
       (anyPrice ? '<span class="pp">' + fmt(anyPrice.unit_gross_uah, 2) + ' грн · ' + fmt(anyPrice.unit_gross_uah * qty, 2) + ' грн</span>' : '') + '</div>';
     var h = bar1 + '<div class="imgrow">' +
-      (ph ? '<div class="imgcol"><div class="imgbox"><img alt="' + esc(c.series) + '" src="' + ph.src + '"></div><p class="imgnote">Колір і технічні характеристики можуть відрізнятися від показаних на зображенні. Технічна специфікація відповідає наведеним нижче даним.</p></div>' : '') +
+      imgBlock(c, it, ph) +
       '<div class="basiscol">' + mark + '<div class="basis"><div class="bt">Вихідні дані підбору</div>' + rowsHtml(basis.map(function (b) { return [b[0], esc(b[1])]; })) + '</div></div></div>' +
       secBar('ТЕХНІЧНІ ДАНІ') +
       '<div class="two"><div><div class="coltitle">РЕДУКТОР</div>' + kvList(left) + '</div><div><div class="coltitle">' + motorTitle + '</div>' + motorBody + '</div></div>' +
       '<div class="posfoot">' + foot + '</div>';
     return h;
+  }
+
+  var PHOTO_NOTE = 'Колір і технічні характеристики можуть відрізнятися від показаних на зображенні. Технічна специфікація відповідає наведеним нижче даним.';
+  function imgBlock(c, it, ph) {
+    var png = state.pngCache[modelKey(it)];
+    if (png) {
+      return '<div class="imgcol"><div class="imgbox m3"><img class="m3img" alt="' + esc(c.series) + ' 3D" src="' + png + '">' +
+        (ph ? '<img class="thumb" alt="" src="' + ph.src + '">' : '') + '</div><p class="imgnote concept">' + esc(CONCEPT_NOTE) + '</p><p class="imgnote">' + esc(PHOTO_NOTE) + '</p></div>';
+    }
+    return ph ? '<div class="imgcol"><div class="imgbox"><img alt="' + esc(c.series) + '" src="' + ph.src + '"></div><p class="imgnote">' + esc(PHOTO_NOTE) + '</p></div>' : '';
   }
 
   function drawingKey(c) {
@@ -517,11 +599,18 @@
     pages.push(closingPage(ctx));
     return pages.map(function (p, i) { return pageWrap(p, ctx, i, pages.length); }).join('');
   }
-  function renderKp() {
+  function renderKpNow() {
     $('kp').innerHTML = buildKp();
     $('kp').classList.add('on');
     document.body.classList.add('has-kp');
     $('sec-kp').scrollIntoView({ behavior: 'auto', block: 'start' });
+  }
+  // sync when every model image is cached (or no 3D), otherwise render the 3D PNGs first (async), then build the KP
+  function renderKp() {
+    var pend = M3 ? prepareModelImages(state.items) : null;
+    if (!pend) { renderKpNow(); return Promise.resolve(); }
+    msg('Готуємо 3D-зображення для КП…');
+    return pend.then(function () { msg(''); renderKpNow(); });
   }
 
   // ------------------------------------------------------------------ save / load
@@ -579,6 +668,22 @@
       else if (e.target.closest('.ov-btn')) ovOpen(id);
     });
     $('btn_manual').addEventListener('click', function () { ovOpen(null); });
+    $('results').addEventListener('click', function (e) {
+      var b = e.target.closest('.m3d-btn'); if (!b || b.disabled) return;
+      var idx = Number(b.closest('tr').getAttribute('data-idx'));
+      open3d(state.cands[idx], state.raw ? E.normalise(state.raw).req : {});
+    });
+    $('quoteitems').addEventListener('click', function (e) {
+      var b = e.target.closest('.m3d-btn'); if (!b || b.disabled) return;
+      var id = Number(b.closest('tr').getAttribute('data-id'));
+      var it = state.items.filter(function (x) { return x.id === id; })[0];
+      if (it) open3d(it.cand, it.req);
+    });
+    $('m3d-close').addEventListener('click', close3d);
+    $('m3d').addEventListener('click', function (e) { if (e.target === $('m3d')) close3d(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !$('m3d').hidden) close3d(); });
+    $('m3d-pos').addEventListener('change', function () { if (viewer) viewer.setMounting($('m3d-pos').value); });
+    $('m3d-wire').addEventListener('change', function () { if (viewer) viewer.setWireframe($('m3d-wire').checked); });
     $('o_size').addEventListener('change', ovSizeChange); $('o_i').addEventListener('change', ovIChange); $('o_row').addEventListener('change', ovRowChange);
     $('o_check').addEventListener('click', ovVerify); $('o_add').addEventListener('click', ovAdd);
     $('o_cancel').addEventListener('click', function () { $('override-dlg').hidden = true; });
@@ -586,8 +691,8 @@
     $('btn_clear').addEventListener('click', function () { state.items = []; renderQuote(); $('kp').innerHTML = ''; msg(''); });
     $('btn_demo').addEventListener('click', function () { fillParties(DEMO_PARTIES); });
     $('btn_kp').addEventListener('click', renderKp);
-    $('btn_print').addEventListener('click', function () { renderKp(); window.print(); });
+    $('btn_print').addEventListener('click', function () { renderKp().then(function () { window.print(); }); });
   }
-  window.__vsf = { E: E, state: state, buildKp: buildKp, fmt: fmt };
+  window.__vsf = { E: E, state: state, buildKp: buildKp, fmt: fmt, getViewer: function () { return viewer; }, specFor: specFor, getThree: getThree };
   init();
 })();
