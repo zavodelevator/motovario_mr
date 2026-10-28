@@ -70,7 +70,9 @@ function create(DEPS) {
   function totalsBlock(ctx) {
     if (!ctx.pi.priced) return '';
     var t = ctx.pi.totals;
-    return '<table class="kt tot"><tbody><tr><td>Разом з ПДВ, грн</td><td class="r">' + fmt(t.gross_kop / 100, 2) + '</td></tr><tr><td>у т.ч. ПДВ 20 %, грн</td><td class="r">' + fmt(t.vat_kop / 100, 2) + '</td></tr><tr><td>Разом без ПДВ, грн</td><td class="r">' + fmt(t.net_kop / 100, 2) + '</td></tr></tbody></table>';
+    var W = (typeof Words !== 'undefined') ? Words : (typeof require === 'function' ? require('./words.js') : null);
+    var words = W ? W.amountInWords(t.gross_kop / 100) : '';
+    return '<table class="kt tot"><tbody><tr><td>Разом з ПДВ, грн</td><td class="r">' + fmt(t.gross_kop / 100, 2) + '</td></tr><tr><td>у т.ч. ПДВ 20 %, грн</td><td class="r">' + fmt(t.vat_kop / 100, 2) + '</td></tr><tr><td>Разом без ПДВ, грн</td><td class="r">' + fmt(t.net_kop / 100, 2) + '</td></tr></tbody></table>' + (words ? '<p class="small">Всього до сплати: <b>' + esc(words) + '</b>, у т.ч. ПДВ 20 %.</p>' : '');
   }
   function termsTable(ctx) {
     var P = ctx.P;

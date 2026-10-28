@@ -118,7 +118,7 @@ def main():
     (OUT / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     tpl = (SRC / "template.html").read_text(encoding="utf-8")
-    parts = {n: (SRC / n).read_text(encoding="utf-8") for n in ("kp.css", "engine.js", "kp-template.js", "app.js", "model3d.js")}
+    parts = {n: (SRC / n).read_text(encoding="utf-8") for n in ("kp.css", "words.js", "engine.js", "kp-template.js", "app.js", "model3d.js")}
     imgmap = {f.name: bpd.data_uri(f) for f in sorted(IMG.glob("*.png"))}
     vend = OUT / "vendor"
     vendor = {"three": bpd.esm_to_function_body((vend / "three.module.min.js").read_text(encoding="utf-8"), "three"),
@@ -132,7 +132,7 @@ def main():
 
     html = tpl
     html = html.replace("/*{{CSS}}*/", parts["kp.css"])
-    html = html.replace("/*{{ENGINE}}*/", js(parts["engine.js"]))
+    html = html.replace("/*{{ENGINE}}*/", js(parts["words.js"]) + "\n" + js(parts["engine.js"]))
     html = html.replace("/*{{KPTEMPLATE}}*/", js(parts["kp-template.js"]))
     html = html.replace("/*{{MODEL3D}}*/", js(parts["model3d.js"]))
     html = html.replace("/*{{VENDOR}}*/", "window.NMRV_VENDOR=" + js_json(vendor).replace("<!--", "<\\!--") + ";")

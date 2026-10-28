@@ -83,6 +83,7 @@ def fake_host_checks(b):
     for s in ["Ціна за од. з ПДВ, грн", "Сума з ПДВ, грн", "Разом з ПДВ, грн", "у т.ч. ПДВ 20 %, грн", "Разом без ПДВ, грн", "грн/EUR"]:
         check(s in text, "priced KP shows: " + s)
     check("Ціни надаються за окремим запитом" not in text, "no 'prices on request' note when priced")
+    check("Всього до сплати:" in text and "гривень 00 копійок" in text, "priced KP shows amount in words")
     check("15" in text.replace("\\u202f", "").replace(" ", "") and "840,00" in text, "line total 15 840,00 printed")
     page.click("#btn_print")
     page.wait_for_function("()=>!!window.__pdf")
@@ -109,6 +110,7 @@ def stub_host_checks(b):
     page.wait_for_selector(".page", timeout=60000)
     text = page.locator("#kp").inner_text()
     check("Ціни надаються за окремим запитом." in text and "Сума з ПДВ" not in text and "Разом з ПДВ" not in text and "грн/EUR" not in text, "stub: KP unpriced, note printed, no price text")
+    check("Всього до сплати" not in text, "stub: no amount in words when unpriced")
     q = page.evaluate("()=>window.__nmrv.collectQuote()")
     check(q["priced"] is False and q["totals"] is None and q["items"][0]["price"] is None, "stub: quote JSON priced=false, totals null")
     ctx.close()
